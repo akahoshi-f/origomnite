@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://dor2ludllfrrw"]
+
+[ext_resource type="Shape3D" uid="uid://dtrvna5n3hur" path="res://CENARIO/collisions/arvores/collision arvore cortada.tres" id="1_7lj28"]
+[ext_resource type="ArrayMesh" uid="uid://c22poaek2am10" path="res://CENARIO/meshs/arvores/mesh arvore cortada.res" id="2_ac7p4"]
+[ext_resource type="Texture2D" uid="uid://bmxlu0lr312le" path="res://CENARIO/meshs/texturas/arvore.jpg" id="3_cbyng"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yq00s"]
+albedo_texture = ExtResource("3_cbyng")
+
+[node name="arvore cortada" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.16056, 0)
+shape = ExtResource("1_7lj28")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.182392, 8.63822, 0.136795)
+mesh = ExtResource("2_ac7p4")
+surface_material_override/0 = SubResource("StandardMaterial3D_yq00s")

@@ -1,0 +1,51 @@
+[gd_scene load_steps=18 format=3 uid="uid://dox4d5hnvt46j"]
+
+[ext_resource type="ArrayMesh" uid="uid://cd6bymojrylkl" path="res://CENARIO/meshs/parte2/mesh forabar.res" id="1_16vr4"]
+[ext_resource type="Texture2D" uid="uid://1s43fh4e17jx" path="res://CENARIO/meshs/texturas/tijolin.jpg" id="2_1r1tj"]
+[ext_resource type="Texture2D" uid="uid://ctycw34uppfw3" path="res://CENARIO/meshs/texturas/metal.jpg" id="3_yndgn"]
+[ext_resource type="Texture2D" uid="uid://c0e004koncdak" path="res://CENARIO/meshs/texturas/pared.jpg" id="4_rb536"]
+[ext_resource type="Texture2D" uid="uid://bw0y22al8dfmw" path="res://CENARIO/meshs/texturas/telhado rox.png" id="5_ojacg"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="6_84hw7"]
+[ext_resource type="Texture2D" uid="uid://dhm0k2rle7x4d" path="res://CENARIO/meshs/texturas/dourado.png" id="7_blqr3"]
+[ext_resource type="Texture2D" uid="uid://bg0dqqs5y8jii" path="res://CENARIO/meshs/texturas/madeira.jpg" id="8_wnayb"]
+[ext_resource type="Shape3D" uid="uid://cooo1m3ix2y6n" path="res://CENARIO/collisions/parte2/collision forabar.tres" id="9_bqtlx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rhwyo"]
+albedo_texture = ExtResource("2_1r1tj")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_twok3"]
+albedo_texture = ExtResource("3_yndgn")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fmfj0"]
+albedo_texture = ExtResource("4_rb536")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6b6tu"]
+albedo_texture = ExtResource("5_ojacg")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3tchh"]
+albedo_texture = ExtResource("6_84hw7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_so1uq"]
+albedo_texture = ExtResource("7_blqr3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cd2kd"]
+albedo_texture = ExtResource("6_84hw7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dxrf1"]
+albedo_texture = ExtResource("8_wnayb")
+
+[node name="fora bar" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_16vr4")
+surface_material_override/0 = SubResource("StandardMaterial3D_rhwyo")
+surface_material_override/1 = SubResource("StandardMaterial3D_twok3")
+surface_material_override/2 = SubResource("StandardMaterial3D_fmfj0")
+surface_material_override/3 = SubResource("StandardMaterial3D_6b6tu")
+surface_material_override/4 = SubResource("StandardMaterial3D_3tchh")
+surface_material_override/5 = SubResource("StandardMaterial3D_so1uq")
+surface_material_override/6 = SubResource("StandardMaterial3D_cd2kd")
+surface_material_override/7 = SubResource("StandardMaterial3D_dxrf1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("9_bqtlx")

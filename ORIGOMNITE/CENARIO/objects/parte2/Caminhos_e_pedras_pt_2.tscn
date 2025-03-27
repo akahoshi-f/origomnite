@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://yoddscp3qgq6"]
+
+[ext_resource type="ArrayMesh" uid="uid://dw7ll6sjjuu7r" path="res://CENARIO/meshs/parte2/mesh caminhos e pedras pt2.res" id="1_jvwjv"]
+[ext_resource type="Texture2D" uid="uid://dgogwcqo7yvi7" path="res://CENARIO/meshs/texturas/area.jpg" id="2_s77qm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vpgre"]
+cull_mode = 2
+albedo_texture = ExtResource("2_s77qm")
+
+[node name="caminhos e pedras pt2" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_jvwjv")
+surface_material_override/2 = SubResource("StandardMaterial3D_vpgre")

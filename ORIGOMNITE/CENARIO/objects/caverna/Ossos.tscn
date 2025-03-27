@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6hiurw877kl5"]
+
+[ext_resource type="ArrayMesh" uid="uid://ies8wifph85a" path="res://CENARIO/meshs/caverna/mesh ossos.res" id="1_4n7hp"]
+
+[node name="ossos" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_4n7hp")

@@ -1,0 +1,27 @@
+[gd_scene load_steps=9 format=3 uid="uid://c7j20qt5vy82s"]
+
+[ext_resource type="ArrayMesh" uid="uid://bjcfu8fot3hx2" path="res://CENARIO/meshs/parte1/mesh chao.res" id="1_4fg6r"]
+[ext_resource type="Texture2D" uid="uid://chhuey3k4ik7d" path="res://CENARIO/meshs/texturas/terra.jpg" id="2_1otlq"]
+[ext_resource type="Texture2D" uid="uid://bmbm6kvs41qf4" path="res://CENARIO/meshs/texturas/gama.jpg" id="3_pbeoc"]
+[ext_resource type="Texture2D" uid="uid://dgogwcqo7yvi7" path="res://CENARIO/meshs/texturas/area.jpg" id="4_0gk1w"]
+[ext_resource type="Shape3D" uid="uid://bb3pqg7ymwshi" path="res://CENARIO/collisions/parte1/collision chao.tres" id="5_yrlmp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64pld"]
+albedo_texture = ExtResource("2_1otlq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_842fu"]
+albedo_texture = ExtResource("3_pbeoc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_prtrj"]
+albedo_texture = ExtResource("4_0gk1w")
+
+[node name="chão parte 1" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_4fg6r")
+surface_material_override/0 = SubResource("StandardMaterial3D_64pld")
+surface_material_override/1 = SubResource("StandardMaterial3D_842fu")
+surface_material_override/2 = SubResource("StandardMaterial3D_prtrj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("5_yrlmp")

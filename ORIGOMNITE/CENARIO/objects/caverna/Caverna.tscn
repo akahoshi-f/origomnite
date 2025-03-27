@@ -1,0 +1,295 @@
+[gd_scene load_steps=21 format=3 uid="uid://diq8h3q2y57bv"]
+
+[ext_resource type="PackedScene" uid="uid://c0yo02h1rasa5" path="res://CENARIO/objects/caverna/Chao_caverna.tscn" id="1_yrxum"]
+[ext_resource type="PackedScene" uid="uid://b4jfarcgk8q47" path="res://CENARIO/objects/caverna/Teto_caverna.tscn" id="2_gyrpo"]
+[ext_resource type="PackedScene" uid="uid://cvyiw6mrfijtt" path="res://CENARIO/objects/caverna/Parede_caverna.tscn" id="3_4hdjw"]
+[ext_resource type="PackedScene" uid="uid://d4nnr5n0yhq1g" path="res://CENARIO/objects/caverna/Tocha_caverna.tscn" id="4_u314a"]
+[ext_resource type="PackedScene" uid="uid://b6hiurw877kl5" path="res://CENARIO/objects/caverna/Ossos.tscn" id="5_qe2vr"]
+[ext_resource type="PackedScene" uid="uid://baxeie2v0dnls" path="res://CENARIO/objects/caverna/Cranio.tscn" id="6_5f8jm"]
+[ext_resource type="PackedScene" uid="uid://wfo4quc5obv6" path="res://CENARIO/objects/caverna/Folhas.tscn" id="7_b2am0"]
+[ext_resource type="PackedScene" uid="uid://dm7g1oajt1jma" path="res://CENARIO/objects/caverna/Mortos.tscn" id="8_pqf1l"]
+[ext_resource type="PackedScene" uid="uid://dwb6pcb0rexip" path="res://CENARIO/objects/caverna/Pedra_magica.tscn" id="9_4qg50"]
+[ext_resource type="PackedScene" uid="uid://cg7npdllejw7n" path="res://CENARIO/objects/caverna/Costela.tscn" id="10_juvi6"]
+[ext_resource type="PackedScene" uid="uid://bvmu22ylf10wi" path="res://CENARIO/objects/caverna/Pedestal.tscn" id="11_1ruyj"]
+[ext_resource type="PackedScene" uid="uid://bshdf81qgsclq" path="res://CENARIO/objects/caverna/Pilar_tombado.tscn" id="12_0u2c6"]
+[ext_resource type="PackedScene" uid="uid://bcg37gky81knd" path="res://CENARIO/objects/caverna/Pilar_com_vinha.tscn" id="13_bnskj"]
+[ext_resource type="PackedScene" uid="uid://c4kiiraxfoj6n" path="res://CENARIO/objects/caverna/Pilar_cortado_1.tscn" id="14_gocbq"]
+[ext_resource type="PackedScene" uid="uid://dhxxrth3a3yc1" path="res://CENARIO/objects/caverna/Pilar_cortado_2.tscn" id="15_5r8gc"]
+[ext_resource type="PackedScene" uid="uid://dfvla4x7yppi6" path="res://CENARIO/objects/caverna/Pilar_cortado_3.tscn" id="16_uss2k"]
+[ext_resource type="PackedScene" uid="uid://ckm0801h1c0nt" path="res://CENARIO/objects/caverna/Pilar_cortado_4.tscn" id="17_5te0b"]
+[ext_resource type="PackedScene" uid="uid://cyyeudgv1wbh3" path="res://CENARIO/objects/caverna/Pilar_sem_vinha.tscn" id="18_as2gu"]
+[ext_resource type="PackedScene" uid="uid://ck2h7e2jg2a7q" path="res://CENARIO/objects/caverna/Pilar_cortado_ao_meio.tscn" id="19_ihsv6"]
+[ext_resource type="PackedScene" uid="uid://c3tvixnpbamy1" path="res://CENARIO/objects/caverna/Pilar_cortado_tombado.tscn" id="19_qebg3"]
+
+[node name="caverna" type="Node3D"]
+
+[node name="chao caverna" parent="." instance=ExtResource("1_yrxum")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+collision_layer = 2
+
+[node name="teto caverna" parent="." instance=ExtResource("2_gyrpo")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+visible = false
+
+[node name="parede caverna" parent="." instance=ExtResource("3_4hdjw")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+collision_layer = 2
+
+[node name="ossos" parent="." instance=ExtResource("5_qe2vr")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="cranio8" parent="." instance=ExtResource("6_5f8jm")]
+transform = Transform3D(4.66317e-07, -5.7, 4.48501e-07, -5.13026, -2.24251e-07, 2.48404, -2.48404, -6.06891e-07, -5.13026, 2.94308, 2.26995, -9.17685)
+collision_layer = 2
+
+[node name="folhas" parent="." instance=ExtResource("7_b2am0")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="mortos" parent="." instance=ExtResource("8_pqf1l")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+collision_layer = 2
+
+[node name="pedra magica" parent="." instance=ExtResource("9_4qg50")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="pedestal" parent="." instance=ExtResource("11_1ruyj")]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+collision_layer = 2
+
+[node name="pilares" type="Node3D" parent="."]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="pilar tombado" parent="pilares" instance=ExtResource("12_0u2c6")]
+collision_layer = 2
+
+[node name="pilar com vinha" parent="pilares" instance=ExtResource("13_bnskj")]
+collision_layer = 2
+
+[node name="pilar com vinha2" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.07701)
+collision_layer = 2
+
+[node name="pilar com vinha3" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7.52667)
+collision_layer = 2
+
+[node name="pilar com vinha4" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.83359, 0, 14.4027)
+collision_layer = 2
+
+[node name="pilar com vinha5" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.79189, 0, 14.4027)
+collision_layer = 2
+
+[node name="pilar com vinha6" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.79189, 0, 10.1068)
+collision_layer = 2
+
+[node name="pilar com vinha7" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.79189, 0, 7.633)
+collision_layer = 2
+
+[node name="pilar com vinha8" parent="pilares" instance=ExtResource("13_bnskj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.79189, 0, 3.35861)
+collision_layer = 2
+
+[node name="pilar cortado 1" parent="pilares" instance=ExtResource("14_gocbq")]
+collision_layer = 2
+
+[node name="pilar cortado 2" parent="pilares" instance=ExtResource("15_5r8gc")]
+collision_layer = 2
+
+[node name="pilar cortado 5" parent="pilares" instance=ExtResource("15_5r8gc")]
+transform = Transform3D(0.0283813, -0.499194, -0.866025, -0.998388, -0.0567625, 0, -0.0491578, 0.864629, -0.5, 4.32369, -4.14797, -6.67427)
+collision_layer = 2
+
+[node name="pilar cortado 3" parent="pilares" instance=ExtResource("16_uss2k")]
+collision_layer = 2
+
+[node name="pilar cortado 4" parent="pilares" instance=ExtResource("17_5te0b")]
+collision_layer = 2
+
+[node name="pilar sem vinha" parent="pilares" instance=ExtResource("18_as2gu")]
+collision_layer = 2
+
+[node name="pilar sem vinha2" parent="pilares" instance=ExtResource("18_as2gu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7.93685)
+collision_layer = 2
+
+[node name="pilar sem vinha4" parent="pilares" instance=ExtResource("18_as2gu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.23711, 0, 10.4292)
+collision_layer = 2
+
+[node name="pilar sem vinha3" parent="pilares" instance=ExtResource("18_as2gu")]
+transform = Transform3D(-4.2222e-08, 0.965926, -0.258819, -1, -4.37114e-08, 0, -1.13133e-08, 0.258819, 0.965926, -5.36211, -4.2463, 9.61637)
+collision_layer = 2
+
+[node name="pilar sem vinha5" parent="pilares" instance=ExtResource("18_as2gu")]
+transform = Transform3D(-3.6541e-08, 0.835961, 0.548789, -1, -4.37114e-08, 9.57101e-16, 2.39883e-08, -0.548789, 0.835961, 2.56098, -4.2463, -4.97191)
+collision_layer = 2
+
+[node name="pilar cortado tombado" parent="pilares" instance=ExtResource("19_qebg3")]
+collision_layer = 2
+
+[node name="pilar cortado ao meio" parent="pilares" instance=ExtResource("19_ihsv6")]
+collision_layer = 2
+
+[node name="tochas" type="Node3D" parent="."]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="tocha caverna" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.0924143, 0.787012, -0.609977, -0.993494, 0.113828, -0.00365417, 0.0665566, 0.606346, 0.792411, -0.380724, 0.0690751, -8.88755)
+collision_layer = 2
+
+[node name="tocha caverna2" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(1, 0, 0, 0, 0.999284, -0.0378297, 0, 0.0378297, 0.999284, -1.87632, 1.34183, -9.46725)
+collision_layer = 2
+
+[node name="tocha caverna3" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(1, 0, 0, 0, 0.999284, -0.0378297, 0, 0.0378297, 0.999284, 1.825, 1.34183, -9.46725)
+collision_layer = 2
+
+[node name="tocha caverna4" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(1, 0, 0, 0, 0.999284, -0.0378297, 0, 0.0378297, 0.999284, 3.98078, 1.34183, -9.46725)
+collision_layer = 2
+
+[node name="tocha caverna6" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.99661, -0.0822101, 0.00311221, 0.082038, 0.995933, 0.0372425, -0.00616127, -0.0368609, 0.999301, 5.39277, 1.34183, -8.45216)
+collision_layer = 2
+
+[node name="tocha caverna7" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.902215, -0.408084, 0.139556, 0.204606, 0.120141, -0.971443, 0.379664, 0.905005, 0.19189, 4.14717, 0.072145, -5.85025)
+collision_layer = 2
+
+[node name="tocha caverna8" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.99661, -0.0822101, 0.00311221, 0.0820848, 0.991136, -0.104453, 0.00550243, 0.104354, 0.994525, 5.39277, 1.58401, -4.36743)
+collision_layer = 2
+
+[node name="tocha caverna9" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.955778, -0.290571, 0.0453515, 0.00776687, 0.179097, 0.983801, -0.293986, -0.939943, 0.173434, 5.1945, 0.130327, -1.28328)
+collision_layer = 2
+
+[node name="tocha caverna10" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.99661, -0.0822101, 0.00311221, 0.0822168, 0.996612, -0.00210585, -0.00292855, 0.00235459, 0.999993, 5.39277, 1.43181, 1.69765)
+collision_layer = 2
+
+[node name="tocha caverna11" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.99661, -0.0822101, 0.00311221, 0.0822562, 0.995076, -0.0552925, 0.00144871, 0.055361, 0.998465, 5.39277, 1.43181, 4.51433)
+collision_layer = 2
+
+[node name="tocha caverna12" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.99661, -0.0822101, 0.00311221, 0.0817723, 0.994035, 0.0721646, -0.00902631, -0.0716654, 0.997388, 5.41722, 1.51957, 6.58796)
+collision_layer = 2
+
+[node name="tocha caverna14" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.99661, -0.0822101, 0.00311221, 0.0817723, 0.994035, 0.0721646, -0.00902631, -0.0716654, 0.997388, 2.84669, 1.66665, 9.51334)
+collision_layer = 2
+
+[node name="tocha caverna15" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.998398, 0.0443859, 0.0351116, -0.0478492, 0.993334, 0.104875, -0.0302226, -0.106387, 0.993866, 0.763165, 1.59376, 9.51164)
+collision_layer = 2
+
+[node name="tocha caverna16" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.995736, -0.090503, -0.0178871, 0.091861, 0.990551, 0.101834, 0.00850181, -0.103043, 0.994641, -1.42817, 1.65863, 9.49281)
+collision_layer = 2
+
+[node name="tocha caverna17" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.073801, -0.14952, 0.983442, 0.102402, -0.0579985, -0.112111, 0.992002, -3.82545, 1.61467, 9.50515)
+collision_layer = 2
+
+[node name="tocha caverna19" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.073801, -0.14952, 0.983442, 0.102402, -0.0579985, -0.112111, 0.992002, -5.43367, 1.61467, 6.44644)
+collision_layer = 2
+
+[node name="tocha caverna20" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.0738009, -0.138689, 0.988916, -0.0530164, -0.0805317, 0.0420947, 0.995863, -5.43367, 1.53738, 3.35242)
+collision_layer = 2
+
+[node name="tocha caverna21" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.073801, -0.15037, 0.981657, 0.117211, -0.0557582, -0.126791, 0.990361, -5.43367, 1.44179, 0.658898)
+collision_layer = 2
+
+[node name="tocha caverna22" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.0738009, -0.143943, 0.989453, 0.0162152, -0.0707138, -0.0266285, 0.997141, -5.43367, 1.44179, -2.16963)
+collision_layer = 2
+
+[node name="tocha caverna23" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.0738009, -0.147178, 0.987027, 0.0641591, -0.0637083, -0.0741905, 0.995207, -5.4363, 1.43439, -4.85986)
+collision_layer = 2
+
+[node name="tocha caverna24" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.866742, 0.498757, 0.000538549, -0.0775445, 0.13369, 0.987985, 0.492693, -0.856369, 0.15455, -5.19175, 0.113884, -7.1257)
+collision_layer = 2
+
+[node name="tocha caverna18" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.987056, 0.142385, 0.073801, -0.0730931, -0.0102026, 0.997273, 0.14275, -0.989759, 0.000336871, -5.0002, 0.167023, 8.03189)
+collision_layer = 2
+
+[node name="tocha caverna13" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(0.120439, -0.965976, -0.228875, 0.981881, 0.0819358, 0.170872, -0.146306, -0.245308, 0.958342, 3.61488, 0.137907, 9.06084)
+collision_layer = 2
+
+[node name="tocha caverna5" parent="tochas" instance=ExtResource("4_u314a")]
+transform = Transform3D(1, 0, 0, 0, 0.999284, -0.0378297, 0, 0.0378297, 0.999284, -3.93479, 1.34183, -9.46725)
+collision_layer = 2
+
+[node name="cranios" type="Node3D" parent="."]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="cranio" parent="cranios" instance=ExtResource("6_5f8jm")]
+collision_layer = 2
+
+[node name="cranio3" parent="cranios" instance=ExtResource("6_5f8jm")]
+transform = Transform3D(0.549854, 0, 0.835261, 0, 1, 0, -0.835261, 0, 0.549854, -2.54141, -0.00447083, 5.80737)
+collision_layer = 2
+
+[node name="cranio4" parent="cranios" instance=ExtResource("6_5f8jm")]
+transform = Transform3D(-0.36356, 0, -0.931571, 0, 1, 0, 0.931571, 0, -0.36356, 2.0725, 0.000275731, 2.02129)
+collision_layer = 2
+
+[node name="cranio5" parent="cranios" instance=ExtResource("6_5f8jm")]
+transform = Transform3D(0.68991, 0, -0.723895, 0, 1, 0, 0.723895, 0, 0.68991, -5.19948, -0.000874519, -3.1332)
+collision_layer = 2
+
+[node name="cranio7" parent="cranios" instance=ExtResource("6_5f8jm")]
+transform = Transform3D(-0.125697, 0, -0.992069, 0, 1, 0, 0.992069, 0, -0.125697, -6.67281, -0.000876427, -9.94686)
+collision_layer = 2
+
+[node name="cranio2" parent="cranios" instance=ExtResource("6_5f8jm")]
+transform = Transform3D(-0.523971, 0, 0.851736, 0, 1, 0, -0.851736, 0, -0.523971, 2.82136, 0.00157654, 6.32656)
+collision_layer = 2
+
+[node name="cranio6" parent="cranios" instance=ExtResource("6_5f8jm")]
+transform = Transform3D(3.93422e-08, -1, -1.90493e-08, -0.900045, -4.37114e-08, 0.435797, -0.435797, 0, -0.900045, 4.9954, 2.26995, -3.53248)
+collision_layer = 2
+
+[node name="costelas" type="Node3D" parent="."]
+transform = Transform3D(5.7, 0, 0, 0, 5.7, 0, 0, 0, 5.7, 0, 0, 0)
+
+[node name="costela" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(0.519221, 0, 0.85464, 0, 1, 0, -0.85464, 0, 0.519221, 7.31431, 0, -2.34397)
+collision_layer = 2
+
+[node name="costela2" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.64642, -3.8147e-06, 9.46352)
+collision_layer = 2
+
+[node name="costela7" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(0.616239, 0, -0.787559, 0, 1, 0, 0.787559, 0, 0.616239, -5.93478, 3.8147e-06, 11.0716)
+collision_layer = 2
+
+[node name="costela3" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.93033, 0, 1.9085)
+collision_layer = 2
+
+[node name="costela6" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(0.821262, 0.00115507, 0.570549, -0.000466085, 0.999999, -0.00135359, -0.57055, 0.000845715, 0.821262, 0.0289268, 0, 4.77033)
+collision_layer = 2
+
+[node name="costela4" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(0.399677, 0, 0.916656, 0, 1, 0, -0.916656, 0, 0.399677, 6.63527, -7.62939e-06, 6.29592)
+collision_layer = 2
+
+[node name="costela5" parent="costelas" instance=ExtResource("10_juvi6")]
+transform = Transform3D(-0.382232, 0, 0.924066, 0, 1, 0, -0.924066, 0, -0.382232, 7.80462, -0.00152571, 5.91615)
+collision_layer = 2

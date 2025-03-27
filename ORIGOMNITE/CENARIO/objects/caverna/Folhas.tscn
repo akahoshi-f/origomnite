@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://wfo4quc5obv6"]
+
+[ext_resource type="ArrayMesh" uid="uid://cp615pjalgyyj" path="res://CENARIO/meshs/caverna/mesh folhas.res" id="1_juxu2"]
+
+[node name="folhas" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_juxu2")

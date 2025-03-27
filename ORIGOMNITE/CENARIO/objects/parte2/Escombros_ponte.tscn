@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://dps3f0v8mistd"]
+
+[ext_resource type="ArrayMesh" uid="uid://dihn8muv8cyrj" path="res://CENARIO/meshs/parte2/mesh escombro de ponte.res" id="1_346rx"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="2_b1r60"]
+[ext_resource type="Shape3D" uid="uid://b8jawvlmieud" path="res://CENARIO/collisions/parte2/collision escombro de ponte.tres" id="3_lx7p8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bswk1"]
+albedo_texture = ExtResource("2_b1r60")
+
+[node name="escombros ponte" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_346rx")
+surface_material_override/0 = SubResource("StandardMaterial3D_bswk1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("3_lx7p8")

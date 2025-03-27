@@ -1,0 +1,32 @@
+[gd_scene load_steps=11 format=3 uid="uid://dobjjc8wu8ux7"]
+
+[ext_resource type="ArrayMesh" uid="uid://byhu8wh4qlfmn" path="res://CENARIO/meshs/parte2/mesh casa3.res" id="1_d3hxx"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="2_cebya"]
+[ext_resource type="Texture2D" uid="uid://bxk4x6ye3n6u1" path="res://CENARIO/meshs/texturas/telhado vermei.png" id="3_tcofx"]
+[ext_resource type="Texture2D" uid="uid://c0e004koncdak" path="res://CENARIO/meshs/texturas/pared.jpg" id="4_ycomq"]
+[ext_resource type="Texture2D" uid="uid://ctycw34uppfw3" path="res://CENARIO/meshs/texturas/metal.jpg" id="5_58dv5"]
+[ext_resource type="Shape3D" uid="uid://bwokx12jht0j0" path="res://CENARIO/collisions/parte2/collision casa3.tres" id="6_dpy21"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5x68b"]
+albedo_texture = ExtResource("2_cebya")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yfhi0"]
+albedo_texture = ExtResource("3_tcofx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f825v"]
+albedo_texture = ExtResource("4_ycomq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_elhf6"]
+albedo_texture = ExtResource("5_58dv5")
+
+[node name="casa 3" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_d3hxx")
+surface_material_override/0 = SubResource("StandardMaterial3D_5x68b")
+surface_material_override/1 = SubResource("StandardMaterial3D_yfhi0")
+surface_material_override/2 = SubResource("StandardMaterial3D_f825v")
+surface_material_override/3 = SubResource("StandardMaterial3D_elhf6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("6_dpy21")

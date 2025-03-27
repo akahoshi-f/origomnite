@@ -1,0 +1,33 @@
+[gd_scene load_steps=8 format=3 uid="uid://ck3sfj03gfybn"]
+
+[ext_resource type="ArrayMesh" uid="uid://vi31mraoxit1" path="res://CENARIO/meshs/arvores/mesh tronco raizes arvore legal.res" id="1_vains"]
+[ext_resource type="Texture2D" uid="uid://c86bnobtofrex" path="res://CENARIO/meshs/texturas/avore legal.jpg" id="2_0gryr"]
+[ext_resource type="ArrayMesh" uid="uid://8gr338t164tq" path="res://CENARIO/meshs/arvores/mesh arvore legal.res" id="3_kx7f7"]
+[ext_resource type="Shape3D" uid="uid://ovx8d36ybcrf" path="res://CENARIO/collisions/arvores/collision raizes arvorelegal.tres" id="4_ly0t3"]
+[ext_resource type="Shape3D" uid="uid://lcoufdt27oqb" path="res://CENARIO/collisions/arvores/collision tronco arvorelegal.tres" id="5_qe5dh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u3r1o"]
+albedo_texture = ExtResource("2_0gryr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mep2u"]
+albedo_texture = ExtResource("2_0gryr")
+
+[node name="arvore_legal" type="StaticBody3D"]
+
+[node name="folhagem raizes" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.783629, 0.356195, 0.189735)
+mesh = ExtResource("1_vains")
+surface_material_override/0 = SubResource("StandardMaterial3D_u3r1o")
+
+[node name="tronco" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.4061, 0)
+mesh = ExtResource("3_kx7f7")
+surface_material_override/0 = SubResource("StandardMaterial3D_mep2u")
+
+[node name="collision tronco" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.162213, 0.00778532, 1.0646)
+shape = ExtResource("4_ly0t3")
+
+[node name="collision raizes" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.121621, 1.73813, 0.829023)
+shape = ExtResource("5_qe5dh")

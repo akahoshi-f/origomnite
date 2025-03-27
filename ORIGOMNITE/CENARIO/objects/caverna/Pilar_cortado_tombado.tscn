@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3tvixnpbamy1"]
+
+[ext_resource type="ArrayMesh" uid="uid://th0wvvoweygf" path="res://CENARIO/meshs/caverna/mesh pilar cortado tombado.res" id="1_awalp"]
+[ext_resource type="Texture2D" uid="uid://nh4l4ft51tgk" path="res://CENARIO/meshs/texturas/pedra.jpg" id="2_dxceu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1n4r5"]
+albedo_texture = ExtResource("2_dxceu")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_abk3o"]
+size = Vector3(1.15356, 1.19153, 0.877502)
+
+[node name="pilar cortado tombado" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_awalp")
+surface_material_override/0 = SubResource("StandardMaterial3D_1n4r5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.73481, 0.619952, 3.81348)
+shape = SubResource("BoxShape3D_abk3o")

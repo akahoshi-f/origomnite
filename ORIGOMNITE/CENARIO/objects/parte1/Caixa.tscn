@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://do8sitlwy0isv"]
+
+[ext_resource type="Shape3D" uid="uid://djw66snpou2o8" path="res://CENARIO/collisions/parte1/colision caixa.tres" id="1_37sl8"]
+[ext_resource type="ArrayMesh" uid="uid://b2ceut8ag6tqm" path="res://CENARIO/meshs/parte1/mesh caixa.res" id="2_oearl"]
+[ext_resource type="Texture2D" uid="uid://bg0dqqs5y8jii" path="res://CENARIO/meshs/texturas/madeira.jpg" id="3_r6i1o"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ioe2l"]
+albedo_texture = ExtResource("3_r6i1o")
+
+[node name="caixa" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("1_37sl8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_oearl")
+surface_material_override/1 = SubResource("StandardMaterial3D_ioe2l")

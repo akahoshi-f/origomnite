@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0ee0s1f61tn6"]
+
+[ext_resource type="ArrayMesh" uid="uid://bhge2iivn2kj8" path="res://CENARIO/meshs/parte1/mesh agua pt1.res" id="1_k8t7s"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_adfaf"]
+albedo_color = Color(0.352941, 0.576471, 0.756863, 1)
+
+[node name="agua pt 1" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_k8t7s")
+surface_material_override/0 = SubResource("StandardMaterial3D_adfaf")

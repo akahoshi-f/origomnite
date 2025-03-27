@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://expgw3ejfo7j"]
+
+[ext_resource type="ArrayMesh" uid="uid://cseptt7hwnno3" path="res://CENARIO/meshs/parte2/mesh agua pt2.res" id="1_appk4"]
+
+[node name="agua pt 2" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_appk4")

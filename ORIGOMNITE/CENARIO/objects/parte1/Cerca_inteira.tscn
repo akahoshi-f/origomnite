@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://ber1xq0o45hvn"]
+
+[ext_resource type="Shape3D" uid="uid://mwpjvrwcptjh" path="res://CENARIO/collisions/parte1/collision cerca inteira.tres" id="1_xtivr"]
+[ext_resource type="ArrayMesh" uid="uid://p0s04pk5dtef" path="res://CENARIO/meshs/parte1/mesh cerca inteira.res" id="2_jpx6n"]
+[ext_resource type="Texture2D" uid="uid://bg0dqqs5y8jii" path="res://CENARIO/meshs/texturas/madeira.jpg" id="3_eeday"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nkcx6"]
+albedo_texture = ExtResource("3_eeday")
+
+[node name="cerca inteira" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00359, 2.13808, -0.0748186)
+shape = ExtResource("1_xtivr")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_jpx6n")
+surface_material_override/0 = SubResource("StandardMaterial3D_nkcx6")

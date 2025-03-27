@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtv1vuv22h426"]
+
+[ext_resource type="ArrayMesh" uid="uid://c0a16krk1wrmn" path="res://CENARIO/meshs/parte1/barco.res" id="1_hhkml"]
+[ext_resource type="Texture2D" uid="uid://bg0dqqs5y8jii" path="res://CENARIO/meshs/texturas/madeira.jpg" id="2_c50gs"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_18ou2"]
+albedo_texture = ExtResource("2_c50gs")
+
+[node name="barco" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_hhkml")
+surface_material_override/1 = SubResource("StandardMaterial3D_18ou2")

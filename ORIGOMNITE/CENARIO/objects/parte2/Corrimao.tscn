@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://7pgw1io6k2ch"]
+
+[ext_resource type="ArrayMesh" uid="uid://dw5aqehc2bdk0" path="res://CENARIO/meshs/parte2/mesh corrimao.res" id="1_htqvt"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="2_sb6xv"]
+[ext_resource type="Shape3D" uid="uid://t3oukxj5x0h4" path="res://CENARIO/collisions/parte2/collision corrimao.tres" id="3_ap4ue"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dosqn"]
+albedo_texture = ExtResource("2_sb6xv")
+
+[node name="corrimao" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_htqvt")
+surface_material_override/0 = SubResource("StandardMaterial3D_dosqn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("3_ap4ue")

@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhg4nekwrp82w"]
+
+[ext_resource type="ArrayMesh" uid="uid://b01qgqqsnuqqk" path="res://CENARIO/meshs/parte1/mesh caminhos pt1.res" id="1_ecbi0"]
+[ext_resource type="Texture2D" uid="uid://dgogwcqo7yvi7" path="res://CENARIO/meshs/texturas/area.jpg" id="2_5r37d"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mpxw2"]
+albedo_texture = ExtResource("2_5r37d")
+
+[node name="mesh caminhos pt1" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_ecbi0")
+surface_material_override/0 = SubResource("StandardMaterial3D_mpxw2")

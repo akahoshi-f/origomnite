@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0yo02h1rasa5"]
+
+[ext_resource type="ArrayMesh" uid="uid://chqqc8hbegj4e" path="res://CENARIO/meshs/caverna/mesh chao caverna.res" id="1_68chc"]
+[ext_resource type="Texture2D" uid="uid://nh4l4ft51tgk" path="res://CENARIO/meshs/texturas/pedra.jpg" id="2_38qtl"]
+[ext_resource type="Shape3D" uid="uid://dtn2f0i3c1owf" path="res://CENARIO/collisions/caverna/collision chao caverna.tres" id="3_n3flx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8jrdw"]
+cull_mode = 2
+albedo_texture = ExtResource("2_38qtl")
+
+[node name="chao caverna" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_68chc")
+surface_material_override/0 = SubResource("StandardMaterial3D_8jrdw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("3_n3flx")

@@ -1,0 +1,46 @@
+[gd_scene load_steps=14 format=3 uid="uid://dg6m1wn0avyho"]
+
+[ext_resource type="ArrayMesh" uid="uid://tggnkk84l4yt" path="res://CENARIO/meshs/parte2/mesh casa2.res" id="1_gsfvm"]
+[ext_resource type="Texture2D" uid="uid://ctycw34uppfw3" path="res://CENARIO/meshs/texturas/metal.jpg" id="2_td8yc"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="3_wfe1a"]
+[ext_resource type="Texture2D" uid="uid://carecroew14qx" path="res://CENARIO/meshs/texturas/parede azu.jpg" id="4_108lw"]
+[ext_resource type="Texture2D" uid="uid://harwd56n8ihx" path="res://CENARIO/meshs/texturas/REBOCO.jpg" id="5_p3vkl"]
+[ext_resource type="Texture2D" uid="uid://cpyep61aakdai" path="res://CENARIO/meshs/texturas/telhado azu.png" id="6_ri8x8"]
+[ext_resource type="Shape3D" uid="uid://di2iei8trv3bp" path="res://CENARIO/collisions/parte2/collision casa2.tres" id="7_uj4y3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_17igd"]
+cull_mode = 2
+albedo_texture = ExtResource("2_td8yc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nfim0"]
+cull_mode = 2
+albedo_texture = ExtResource("3_wfe1a")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_abele"]
+cull_mode = 2
+albedo_texture = ExtResource("4_108lw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0f6bp"]
+albedo_texture = ExtResource("5_p3vkl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_877g2"]
+cull_mode = 2
+albedo_texture = ExtResource("6_ri8x8")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_22wch"]
+cull_mode = 2
+albedo_texture = ExtResource("3_wfe1a")
+
+[node name="casa 2" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_gsfvm")
+surface_material_override/0 = SubResource("StandardMaterial3D_17igd")
+surface_material_override/1 = SubResource("StandardMaterial3D_nfim0")
+surface_material_override/2 = SubResource("StandardMaterial3D_abele")
+surface_material_override/3 = SubResource("StandardMaterial3D_0f6bp")
+surface_material_override/4 = SubResource("StandardMaterial3D_877g2")
+surface_material_override/5 = SubResource("StandardMaterial3D_22wch")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("7_uj4y3")

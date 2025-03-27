@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4jfarcgk8q47"]
+
+[ext_resource type="ArrayMesh" uid="uid://cb7cpvu5xfckf" path="res://CENARIO/meshs/caverna/mesh teto caverna.res" id="1_6njts"]
+[ext_resource type="Texture2D" uid="uid://nh4l4ft51tgk" path="res://CENARIO/meshs/texturas/pedra.jpg" id="2_vwqqy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lxsuj"]
+cull_mode = 2
+albedo_texture = ExtResource("2_vwqqy")
+
+[node name="teto caverna" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_6njts")
+surface_material_override/0 = SubResource("StandardMaterial3D_lxsuj")

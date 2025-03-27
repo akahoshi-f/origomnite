@@ -1,0 +1,313 @@
+[gd_scene load_steps=28 format=3 uid="uid://ck7gpgt4u4t3d"]
+
+[ext_resource type="PackedScene" uid="uid://bixn44lc2iomf" path="res://CENARIO/objects/parte1/Chaogramapt_1.tscn" id="1_156jd"]
+[ext_resource type="PackedScene" uid="uid://dl8frvklbgfff" path="res://CENARIO/objects/arvores/Arvore1.tscn" id="1_an2vl"]
+[ext_resource type="PackedScene" uid="uid://dye3tc7h030sj" path="res://CENARIO/objects/bar/Porta.tscn" id="1_d3g3c"]
+[ext_resource type="PackedScene" uid="uid://cijgpkuosnnua" path="res://CENARIO/objects/parte3/Tocha.tscn" id="1_fxp5n"]
+[ext_resource type="PackedScene" uid="uid://dtv1vuv22h426" path="res://CENARIO/objects/parte1/Barco.tscn" id="1_oyk1t"]
+[ext_resource type="PackedScene" uid="uid://d3tbixysp6hf" path="res://CENARIO/objects/arvores/Arvore2.tscn" id="2_1d8gj"]
+[ext_resource type="PackedScene" uid="uid://yro1chr8ate8" path="res://CENARIO/objects/parte3/Tabua.tscn" id="2_crii3"]
+[ext_resource type="PackedScene" uid="uid://c0ee0s1f61tn6" path="res://CENARIO/objects/parte1/Agua_pt_1.tscn" id="2_r8efp"]
+[ext_resource type="PackedScene" uid="uid://5ua52x8j1mja" path="res://CENARIO/objects/arvores/Arvore3.tscn" id="3_1mp1n"]
+[ext_resource type="PackedScene" uid="uid://bnbjfxir86q0o" path="res://CENARIO/objects/arvores/Arvore4.tscn" id="4_x3xn2"]
+[ext_resource type="PackedScene" uid="uid://dire72ehs5xi6" path="res://CENARIO/objects/arvores/Arvore5.tscn" id="5_0046d"]
+[ext_resource type="PackedScene" uid="uid://ck3sfj03gfybn" path="res://CENARIO/objects/arvores/Arvore_legal.tscn" id="9_rgcwp"]
+[ext_resource type="PackedScene" uid="uid://cxr35d0d1y1hj" path="res://CENARIO/objects/pedras/Pedras.tscn" id="10_yomje"]
+[ext_resource type="PackedScene" uid="uid://8v66bxipx8d" path="res://CENARIO/objects/parte1/Ponte.tscn" id="11_kqyud"]
+[ext_resource type="PackedScene" uid="uid://ber1xq0o45hvn" path="res://CENARIO/objects/parte1/Cerca_inteira.tscn" id="14_t3el6"]
+[ext_resource type="PackedScene" uid="uid://bkw8bi53a1j71" path="res://CENARIO/objects/parte1/Cerca_quebrada.tscn" id="15_5a6ct"]
+[ext_resource type="PackedScene" uid="uid://do8sitlwy0isv" path="res://CENARIO/objects/parte1/Caixa.tscn" id="16_eneg8"]
+[ext_resource type="PackedScene" uid="uid://bqghj4yplogqs" path="res://CENARIO/objects/parte3/Caixote_grama.tscn" id="17_cvq6q"]
+[ext_resource type="PackedScene" uid="uid://cgxwggxjkgmkx" path="res://CENARIO/objects/parte3/Caixote_largo.tscn" id="18_vfw1c"]
+[ext_resource type="PackedScene" uid="uid://c7akg2kprcam" path="res://CENARIO/objects/pedras/Pedra_1.tscn" id="20_k6oe7"]
+[ext_resource type="PackedScene" uid="uid://dx65xqq54eu17" path="res://CENARIO/objects/pedras/Pedra_2.tscn" id="21_ob11r"]
+[ext_resource type="PackedScene" uid="uid://8as77d31wmwj" path="res://CENARIO/objects/pedras/Pedra_3.tscn" id="22_ygf3w"]
+[ext_resource type="PackedScene" uid="uid://dwaclp5cn4p56" path="res://CENARIO/objects/pedras/Pedras_1.tscn" id="23_a2e3g"]
+[ext_resource type="PackedScene" uid="uid://iub1s0ypus0s" path="res://CENARIO/objects/pedras/Pedras_2.tscn" id="24_3vhu3"]
+[ext_resource type="PackedScene" uid="uid://dgeq8eoybj47r" path="res://CENARIO/objects/pedras/Pedras_3.tscn" id="25_jcnjg"]
+[ext_resource type="PackedScene" uid="uid://g3wlexp7pkc2" path="res://CENARIO/objects/pedras/Pedras_5.tscn" id="26_wpqqb"]
+[ext_resource type="PackedScene" uid="uid://gq08wpiqlukr" path="res://CENARIO/objects/pedras/Pedras_7.tscn" id="27_8s2qg"]
+
+[node name="cenárioparte1" type="Node3D"]
+
+[node name="porta" parent="." instance=ExtResource("1_d3g3c")]
+transform = Transform3D(0.331834, 0.603834, 0.724755, -0.251374, 0.79711, -0.549024, -0.909229, 0, 0.416297, -2.90806, 9.38884, 15.6778)
+collision_layer = 2
+
+[node name="tocha" parent="." instance=ExtResource("1_fxp5n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.7498, 9.80047, -51.8677)
+collision_layer = 2
+
+[node name="tabua" parent="." instance=ExtResource("2_crii3")]
+transform = Transform3D(0.998381, -0.0363772, 0.0437326, 0, 0.768797, 0.639493, -0.0568845, -0.638457, 0.767552, -10.6987, 10.5184, -43.2647)
+collision_layer = 2
+
+[node name="Chaogramapt_1" parent="." instance=ExtResource("1_156jd")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 19.5732, 6.23098, 0.916885)
+collision_layer = 2
+
+[node name="agua pt 1" parent="." instance=ExtResource("2_r8efp")]
+transform = Transform3D(0.8, 0, 0, 0, 0.799995, -0.00279252, 0, 0.00279252, 0.799995, 0, -0.582378, 0)
+
+[node name="arvore_legal" parent="." instance=ExtResource("9_rgcwp")]
+transform = Transform3D(0.915, 0, 0, 0, 0.915, 0, 0, 0, 0.915, -13.3736, 8.42981, -141.781)
+collision_layer = 2
+
+[node name="ponte" parent="." instance=ExtResource("11_kqyud")]
+transform = Transform3D(0.845, 0, 0, 0, 0.844787, -0.0189496, 0, 0.0189496, 0.844787, -14.4298, 2.72748, -111.95)
+collision_layer = 2
+
+[node name="barco" parent="." instance=ExtResource("1_oyk1t")]
+transform = Transform3D(0.64, 0, 0, 0, 0.638694, -0.0408659, 0, 0.0408659, 0.638694, 1.64827, 2.56671, -120.86)
+
+[node name="barco2" parent="." instance=ExtResource("1_oyk1t")]
+transform = Transform3D(-0.348508, 0.936444, -0.0401664, 0.216489, 0.122115, 0.968618, 0.911962, 0.328876, -0.245288, -89.9639, 14.7908, 20.4255)
+
+[node name="arvores" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -100.17)
+
+[node name="arvore1" parent="arvores" instance=ExtResource("1_an2vl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.8179, 6.52567, 39.6843)
+collision_layer = 2
+
+[node name="arvore2" parent="arvores" instance=ExtResource("2_1d8gj")]
+transform = Transform3D(1.0715, 0, 0, 0, 1.0715, 0, 0, 0, 1.0715, -8.70605, 6.45665, 10.2573)
+collision_layer = 2
+
+[node name="arvore3" parent="arvores" instance=ExtResource("3_1mp1n")]
+transform = Transform3D(0.915283, 0, 0, 0, 0.915283, 0, 0, 0, 0.915283, -23.2959, 6.3752, 73.7244)
+collision_layer = 2
+
+[node name="arvore4" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.8113, 6.87139, 103.678)
+collision_layer = 2
+
+[node name="arvore5" parent="arvores" instance=ExtResource("5_0046d")]
+transform = Transform3D(1.02976, 0, 0, 0, 1.02976, 0, 0, 0, 1.02976, -37.8334, 6.87158, 132.674)
+collision_layer = 2
+
+[node name="arvore6" parent="arvores" instance=ExtResource("1_an2vl")]
+transform = Transform3D(0.549242, 0, 0.835664, 0, 1, 0, -0.835664, 0, 0.549242, -9.7683, 6.10424, 88.0418)
+collision_layer = 2
+
+[node name="arvore7" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(0.552155, 0, 0.833741, 0, 1, 0, -0.833741, 0, 0.552155, -2.08651, 6.5438, 57.5405)
+collision_layer = 2
+
+[node name="arvore8" parent="arvores" instance=ExtResource("1_an2vl")]
+transform = Transform3D(0.930814, 0, -0.365494, 0, 1, 0, 0.365494, 0, 0.930814, -41.4071, 5.89573, 91.6675)
+collision_layer = 2
+
+[node name="arvore9" parent="arvores" instance=ExtResource("2_1d8gj")]
+transform = Transform3D(-0.719224, 0, -0.894918, 0, 1.14811, 0, 0.894918, 0, -0.719224, 72.8168, 6.12577, -11.4632)
+collision_layer = 2
+
+[node name="arvore10" parent="arvores" instance=ExtResource("3_1mp1n")]
+transform = Transform3D(0.488086, 0, 0.680871, 0, 0.837743, 0, -0.680871, 0, 0.488086, -0.763968, 6.16959, 30.0394)
+collision_layer = 2
+
+[node name="arvore11" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(0.0339227, 0, -0.999424, 0, 1, 0, 0.999424, 0, 0.0339227, 16.1677, 6.12524, 9.63593)
+collision_layer = 2
+
+[node name="arvore12" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(0.33333, 0, 0.94281, 0, 1, 0, -0.94281, 0, 0.33333, -14.9701, 6.58424, 168.385)
+collision_layer = 2
+
+[node name="arvore13" parent="arvores" instance=ExtResource("5_0046d")]
+transform = Transform3D(1.00087, 0, -0.350322, 0, 1.0604, 0, 0.350322, 0, 1.00087, -36.8423, 6.94885, 59.6116)
+collision_layer = 2
+
+[node name="arvore14" parent="arvores" instance=ExtResource("5_0046d")]
+transform = Transform3D(1.06041, 0, 0, 0, 1.06041, 0, 0, 0, 1.06041, -49.9026, 13.9477, 258.857)
+collision_layer = 2
+
+[node name="arvore15" parent="arvores" instance=ExtResource("1_an2vl")]
+transform = Transform3D(0.444151, 0, -0.895954, 0, 1, 0, 0.895954, 0, 0.444151, -45.8539, 6.36127, 155.879)
+collision_layer = 2
+
+[node name="arvore16" parent="arvores" instance=ExtResource("1_an2vl")]
+transform = Transform3D(0.998165, 0, -0.0605785, 0, 1, 0, 0.0605785, 0, 0.998165, -8.16565, 5.92139, 132.411)
+collision_layer = 2
+
+[node name="arvore17" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(-0.285621, 0, -0.958343, 0, 1, 0, 0.958343, 0, -0.285621, -31.6579, 7.19755, 15.8518)
+collision_layer = 2
+
+[node name="arvore18" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(-0.285621, 0, -0.958343, 0, 1, 0, 0.958343, 0, -0.285621, -45.522, 6.19999, 119.53)
+collision_layer = 2
+
+[node name="arvore19" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(0.0339227, 0, -0.999424, 0, 1, 0, 0.999424, 0, 0.0339227, -6.64362, 5.88253, 113.314)
+collision_layer = 2
+
+[node name="arvore20" parent="arvores" instance=ExtResource("5_0046d")]
+transform = Transform3D(1.08527, 0, -0.120735, 0, 1.09196, 0, 0.120735, 0, 1.08527, -48.882, 6.29667, 183.62)
+collision_layer = 2
+
+[node name="arvore21" parent="arvores" instance=ExtResource("4_x3xn2")]
+transform = Transform3D(0.644083, 0, 0.764955, 0, 1, 0, -0.764955, 0, 0.644083, 6.23921, 6.71158, 156.36)
+collision_layer = 2
+
+[node name="arvore22" parent="arvores" instance=ExtResource("5_0046d")]
+transform = Transform3D(1.05831, 0, -0.0666757, 0, 1.0604, 0, 0.0666757, 0, 1.05831, 40.9832, 6.94885, 7.02479)
+collision_layer = 2
+
+[node name="arvore23" parent="arvores" instance=ExtResource("1_an2vl")]
+transform = Transform3D(0.806672, 0, 0.591, 0, 1, 0, -0.591, 0, 0.806672, 58.183, 5.89573, -4.00589)
+collision_layer = 2
+
+[node name="arvore24" parent="arvores" instance=ExtResource("5_0046d")]
+transform = Transform3D(0.191132, 0, -1.04304, 0, 1.0604, 0, 1.04304, 0, 0.191132, 85.3848, 6.24731, -12.3485)
+collision_layer = 2
+
+[node name="cercas" type="Node3D" parent="."]
+
+[node name="cerca inteira" parent="cercas" instance=ExtResource("14_t3el6")]
+transform = Transform3D(0.683388, -0.0377075, -0.0875188, 0.0373158, 0.688969, -0.00546326, 0.0876866, 0.000677805, 0.684405, -36.6948, 9.434, 38.7512)
+collision_layer = 2
+
+[node name="cerca quebrada" parent="cercas" instance=ExtResource("15_5a6ct")]
+transform = Transform3D(0.606355, 0, -0.329292, 0, 0.69, 0, 0.329292, 0, 0.606355, -28.6003, 9.434, -41.2468)
+collision_layer = 2
+
+[node name="cerca inteira2" parent="cercas" instance=ExtResource("14_t3el6")]
+transform = Transform3D(-0.455781, 0, -0.518038, 0, 0.69, 0, 0.518038, 0, -0.455781, -5.86339, 9.434, 20.7822)
+collision_layer = 2
+
+[node name="cerca inteira3" parent="cercas" instance=ExtResource("14_t3el6")]
+transform = Transform3D(-0.425622, 0, 0.543089, 0, 0.69, 0, -0.543089, 0, -0.425622, -3.42195, 9.434, -38.0747)
+collision_layer = 2
+
+[node name="cerca inteira4" parent="cercas" instance=ExtResource("14_t3el6")]
+transform = Transform3D(0.35186, -0.0143522, 0.59337, 0.0373158, 0.688969, -0.00546322, -0.59237, 0.0348759, 0.35211, -17.3423, 9.434, -36.1781)
+collision_layer = 2
+
+[node name="caixas" type="Node3D" parent="."]
+
+[node name="caixa" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.1758, 7.63359, 23.6993)
+collision_layer = 2
+
+[node name="caixa2" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(0.917976, 0, -0.396635, 0, 1, 0, 0.396635, 0, 0.917976, -9.70375, 7.65606, 21.8637)
+collision_layer = 2
+
+[node name="caixa3" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(0.685361, 0, -0.728204, 0, 1, 0, 0.728204, 0, 0.685361, -10.1377, 9.647, 22.9516)
+collision_layer = 2
+
+[node name="caixa4" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.0605608, 0, -0.998165, 0, 1, 0, 0.998165, 0, -0.0605608, -7.78031, 7.52469, 20.1675)
+collision_layer = 2
+
+[node name="caixa5" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.0605608, 0, -0.998165, 0, 1, 0, 0.998165, 0, -0.0605608, -1.33352, 7.60621, 13.5176)
+collision_layer = 2
+
+[node name="caixa6" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.201984, 0, -0.979389, 0, 1, 0, 0.979389, 0, -0.201984, -1.33352, 9.59115, 13.5176)
+collision_layer = 2
+
+[node name="caixa7" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.201984, 0, -0.979389, 0, 1, 0, 0.979389, 0, -0.201984, -12.0654, 7.68715, -45.831)
+collision_layer = 2
+
+[node name="caixa8" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.918405, 0, 0.395642, 0, 1, 0, -0.395642, 0, -0.918405, -36.9139, 7.68653, -21.007)
+collision_layer = 2
+
+[node name="caixa9" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.42026, -2.91595e-08, 0.907404, -2.23698e-08, 1, 2.17746e-08, -0.907404, -1.11475e-08, -0.42026, -39.2263, 7.68653, -22.1081)
+collision_layer = 2
+
+[node name="caixa10" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.780277, -3.10733e-08, 0.625433, -2.23698e-08, 1, 2.17746e-08, -0.625433, 2.99941e-09, -0.780277, -41.4894, 7.68653, -23.1101)
+collision_layer = 2
+
+[node name="caixa11" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.780277, -3.10733e-08, 0.625433, -2.23698e-08, 1, 2.17746e-08, -0.625433, 2.99941e-09, -0.780277, -44.217, 7.68653, -22.8875)
+collision_layer = 2
+
+[node name="caixa12" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.976691, 0, -0.21465, 0, 1, 0, 0.21465, 0, -0.976691, -25.403, 7.68653, -22.3317)
+collision_layer = 2
+
+[node name="caixa13" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.870802, -3.01848e-08, 0.491634, -2.23698e-08, 1, 2.17746e-08, -0.491634, 7.96362e-09, -0.870802, -27.9234, 7.68653, -21.8765)
+collision_layer = 2
+
+[node name="caixa14" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.998618, -2.34834e-08, 0.0525626, -2.23698e-08, 1, 2.17746e-08, -0.0525626, 2.05687e-08, -0.998618, -30.346, 7.68653, -21.3695)
+collision_layer = 2
+
+[node name="caixa15" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.998618, -2.34834e-08, 0.0525626, -2.23698e-08, 1, 2.17746e-08, -0.0525626, 2.05687e-08, -0.998618, -32.3533, 7.73904, -19.6405)
+collision_layer = 2
+
+[node name="caixa16" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(0.686935, 0, -0.726719, 0, 1, 0, 0.726719, 0, 0.686935, -34.1915, 7.70825, -21.4781)
+collision_layer = 2
+
+[node name="caixa17" parent="caixas" instance=ExtResource("16_eneg8")]
+transform = Transform3D(-0.984723, 0, 0.17413, 0, 1, 0, -0.17413, 0, -0.984723, -25.403, 9.78597, -22.3317)
+collision_layer = 2
+
+[node name="caixote grama" parent="caixas" instance=ExtResource("17_cvq6q")]
+transform = Transform3D(0.888737, 1.21038e-08, 0.458417, -1.26537e-08, 1, -1.87158e-09, -0.458417, -4.13732e-09, 0.888737, -20.9611, 7.93816, -7.96165)
+collision_layer = 2
+
+[node name="caixote largo" parent="caixas" instance=ExtResource("18_vfw1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.564, 7.93855, -16.6184)
+collision_layer = 2
+
+[node name="pedras" type="Node3D" parent="."]
+
+[node name="pedra" parent="pedras" instance=ExtResource("10_yomje")]
+transform = Transform3D(0.765, 0, 0, 0, 0.765, 0, 0, 0, 0.765, -5.42781, 7.74527, -126.481)
+collision_layer = 2
+
+[node name="pedra1" parent="pedras" instance=ExtResource("20_k6oe7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.9356, 6.7123, -43.0275)
+collision_layer = 2
+
+[node name="pedra2" parent="pedras" instance=ExtResource("21_ob11r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8484, 6.7123, -51.3698)
+collision_layer = 2
+
+[node name="pedra3" parent="pedras" instance=ExtResource("22_ygf3w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8795, 6.7123, -47.9992)
+collision_layer = 2
+
+[node name="pedras1" parent="pedras" instance=ExtResource("23_a2e3g")]
+transform = Transform3D(0.596603, 0, 0.802536, 0, 1, 0, -0.802536, 0, 0.596603, -22.4574, 6.7123, -94.2481)
+collision_layer = 2
+
+[node name="pedras2" parent="pedras" instance=ExtResource("24_3vhu3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.6412, 6.7123, 34.1255)
+collision_layer = 2
+
+[node name="pedras3" parent="pedras" instance=ExtResource("25_jcnjg")]
+transform = Transform3D(-0.895316, 0, -0.445432, 0, 1, 0, 0.445432, 0, -0.895316, -19.6961, 7.25382, -4.92926)
+collision_layer = 2
+
+[node name="pedras5" parent="pedras" instance=ExtResource("26_wpqqb")]
+transform = Transform3D(0.780485, 0, -0.625175, 0, 1, 0, 0.625175, 0, 0.780485, -25.3022, 6.7123, 43.3518)
+collision_layer = 2
+
+[node name="pedras7" parent="pedras" instance=ExtResource("27_8s2qg")]
+transform = Transform3D(0.333429, 0, -0.942775, 0, 1, 0, 0.942775, 0, 0.333429, -35.384, 6.7124, 95.6463)
+collision_layer = 2
+
+[node name="pedras4" parent="pedras" instance=ExtResource("23_a2e3g")]
+transform = Transform3D(2.27551, 0, -0.697474, 0, 2.38, 0, 0.697474, 0, 2.27551, 71.9907, 3.64442, -169.352)
+collision_layer = 2
+
+[node name="pedras6" parent="pedras" instance=ExtResource("26_wpqqb")]
+transform = Transform3D(-0.0726234, 0, -1.65341, -0.548163, 1.5614, 0.0240772, 1.55989, 0.548691, -0.068516, 80.9652, 3.42991, -167.273)
+collision_layer = 2
+
+[node name="pedras8" parent="pedras" instance=ExtResource("26_wpqqb")]
+transform = Transform3D(0.991578, -0.0115607, 0.128991, 0.0395083, 0.975533, -0.216276, -0.123335, 0.219551, 0.967774, 73.4856, 5.71144, -176.95)
+collision_layer = 2

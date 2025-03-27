@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://c28p6euaf3uqh"]
+
+[ext_resource type="ArrayMesh" uid="uid://vpi6em5yuuwk" path="res://CENARIO/meshs/parte2/mesh paralelepipedo.res" id="1_563pm"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="2_tpnsn"]
+[ext_resource type="Shape3D" uid="uid://ctbagmhwe55hw" path="res://CENARIO/collisions/parte2/collision paralelepipedo.tres" id="3_blxoy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_smc7v"]
+albedo_texture = ExtResource("2_tpnsn")
+
+[node name="paralelepipedo" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_563pm")
+surface_material_override/0 = SubResource("StandardMaterial3D_smc7v")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("3_blxoy")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwb6pcb0rexip"]
+
+[ext_resource type="ArrayMesh" uid="uid://du8j2m3gf1dgj" path="res://CENARIO/meshs/caverna/mesh pedra magica.res" id="1_wdhkl"]
+
+[node name="pedra magica" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_wdhkl")

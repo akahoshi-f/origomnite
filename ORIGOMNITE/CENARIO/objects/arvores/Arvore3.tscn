@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://5ua52x8j1mja"]
+
+[ext_resource type="Shape3D" uid="uid://tq6c6usoq3eq" path="res://CENARIO/collisions/arvores/collision arvore.tres" id="1_sp0io"]
+[ext_resource type="ArrayMesh" uid="uid://bddugqgfpkr8g" path="res://CENARIO/meshs/arvores/arvore3.res" id="2_02jxe"]
+[ext_resource type="Texture2D" uid="uid://bbus08uq4wjqj" path="res://CENARIO/meshs/texturas/arvere.jpg" id="3_qau5s"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tb57s"]
+albedo_texture = ExtResource("3_qau5s")
+
+[node name="arvore3" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.96, 0, 0, 0, 0.959989, 0.00467467, 0, -0.00467467, 0.959989, 0, 0.555039, 0.180549)
+shape = ExtResource("1_sp0io")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22.4679, 0.704681)
+mesh = ExtResource("2_02jxe")
+surface_material_override/0 = SubResource("StandardMaterial3D_tb57s")
