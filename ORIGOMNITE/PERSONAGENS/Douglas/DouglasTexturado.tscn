@@ -1,0 +1,130 @@
+[gd_scene load_steps=33 format=3 uid="uid://6o1faa76sqno"]
+
+[ext_resource type="PackedScene" uid="uid://bnnjp822wp3i8" path="res://PERSONAGENS/Douglas/douglasBarFINAL.glb" id="1_mxxut"]
+[ext_resource type="Texture2D" uid="uid://i2ndw366oecu" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_textura madeira marrom estante escada.jpg" id="2_vgx16"]
+[ext_resource type="Texture2D" uid="uid://prpuncbo5luc" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_textura beiral escada e galeria.jpg" id="3_tjp30"]
+[ext_resource type="Texture2D" uid="uid://d1sxw68uhymov" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_esponja01amarelo.png" id="4_77n5x"]
+[ext_resource type="Texture2D" uid="uid://bn6fsyqsu1wk3" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_esponja02verde.png" id="5_85rss"]
+[ext_resource type="Texture2D" uid="uid://bthq0lwjtm53h" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_preto.png" id="6_2bull"]
+[ext_resource type="Texture2D" uid="uid://ddkc23726e2ca" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_botaocosturado3txt.png" id="7_71pcd"]
+[ext_resource type="Texture2D" uid="uid://dodf4u3mdsqf7" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_tenistxt.png" id="8_x15fp"]
+[ext_resource type="Texture2D" uid="uid://dhllrjgirdvhm" path="res://PERSONAGENS/Douglas/Texturas/pele.001 Base Color.png" id="9_lsmn1"]
+[ext_resource type="Texture2D" uid="uid://dobq3xgs23f2" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_camisa Base Color.png" id="10_0m1ts"]
+[ext_resource type="Texture2D" uid="uid://djuny3shm7eqx" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_chapeutxt.png" id="11_t5lae"]
+[ext_resource type="Texture2D" uid="uid://d217kokpbxqao" path="res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_colete3txt.png" id="12_bsgu2"]
+[ext_resource type="Texture2D" uid="uid://dblui558ihdf1" path="res://PERSONAGENS/Giovanna/Texturas/branco.png" id="13_31wmd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ljbfq"]
+albedo_texture = ExtResource("2_vgx16")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qdm5y"]
+albedo_texture = ExtResource("3_tjp30")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e1qd0"]
+albedo_texture = ExtResource("4_77n5x")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fxsbr"]
+albedo_texture = ExtResource("5_85rss")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dhdwq"]
+albedo_texture = ExtResource("6_2bull")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_do4i2"]
+albedo_texture = ExtResource("7_71pcd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h8g7i"]
+albedo_texture = ExtResource("6_2bull")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2umqo"]
+albedo_texture = ExtResource("8_x15fp")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gcvp4"]
+albedo_texture = ExtResource("9_lsmn1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kuwd8"]
+albedo_texture = ExtResource("10_0m1ts")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ykaa7"]
+albedo_texture = ExtResource("6_2bull")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jhn2l"]
+albedo_texture = ExtResource("11_t5lae")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c1dlw"]
+albedo_texture = ExtResource("12_bsgu2")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dyvyg"]
+albedo_texture = ExtResource("6_2bull")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b6n27"]
+albedo_texture = ExtResource("13_31wmd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_31b67"]
+albedo_texture = ExtResource("13_31wmd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8ql36"]
+albedo_texture = ExtResource("6_2bull")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uklq6"]
+albedo_texture = ExtResource("6_2bull")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jn8ev"]
+albedo_texture = ExtResource("6_2bull")
+
+[node name="douglasBarFINAL" instance=ExtResource("1_mxxut")]
+
+[node name="caneca" parent="Armature/Skeleton3D" index="0"]
+transform = Transform3D(-0.179134, -0.0123027, 0.0419185, 0.0395045, 0.0299217, 0.177599, -0.0186525, 0.181523, -0.0264339, 0.633966, 0.989535, -0.00488407)
+
+[node name="caneca" parent="Armature/Skeleton3D/caneca" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ljbfq")
+surface_material_override/1 = SubResource("StandardMaterial3D_qdm5y")
+
+[node name="esponja" parent="Armature/Skeleton3D" index="1"]
+transform = Transform3D(0.0261951, 0.035737, -0.999018, -0.813965, 0.580913, -0.000562727, 0.580322, 0.81318, 0.0443058, -0.834246, 1.67796, -0.884356)
+
+[node name="esponja" parent="Armature/Skeleton3D/esponja" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_e1qd0")
+surface_material_override/1 = SubResource("StandardMaterial3D_fxsbr")
+
+[node name="bigode" parent="Armature/Skeleton3D" index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_dhdwq")
+
+[node name="botoes" parent="Armature/Skeleton3D" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_do4i2")
+
+[node name="calça" parent="Armature/Skeleton3D" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_h8g7i")
+surface_material_override/1 = SubResource("StandardMaterial3D_2umqo")
+surface_material_override/2 = SubResource("StandardMaterial3D_gcvp4")
+surface_material_override/3 = SubResource("StandardMaterial3D_h8g7i")
+
+[node name="camisa" parent="Armature/Skeleton3D" index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_kuwd8")
+
+[node name="cavanhaque" parent="Armature/Skeleton3D" index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ykaa7")
+
+[node name="chapeu" parent="Armature/Skeleton3D" index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_jhn2l")
+
+[node name="colete" parent="Armature/Skeleton3D" index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_c1dlw")
+
+[node name="mecha11" parent="Armature/Skeleton3D" index="11"]
+surface_material_override/0 = SubResource("StandardMaterial3D_dyvyg")
+
+[node name="olho_R" parent="Armature/Skeleton3D" index="12"]
+surface_material_override/0 = SubResource("StandardMaterial3D_b6n27")
+
+[node name="olhos_L" parent="Armature/Skeleton3D" index="13"]
+surface_material_override/0 = SubResource("StandardMaterial3D_31b67")
+
+[node name="pupila_L" parent="Armature/Skeleton3D" index="14"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8ql36")
+
+[node name="pupila_R" parent="Armature/Skeleton3D" index="15"]
+surface_material_override/0 = SubResource("StandardMaterial3D_uklq6")
+
+[node name="sobrancelha" parent="Armature/Skeleton3D" index="16"]
+surface_material_override/0 = SubResource("StandardMaterial3D_jn8ev")
