@@ -1,0 +1,189 @@
+res://audio/default_bus_layout.tres::f55d1e5538f27cbcdadcbb799ce72c48::1743018017::res://.godot/exported/133200997/export-0909decc0be8d8d6fa598ded375475c5-default_bus_layout.res
+res://bar/bar_final.tscn::0fde2c27951746cc06cec2b9b7cb42d6::1743097877::res://.godot/exported/133200997/export-ecb3a3bdbd815283a9b1ae99ed921558-bar_final.scn
+res://CENARIO/collisions/arvores/collision arvore cortada.tres::d8fdf10b31aa1801817881ab4e03b7fe::1743018018::res://.godot/exported/133200997/export-98e896f9085898e4293d9e5245390fe1-collision arvore cortada.res
+res://CENARIO/collisions/arvores/collision arvore.tres::4262e43b95c2f2cb20a28e86687a7a63::1743018018::res://.godot/exported/133200997/export-bbcc7f22146add4e8939e5a5d09b0d3d-collision arvore.res
+res://CENARIO/collisions/arvores/collision raizes arvorelegal.tres::8c407dbc5e8b6f51d12ea0506628431d::1743018018::res://.godot/exported/133200997/export-4916d9ff63a33c63e448c9aa12d3d6de-collision raizes arvorelegal.res
+res://CENARIO/collisions/arvores/collision tronco arvorelegal.tres::910b5d0d095e6790ca863fd71e046beb::1743018018::res://.godot/exported/133200997/export-ff8d6a978e5c15d36bb8c6a7907c152f-collision tronco arvorelegal.res
+res://CENARIO/collisions/bar/collision banco.tres::cfb4631065f57ce4b23a45abcfef42a7::1743018018::res://.godot/exported/133200997/export-03a43b9e1a078637b79017cd0fd57d73-collision banco.res
+res://CENARIO/collisions/bar/collision barril.tres::aa6f21795a85add8dabdbbae464b6f6f::1743018018::res://.godot/exported/133200997/export-d76fc58e1ce038d4700ca76571314452-collision barril.res
+res://CENARIO/collisions/bar/collision beiral escada e galeria.tres::ca350bbdf38b988b31b7d275ccf4e2b5::1743018018::res://.godot/exported/133200997/export-f72d1f6a8e776ac0791d8a106b5ae7d1-collision beiral escada e galeria.res
+res://CENARIO/collisions/bar/collision chao bar.tres::ddd1d6e63086d51b9d8c5a958f751aaf::1743018018::res://.godot/exported/133200997/export-35fbf8c6a4a7fcda8715bed0c07fe6cd-collision chao bar.res
+res://CENARIO/collisions/bar/collision escada estante.tres::802d074b9cebe1b734f1874e4503c3e1::1743018018::res://.godot/exported/133200997/export-208f06e5ac669e744b167f2fe7b2b709-collision escada estante.res
+res://CENARIO/collisions/bar/collision janela.tres::274369f7e8caf9ff0c9523af0dd91734::1743018018::res://.godot/exported/133200997/export-f3ff2c6080bdfa8843581f1a573a149f-collision janela.res
+res://CENARIO/collisions/bar/collision mesa.tres::b87cc8b25eaaaeaff7574d54d16439b7::1743018018::res://.godot/exported/133200997/export-9c76fa17247aef5a09d0b0e7a2147543-collision mesa.res
+res://CENARIO/collisions/bar/collision paredes bar.tres::07726c4fca1bd253fa6b5abbdf929e79::1743018018::res://.godot/exported/133200997/export-079eb21caa286c13686acc7cfe5101cf-collision paredes bar.res
+res://CENARIO/collisions/bar/collision porta.tres::5cf9e3570c1852adf5209807f8cca0ba::1743018018::res://.godot/exported/133200997/export-081fc2c765f805081308f0c0918664e4-collision porta.res
+res://CENARIO/collisions/bar/collision quadro.tres::2e4616f4dda79a9953acf50183b27c2c::1743018019::res://.godot/exported/133200997/export-64404faa2aa2691b26a2dbf1f200d046-collision quadro.res
+res://CENARIO/collisions/bar/collision teto bar.tres::2a8e2e4ca3faf911399a731053733a14::1743018019::res://.godot/exported/133200997/export-5d14426607c99f2b1d6e35110094fde6-collision teto bar.res
+res://CENARIO/collisions/bar/collsion balcao.tres::f0ac208b1d49d3414e7c6e08015b8487::1743018019::res://.godot/exported/133200997/export-1425eca7d61307b6805b85ad36473822-collsion balcao.res
+res://CENARIO/collisions/caverna/collision chao caverna.tres::a0afec753308183f051eff444d6e534f::1743018019::res://.godot/exported/133200997/export-7b12ee6097e4c63b4b34b8a53f81d1b2-collision chao caverna.res
+res://CENARIO/collisions/parte1/colision caixa.tres::0b668762ee9fa871c2b1d98e3301b8c4::1743018019::res://.godot/exported/133200997/export-da05f4d358bf89507c240e6cc777f892-colision caixa.res
+res://CENARIO/collisions/parte1/collision cerca inteira.tres::3832f7682179c625b7d2797e906ac3fe::1743018019::res://.godot/exported/133200997/export-add094ec06ec7ac145e0b59a7e393a65-collision cerca inteira.res
+res://CENARIO/collisions/parte1/collision cerca quebrada.tres::e9965e92a26e62c7c5f3f259234c37b4::1743018019::res://.godot/exported/133200997/export-674056c96403ae509e72ae6208871225-collision cerca quebrada.res
+res://CENARIO/collisions/parte1/collision chao.tres::856d24eac2f5423c92d28371f20ec304::1743018019::res://.godot/exported/133200997/export-1fd79090388aa97558d2d110824f6eb0-collision chao.res
+res://CENARIO/collisions/parte1/collision gramachaorio pt1.tres::e859e247e4f3c263a373ff4a88dfe145::1743018019::res://.godot/exported/133200997/export-cfd2aeb7302930ae2bcfdb031e7119a3-collision gramachaorio pt1.res
+res://CENARIO/collisions/parte2/collision casa1.tres::2da1cc11fdde45a4b8054fa52b1f165f::1743018020::res://.godot/exported/133200997/export-894388f3bc03b2171aa798bad38994cb-collision casa1.res
+res://CENARIO/collisions/parte2/collision casa2.tres::851c16ce93fa87bc1087ec883eb19a7e::1743018020::res://.godot/exported/133200997/export-f9e5e7f6c9b9ae5d0e1d32c152e31c94-collision casa2.res
+res://CENARIO/collisions/parte2/collision casa3.tres::1637e5e9694e8d7220778b54290f6495::1743018020::res://.godot/exported/133200997/export-7d9b085de904330818b00b9b8583536e-collision casa3.res
+res://CENARIO/collisions/parte2/collision chao pt2.tres::3921b3c325f576a483b771fb2167547f::1743018020::res://.godot/exported/133200997/export-93ea530f79dcc932223422346af4ade0-collision chao pt2.res
+res://CENARIO/collisions/parte2/collision corrimao.tres::6eac51c3a2ef870950da74fc8339552f::1743018020::res://.godot/exported/133200997/export-8037efb13103c13d4b97f797dd80489f-collision corrimao.res
+res://CENARIO/collisions/parte2/collision deque.tres::b95acbc5f8ff90d2f4cdb2fed9063ce8::1743018020::res://.godot/exported/133200997/export-5612a79ff3ff67363a9cb272861831f6-collision deque.res
+res://CENARIO/collisions/parte2/collision escombro de ponte.tres::8cc0bb95f974cc5acaa07df8c26f8715::1743018020::res://.godot/exported/133200997/export-8f18f083981d321e0220f66b541af707-collision escombro de ponte.res
+res://CENARIO/collisions/parte2/collision forabar.tres::6fd66a0990550ba176046985f24e2f3f::1743018020::res://.godot/exported/133200997/export-e84de88067b5ab0b633ab69cffc8a47b-collision forabar.res
+res://CENARIO/collisions/parte2/collision paralelepipedo.tres::a65e9c62eab1521df2aeac0afec11ea8::1743018020::res://.godot/exported/133200997/export-d6459b5990a83b62e4dfd07a1836cff4-collision paralelepipedo.res
+res://CENARIO/collisions/parte2/collision poste.tres::e5171496b19f332c675eb5caa51c0187::1743018020::res://.godot/exported/133200997/export-64ec2f321f2085bdec461543cb96e3b6-collision poste.res
+res://CENARIO/collisions/parte3/collision chao pt3.tres::addc8af34002479254f72906dd8fde35::1743018020::res://.godot/exported/133200997/export-97226bf020282b58caa172e809379a93-collision chao pt3.res
+res://CENARIO/collisions/parte3/collision escada shmungus.tres::829f12029107b79d09105cf5cedb3b09::1743018020::res://.godot/exported/133200997/export-498029807f51e0ee36da99b2566b7df4-collision escada shmungus.res
+res://CENARIO/collisions/parte3/collision pilar1.tres::5501dc262ecde42a1432e71a6b55248c::1743018020::res://.godot/exported/133200997/export-3de81605c147b3bd11efeb70c9a1252d-collision pilar1.res
+res://CENARIO/collisions/parte3/collision pilar2.tres::ab901959f18198563d1c203319c365a4::1743018020::res://.godot/exported/133200997/export-f2c7c684827c2d9c4fc680800ad300f2-collision pilar2.res
+res://CENARIO/collisions/parte3/collision pilar3.tres::f393a8ec3c2c42f9ff62f03066f0c0ff::1743018020::res://.godot/exported/133200997/export-f3ca51bd8142d85b4505ba1887392d42-collision pilar3.res
+res://CENARIO/collisions/parte3/collision pilar entrada1.tres::49dff5ae632cc0f15bd1b13f6284913c::1743018020::res://.godot/exported/133200997/export-98ae13d08f85d91453bd5cc60305e414-collision pilar entrada1.res
+res://CENARIO/collisions/parte3/collision pilar entrada2.tres::986ef000fcd040317544364371bc39ef::1743018020::res://.godot/exported/133200997/export-544d3b95d65371d42ae7e5f570b99c85-collision pilar entrada2.res
+res://CENARIO/collisions/parte3/collision shmungus.tres::53252c7ae7c6cc3a39e23c92bf62f6d5::1743018021::res://.godot/exported/133200997/export-a60fe840c69df36b87cff885faeda541-collision shmungus.res
+res://CENARIO/collisions/parte3/collision tabua.tres::fbcc221e5b034be0c2723524ea096b49::1743018021::res://.godot/exported/133200997/export-db4fdbd8b6f4660e8377d7a57973710b-collision tabua.res
+res://CENARIO/collisions/parte3/collision toco de pilar1.tres::fd51e9ec4b6e3a315f21090a39c456d1::1743018021::res://.godot/exported/133200997/export-6dcdfb695ed641a6601135a761e04dac-collision toco de pilar1.res
+res://CENARIO/collisions/parte3/collision toco de pilar2.tres::3c6c40a34bd6775a5baa371c41186da2::1743018021::res://.godot/exported/133200997/export-1764769a9c0d45a84f14270375a602ab-collision toco de pilar2.res
+res://CENARIO/collisions/pedras/collision pedra1.tres::980e635c663d82e1a43650ed71921057::1743018021::res://.godot/exported/133200997/export-278b44dc98c330ec6b454de101c6a1c3-collision pedra1.res
+res://CENARIO/collisions/pedras/collision pedra2.tres::3d8ef050e8d053333a33b390e9dd04d0::1743018021::res://.godot/exported/133200997/export-e6036e559e8b41c6ebe1d016e28b4f96-collision pedra2.res
+res://CENARIO/collisions/pedras/collision pedra3.tres::1b42658963d3be65e9349cc8d0db2191::1743018021::res://.godot/exported/133200997/export-362792b5294bd60de64af73ba486a7e6-collision pedra3.res
+res://CENARIO/collisions/pedras/collision pedras.tres::58af60e9138f2be28dea55a913aab09d::1743018021::res://.godot/exported/133200997/export-71f77ddafce098a5e1c3edd73c7a63b8-collision pedras.res
+res://CENARIO/objects/arvores/Arvore1.tscn::f1c9a8635e591f1303abd524c48ca9d3::1743018188::res://.godot/exported/133200997/export-5707beb7e9cbb7b28cf4caa7cd56ad4c-Arvore1.scn
+res://CENARIO/objects/arvores/Arvore2.tscn::49367bc30841e6e6c42750f327b64e25::1743018188::res://.godot/exported/133200997/export-687909369a4573ab59084570cc6b8b23-Arvore2.scn
+res://CENARIO/objects/arvores/Arvore3.tscn::acf341559376324bf67f4598e958819b::1743018188::res://.godot/exported/133200997/export-f21ef20e8ee10bef990f5274e4bd8755-Arvore3.scn
+res://CENARIO/objects/arvores/Arvore4.tscn::0ef5e801748a74ed252747d732804863::1743018188::res://.godot/exported/133200997/export-9c07a4c750d180833558c59915839fbd-Arvore4.scn
+res://CENARIO/objects/arvores/Arvore5.tscn::8eb46a0b494c06b29fade10d24a08a00::1743018188::res://.godot/exported/133200997/export-4e6fac067754eea65e3b5fa74fa0068d-Arvore5.scn
+res://CENARIO/objects/arvores/Arvore_cortada.tscn::14c06c6a29bea3c87a3b1d965a49a246::1743018188::res://.godot/exported/133200997/export-39b17db9acbbb70777ff681e786f1d3c-Arvore_cortada.scn
+res://CENARIO/objects/arvores/Arvore_legal.tscn::53bf2080987e8fbcf30d96ad08bdb177::1743018188::res://.godot/exported/133200997/export-87b9a82a6b9af1a64142be9a0ab56a8b-Arvore_legal.scn
+res://CENARIO/objects/bar/Balcão.tscn::3c6f50bcab8037643a8ba76f61a45cc3::1743018188::res://.godot/exported/133200997/export-3167226b16c9ad4abf3684af1a8f6ed6-Balcão.scn
+res://CENARIO/objects/bar/Banco.tscn::554c5ace47579713d7cf5842bc05363b::1743018188::res://.godot/exported/133200997/export-8a3559b80dc68a805c497cb0ac55529d-Banco.scn
+res://CENARIO/objects/bar/Bar.tscn::5b586f030f2bd0f2c1549e14a1a7031c::1743049640::res://.godot/exported/133200997/export-5d78fa779c8c658962853acef1953b54-Bar.scn
+res://CENARIO/objects/bar/Barril.tscn::9d64ae68b9ac9e17c26a78a8b53ac470::1743018188::res://.godot/exported/133200997/export-d340281369616117d3c2f2982a835581-Barril.scn
+res://CENARIO/objects/bar/Beiral_escada_e_galeria.tscn::7d6bd8a4cd192ebb643ca444e2c8594c::1743018189::res://.godot/exported/133200997/export-ed643b9187d694f49aa9aca78274354b-Beiral_escada_e_galeria.scn
+res://CENARIO/objects/bar/Chão_bar.tscn::d7338d0b421a3755f64f7b58c53d9af8::1743018189::res://.godot/exported/133200997/export-4bf4d3bdf3410433b035a3d4b68bc7a1-Chão_bar.scn
+res://CENARIO/objects/bar/Copo.tscn::3b29971dbe1e573409875f49ba9ea478::1743018189::res://.godot/exported/133200997/export-bfaf6042613ad6a14b82c8752aab3fba-Copo.scn
+res://CENARIO/objects/bar/Escada_estante.tscn::c399bef03ac897916b2a163b91d2704c::1743018189::res://.godot/exported/133200997/export-8bb321abed0fff2cd3e249c96c26c3b0-Escada_estante.scn
+res://CENARIO/objects/bar/Garrafas_1.tscn::bde26ffabfc282fdaf10c512e74dfc87::1743018189::res://.godot/exported/133200997/export-98e75b15c28c08085a838a6cb1279940-Garrafas_1.scn
+res://CENARIO/objects/bar/Garrafas_2.tscn::130dd846a5ce4fd5a9261b1a141ad5c1::1743018189::res://.godot/exported/133200997/export-8860e4b0281086bff363c5f20c116645-Garrafas_2.scn
+res://CENARIO/objects/bar/Garrafas_3.tscn::ba841512d2a5efec206d9cdef01aa040::1743018189::res://.godot/exported/133200997/export-46ba2817ae1b3b0f3ca7e2cfa1b7ecc6-Garrafas_3.scn
+res://CENARIO/objects/bar/Garrafa_1.tscn::5c2986d89f3ad0eb182efe42069b4119::1743018189::res://.godot/exported/133200997/export-d7a44f1174181e4348bd772e71d4dda4-Garrafa_1.scn
+res://CENARIO/objects/bar/Garrafa_2.tscn::f12e69d5ed5d46042fa8662b140ea389::1743018189::res://.godot/exported/133200997/export-94043ad796a9037a1c71617a23e24c51-Garrafa_2.scn
+res://CENARIO/objects/bar/Garrafa_3.tscn::84ab9f6a0dacedd294f1a8d17ca249c3::1743018189::res://.godot/exported/133200997/export-15913cbac5fbdb7aa7c7eae8c77e138c-Garrafa_3.scn
+res://CENARIO/objects/bar/Janela.tscn::2d16864118ee70dfd7149175c0901cc0::1743018189::res://.godot/exported/133200997/export-3fa1c429596818b2374dc70f7a7d7acc-Janela.scn
+res://CENARIO/objects/bar/Luz.tscn::bec1d0a5e2f7ab687429e63ab1759b28::1743018189::res://.godot/exported/133200997/export-9a91aae8b1195e492fb34bd577bd5347-Luz.scn
+res://CENARIO/objects/bar/Luz_chique.tscn::39173a322a000bdb0b1d87819e6f08f3::1743018190::res://.godot/exported/133200997/export-3fb0ca7fa3ddf46e8c9ab354140dd471-Luz_chique.scn
+res://CENARIO/objects/bar/Mesa.tscn::6286498585f0a518e50f9eaefd1e8c0a::1743018190::res://.godot/exported/133200997/export-b723f658fee18d5e681704306fd16467-Mesa.scn
+res://CENARIO/objects/bar/Paredes_bar.tscn::b26033bf39256afeb45f062654ec21d7::1743018190::res://.godot/exported/133200997/export-81cb041034ff51834e6b144d3db3283a-Paredes_bar.scn
+res://CENARIO/objects/bar/Porta.tscn::ddd99f838f047a00d2cf5e676338b7fb::1743018190::res://.godot/exported/133200997/export-b2a5fed4b66306febeb5e7868554d4a0-Porta.scn
+res://CENARIO/objects/bar/Pratos.tscn::a12b715b394efa3987d5923a99bfeb3b::1743018190::res://.godot/exported/133200997/export-1c07975c1d0402df5677afe7ac268ddb-Pratos.scn
+res://CENARIO/objects/bar/Quadro1.tscn::0c56fa0c34d56f000a4da6093d1b158c::1743018190::res://.godot/exported/133200997/export-06b208f58d8beaedc2c2fb347def003f-Quadro1.scn
+res://CENARIO/objects/bar/Quadro2.tscn::a51211388700a538dd909e97540dac5f::1743018190::res://.godot/exported/133200997/export-ba8d2e972b4954b0b0e391cf678c6678-Quadro2.scn
+res://CENARIO/objects/bar/Quadro3.tscn::fd0d476c828179068dbe6f8005789b2f::1743018190::res://.godot/exported/133200997/export-78fc1e6ddfc982a5aa1e558b9575bdb6-Quadro3.scn
+res://CENARIO/objects/bar/Teto_bar.tscn::172e1f5c193db406303503faa6057732::1743018190::res://.godot/exported/133200997/export-ae0f2c0f7dede90039692138bba1dca6-Teto_bar.scn
+res://CENARIO/objects/bar/Umprato.tscn::a4613c7d8dd4f4f3e9258d84d6a85142::1743018190::res://.godot/exported/133200997/export-10a3ae53d9cef672293bc44eb7dc472e-Umprato.scn
+res://CENARIO/objects/caverna/Caverna.tscn::4b726120ac6357ed9cc7d711df944900::1743018191::res://.godot/exported/133200997/export-75b6eecd0951f2fc06467b7ed4e8b151-Caverna.scn
+res://CENARIO/objects/caverna/Chao_caverna.tscn::71aba82eaccba2a190d35d114083f0a9::1743018191::res://.godot/exported/133200997/export-86f7092b20d4193c2e6de3f83f3e1a1f-Chao_caverna.scn
+res://CENARIO/objects/caverna/Costela.tscn::b257ad03bd70f7aeadc2dd980853b3c7::1743018191::res://.godot/exported/133200997/export-be090eef0ac2b0a300b32f8e63ae22a9-Costela.scn
+res://CENARIO/objects/caverna/Cranio.tscn::e9649adbb92e4cf9993fd005545dbd1b::1743018191::res://.godot/exported/133200997/export-bee8c5b8af6d00de9ef728f8ccc1c6d1-Cranio.scn
+res://CENARIO/objects/caverna/Folhas.tscn::8ba7a3bf4406dc6dfdaf80a521fe2f40::1743018191::res://.godot/exported/133200997/export-219f55ecfdb287c1b4018f4324c635f1-Folhas.scn
+res://CENARIO/objects/caverna/Mortos.tscn::3cb07d589e6261404fee632d0c674f40::1743018191::res://.godot/exported/133200997/export-4c08152cdf297e07159f46b02302d9a4-Mortos.scn
+res://CENARIO/objects/caverna/Ossos.tscn::05149f9622aa393406fa09ba0a373099::1743018191::res://.godot/exported/133200997/export-052f4e7799a3e6cb81832f6d85d35aff-Ossos.scn
+res://CENARIO/objects/caverna/Parede_caverna.tscn::9089965bc90c7899c3f2026cd0173337::1743018191::res://.godot/exported/133200997/export-9b27a052ed4831a52148fc4721fffc95-Parede_caverna.scn
+res://CENARIO/objects/caverna/Pedestal.tscn::6e992cb1828a3b7f41ec3e01eefb7695::1743018191::res://.godot/exported/133200997/export-b3fcb70adc82b34078a5a844b9014b2f-Pedestal.scn
+res://CENARIO/objects/caverna/Pedra_magica.tscn::b25d54768b8730bdfee1f377032728a8::1743018192::res://.godot/exported/133200997/export-ecf3b0fc066e449b4a1af14aca4221b1-Pedra_magica.scn
+res://CENARIO/objects/caverna/Pilar_com_vinha.tscn::7b27b0e7cddf09bbcca5d572ddee208d::1743018192::res://.godot/exported/133200997/export-9677f6ad0373c156f70306fbbc87af4b-Pilar_com_vinha.scn
+res://CENARIO/objects/caverna/Pilar_cortado_1.tscn::57f345e652bee7a7739df48bcb0dc7c4::1743018192::res://.godot/exported/133200997/export-5e29fd76c5016464c04362078212a381-Pilar_cortado_1.scn
+res://CENARIO/objects/caverna/Pilar_cortado_2.tscn::e0e1ec9e8ed94ecdf3814bc695a2e5c7::1743018192::res://.godot/exported/133200997/export-4787f92ddc1cfa5977557c03ed299663-Pilar_cortado_2.scn
+res://CENARIO/objects/caverna/Pilar_cortado_3.tscn::c3aff2ca6dde8b229c8e4b1df05d81ad::1743018192::res://.godot/exported/133200997/export-e01a5e3586dd02c3e6ce2889b2fd1e9d-Pilar_cortado_3.scn
+res://CENARIO/objects/caverna/Pilar_cortado_4.tscn::2db795e333c40c3897945924ffc79881::1743018192::res://.godot/exported/133200997/export-83bcbc554b6ef7ec65a0178084575f42-Pilar_cortado_4.scn
+res://CENARIO/objects/caverna/Pilar_cortado_ao_meio.tscn::cdc30f77eae180c2b0f9613671421698::1743018192::res://.godot/exported/133200997/export-27d36383987cf490552c73e1197b628d-Pilar_cortado_ao_meio.scn
+res://CENARIO/objects/caverna/Pilar_cortado_tombado.tscn::5af8a34440e05bf75c27a43114a72138::1743018192::res://.godot/exported/133200997/export-ca552a73da9ad94f058b7ec59155c57c-Pilar_cortado_tombado.scn
+res://CENARIO/objects/caverna/Pilar_sem_vinha.tscn::2defc6bdb9a101fb04add01aa62d6000::1743018192::res://.godot/exported/133200997/export-410b3e5349fd768ed401f760fbafce3b-Pilar_sem_vinha.scn
+res://CENARIO/objects/caverna/Pilar_tombado.tscn::70f32f1ef95080705c1982ac587f8dab::1743018192::res://.godot/exported/133200997/export-cea8d731da829f4bf1a0b0ce0182b881-Pilar_tombado.scn
+res://CENARIO/objects/caverna/Teto_caverna.tscn::263c6be743d63e7e6aa722590b17e7dc::1743018193::res://.godot/exported/133200997/export-4285e3d371ee22dbfaf2300c234e9d17-Teto_caverna.scn
+res://CENARIO/objects/caverna/Tocha_caverna.tscn::86ecf92202cc4a92b6f88024ef6bc93a::1743018193::res://.godot/exported/133200997/export-859f7d261363658cafd77a028c80cb59-Tocha_caverna.scn
+res://CENARIO/objects/parte1/Agua_pt_1.tscn::57b1f52e4896d2ae72a16c3c3a86cb62::1743018193::res://.godot/exported/133200997/export-ab4c2a79fc47e306cb538f878bb265c0-Agua_pt_1.scn
+res://CENARIO/objects/parte1/Barco.tscn::622c0328daf13a268c04250338c8787b::1743018193::res://.godot/exported/133200997/export-fb2c314e631e6ecd14725ae054399a06-Barco.scn
+res://CENARIO/objects/parte1/Caixa.tscn::5047d680e6a901a9fd9f52bcab9ace84::1743018193::res://.godot/exported/133200997/export-422872a27b4631bc1fd393c6e32c0810-Caixa.scn
+res://CENARIO/objects/parte1/Cenário_parte_1.tscn::1bedfceb50a9c1d94e63f6c45f5a3376::1743018193::res://.godot/exported/133200997/export-700f2446e3cd83d4bd635876981b05a0-Cenário_parte_1.scn
+res://CENARIO/objects/parte1/Cerca_inteira.tscn::29d8cb567a6efa8b7e172234156bc4cc::1743018193::res://.godot/exported/133200997/export-2fc131ff493a64d14718b7b7ec33d242-Cerca_inteira.scn
+res://CENARIO/objects/parte1/Cerca_quebrada.tscn::9f2b831d2e5313de1d40e48e2ef11e9a::1743018193::res://.godot/exported/133200997/export-8a78777bafb4169be40d736ec2e7f577-Cerca_quebrada.scn
+res://CENARIO/objects/parte1/Chaogramapt_1.tscn::728ae46a20992150a7a1a5317f621e08::1743018194::res://.godot/exported/133200997/export-fc5003b1f97c25debcd31003d94c7049-Chaogramapt_1.scn
+res://CENARIO/objects/parte1/Chão_parte_1.tscn::cec2afba6926e7b27c89a1b83328722c::1743018194::res://.godot/exported/133200997/export-71a98c1600eaaeb5e167d6540ff7134a-Chão_parte_1.scn
+res://CENARIO/objects/parte1/Mesh_caminhos_pt_1.tscn::8c355cdd45ce60cede826ef44c1f73ff::1743018194::res://.godot/exported/133200997/export-2bf06104f57d53046d31c88e84edb922-Mesh_caminhos_pt_1.scn
+res://CENARIO/objects/parte1/Ponte.tscn::c9b660cdb7f0f189c5b8bbc268fc3c16::1743018194::res://.godot/exported/133200997/export-0062f13d7602b60c073e636fc41be815-Ponte.scn
+res://CENARIO/objects/parte2/Agua_pt_2.tscn::61137b4b534a799fbb6fdcb8f7721170::1743018194::res://.godot/exported/133200997/export-1fb506d31bbc204c9e31ac9669c0cfdd-Agua_pt_2.scn
+res://CENARIO/objects/parte2/Caminhos_e_pedras_pt_2.tscn::5051e3af9cfbbc9cd159fd28c180e432::1743018194::res://.godot/exported/133200997/export-d6ac86c93aceabaed557e2c9a77193d4-Caminhos_e_pedras_pt_2.scn
+res://CENARIO/objects/parte2/Casa_1.tscn::0d7e3b423b2240ace8d6e9aaf9d404e4::1743018194::res://.godot/exported/133200997/export-e0d91ea6c057bd34460648e71f69e324-Casa_1.scn
+res://CENARIO/objects/parte2/Casa_2.tscn::6a3b16963d96a23da59fb251972026de::1743018195::res://.godot/exported/133200997/export-679bca7bcc3add8ce96c9c5e63763251-Casa_2.scn
+res://CENARIO/objects/parte2/Casa_3.tscn::2c6f259bc2b5c40344f9ff8c4f220cc6::1743018195::res://.godot/exported/133200997/export-c9c171e6d66ff9c3839533ae52998e29-Casa_3.scn
+res://CENARIO/objects/parte2/Cenário_parte_2.tscn::14b91481cdb556b219c3716dc7658305::1743018195::res://.godot/exported/133200997/export-e1c993c3cc46db5e84fbd7c7642f829b-Cenário_parte_2.scn
+res://CENARIO/objects/parte2/Chao_grama_pt_2.tscn::a5d9aa29970ad87e637473dcc000a40a::1743018195::res://.godot/exported/133200997/export-2207c3a56561b9223e625bdbf85bb911-Chao_grama_pt_2.scn
+res://CENARIO/objects/parte2/Corrimao.tscn::6863fe0ea57058db621cd36c38f4cfc1::1743018196::res://.godot/exported/133200997/export-c052bf34e77ffbc081a53eb3fa7def05-Corrimao.scn
+res://CENARIO/objects/parte2/Deque.tscn::668e0b73619c3e30f4cb6c4115ad8f64::1743018196::res://.godot/exported/133200997/export-4676cc82a8cac646392f4cd7919e7a8c-Deque.scn
+res://CENARIO/objects/parte2/Escombros_ponte.tscn::1aed279b5650faa6e32ebcf27b899cd4::1743018196::res://.godot/exported/133200997/export-2b9ff3ceb7c44f85962849dac259678c-Escombros_ponte.scn
+res://CENARIO/objects/parte2/Fora_bar.tscn::fc6ee4466b79cea06ba3e0a78990a63d::1743018196::res://.godot/exported/133200997/export-9b7b44fd321a10d64ef9f39ce71dedd5-Fora_bar.scn
+res://CENARIO/objects/parte2/Paralelepipedo.tscn::22b723516e2c7d8d13efe69afa3ac7f6::1743018196::res://.godot/exported/133200997/export-140b95b37fd333cf4e7946b6ce14a0f5-Paralelepipedo.scn
+res://CENARIO/objects/parte2/Parte_sem_grama_pt_2.tscn::46b94f93baed3e2934f648ac3d072729::1743018196::res://.godot/exported/133200997/export-84235084685803f747435376859c7c04-Parte_sem_grama_pt_2.scn
+res://CENARIO/objects/parte2/Poste.tscn::a829fe643543e04269d5006913149b1c::1743018196::res://.godot/exported/133200997/export-8c4771e0dd454f0001e1a37e27a04257-Poste.scn
+res://CENARIO/objects/parte2/Rio_pt_2.tscn::5d37e87b8561042f925761b5ea0d0360::1743018196::res://.godot/exported/133200997/export-6eb609f4c2956f6eb7ffd79543a9e6ee-Rio_pt_2.scn
+res://CENARIO/objects/parte3/Aviso.tscn::afae9b0be3f96ae067935575abd8924e::1743018196::res://.godot/exported/133200997/export-647df8d6ba8ea3e9b2c554edabb87c8a-Aviso.scn
+res://CENARIO/objects/parte3/Caixote.tscn::a8eccbe239e85dcc4f1f2f6dc0fa4abb::1743018197::res://.godot/exported/133200997/export-f7ed605d1367f0f04c7562826f9b7469-Caixote.scn
+res://CENARIO/objects/parte3/Caixote_grama.tscn::77f714bbbd336395310166e2ae701815::1743018197::res://.godot/exported/133200997/export-83ebaaef0bf1a9795e78431858eb6ba0-Caixote_grama.scn
+res://CENARIO/objects/parte3/Caixote_largo.tscn::12fb5b804bd05a9fb6c1365028b01d5a::1743018197::res://.godot/exported/133200997/export-d0d5bb18221c14eb55cd05a275164091-Caixote_largo.scn
+res://CENARIO/objects/parte3/Cenário_parte_3.tscn::e7448c39b5fe5153441456d68c78825d::1743018197::res://.godot/exported/133200997/export-96d5823a9f7c22639a1480fb45cfcc0f-Cenário_parte_3.scn
+res://CENARIO/objects/parte3/Chão_parte_3.tscn::f11ea05638f966e547d8cc9d0ca379f3::1743018198::res://.godot/exported/133200997/export-bc558fb440a9024ea7d19472a7b47034-Chão_parte_3.scn
+res://CENARIO/objects/parte3/Pilar_1.tscn::b7606518150f377613f58e3da500b130::1743018198::res://.godot/exported/133200997/export-0480f94f4d9d21d64004245e143d486b-Pilar_1.scn
+res://CENARIO/objects/parte3/Pilar_2.tscn::77219dcde260e5e03445063cff3a7a99::1743018198::res://.godot/exported/133200997/export-138eccfe6e642acc8610ded3953a1b67-Pilar_2.scn
+res://CENARIO/objects/parte3/Pilar_3.tscn::daaf53f9732984978d1cfa1f9523bb2e::1743018198::res://.godot/exported/133200997/export-e09c816023299918b1f1ae77018ec8ae-Pilar_3.scn
+res://CENARIO/objects/parte3/Pilar_entrada_1.tscn::832b1e8ae24f72f083e1baf92f03ed6d::1743018198::res://.godot/exported/133200997/export-fc84ab4cbeb6992139b09ab3990e7577-Pilar_entrada_1.scn
+res://CENARIO/objects/parte3/Pilar_entrada_2.tscn::0494be5cbe7186a8e72873920b972634::1743018198::res://.godot/exported/133200997/export-a9a7ba9fda6cd1c4331aadd572369382-Pilar_entrada_2.scn
+res://CENARIO/objects/parte3/Shmungus.tscn::f98362316435e29c996953de06dd07bd::1743018198::res://.godot/exported/133200997/export-477198006c4f152aba56697bf40098b4-Shmungus.scn
+res://CENARIO/objects/parte3/Tabua.tscn::dce050d7961369131e959ef7a4cea9a5::1743018198::res://.godot/exported/133200997/export-ea887af7af25cf61d1495c019fa332b4-Tabua.scn
+res://CENARIO/objects/parte3/Tocha.tscn::9801c8be0c9b43f7eadec3ba695933c7::1743018198::res://.godot/exported/133200997/export-3a0d5a84c6c6028c5b10f07bcd0a27f4-Tocha.scn
+res://CENARIO/objects/parte3/Tocha_torta.tscn::a1a93de1a6633f9fb453ca5415f31c75::1743018198::res://.godot/exported/133200997/export-32c854db95a004e430b800eb28846ff2-Tocha_torta.scn
+res://CENARIO/objects/parte3/Toco_de_pilar_1.tscn::1f1a515ba8c825fad11c7af19bd0f19c::1743018198::res://.godot/exported/133200997/export-a477656591885d4742437fc75bfd7675-Toco_de_pilar_1.scn
+res://CENARIO/objects/parte3/Toco_de_pilar_2.tscn::497a32d768d5e1b61997788507330aa8::1743018199::res://.godot/exported/133200997/export-18c779d257018f83e1ae60fab4e44b5d-Toco_de_pilar_2.scn
+res://CENARIO/objects/pedras/Pedras.tscn::b947e22ebeb1386caa5fd9ddcdd43bcd::1743018199::res://.godot/exported/133200997/export-b49b02667992685d6a8e2afbf3fad953-Pedras.scn
+res://CENARIO/objects/pedras/Pedras_1.tscn::4742de0c76f43b2a3c7eb7365f253883::1743018199::res://.godot/exported/133200997/export-0cd915a922cc784d4d43e62147bd0d51-Pedras_1.scn
+res://CENARIO/objects/pedras/Pedras_2.tscn::004b7d241e59ab42f1a42c5f532a2bf7::1743018199::res://.godot/exported/133200997/export-c017192d6c21bd9a81571fc1e3603cd7-Pedras_2.scn
+res://CENARIO/objects/pedras/Pedras_3.tscn::4a4e81c346ddd32de09832e42bfc1851::1743018199::res://.godot/exported/133200997/export-14cc12f0b04193f7e3fe067c06cc926e-Pedras_3.scn
+res://CENARIO/objects/pedras/Pedras_4.tscn::ecb0a42729d7f93b7a1cda7a9ef90d65::1743018199::res://.godot/exported/133200997/export-05dddd7ced1a8635abb2fdf119287e33-Pedras_4.scn
+res://CENARIO/objects/pedras/Pedras_5.tscn::782a1ead284a4ef6c3faae43b53fdd7a::1743018199::res://.godot/exported/133200997/export-f3bce9695c9dcfa76f014791247972e8-Pedras_5.scn
+res://CENARIO/objects/pedras/Pedras_6.tscn::ec7a687017c2f5c0f3d5b26a01e53048::1743018199::res://.godot/exported/133200997/export-ad9ea2a47edfa4a55717cccbf4095225-Pedras_6.scn
+res://CENARIO/objects/pedras/Pedras_7.tscn::c7baa3e3ac4b28b9979130033014fef8::1743018199::res://.godot/exported/133200997/export-7ebfd480fe86aadb2cfcc4b2977a462b-Pedras_7.scn
+res://CENARIO/objects/pedras/Pedra_1.tscn::97f18629ab8786038d0704c4af792ade::1743018199::res://.godot/exported/133200997/export-ee961a3fdc5789c77d30f71c425b59cb-Pedra_1.scn
+res://CENARIO/objects/pedras/Pedra_2.tscn::c5d4270c53b35589bbfc63bfd74eb5db::1743018199::res://.godot/exported/133200997/export-431233fb672293b03536d1b95e7b91bc-Pedra_2.scn
+res://CENARIO/objects/pedras/Pedra_3.tscn::3c126ddd0b1fab2a38198df75c9e455a::1743018199::res://.godot/exported/133200997/export-5bb8e23b6b2b478e7b2818b3b2280aff-Pedra_3.scn
+res://CENARIO/objects/pedras/Pedra_4.tscn::504dca3a286080371c42b3dbedbcbb41::1743018200::res://.godot/exported/133200997/export-bf48bc508501eddf4abfbb7621e3a9fc-Pedra_4.scn
+res://CENARIO/objects/pedras/Pedra_5.tscn::b948c0a45d7533d891ca0e2fa33b10a6::1743018200::res://.godot/exported/133200997/export-9324f380de9468a70efc7eed2c8bee3c-Pedra_5.scn
+res://CENARIO/objects/pedras/Pedra_6.tscn::904868fd47912d6e987c203a60607aa4::1743018200::res://.godot/exported/133200997/export-bd54e4fcb4af9b62739c6006014fb06b-Pedra_6.scn
+res://CENARIO/objects/pedras/Pedra_7.tscn::f857aaf3c5cb68f2600e7dcd854b9c4b::1743018200::res://.godot/exported/133200997/export-db2b2dabaed564347d327bfecb164f12-Pedra_7.scn
+res://CENARIO/objects/pedras/Pedrinhas.tscn::c6f164a7f60ce9cb68c86ab35b755ffb::1743018200::res://.godot/exported/133200997/export-b13d982b3cfd56274ccb55d93b5f7fac-Pedrinhas.scn
+res://CENARIO/objects/Tamanho lana.tscn::a936ae5f383b54cd4515d615d5862a43::1743018200::res://.godot/exported/133200997/export-f87fb7738f57270214b26f16bd07abc4-Tamanho lana.scn
+res://parte1/parte_um_final.tscn::457ec0f83677e4041709da1186e7f6de::1743099778::res://.godot/exported/133200997/export-f01bd9e31909be741ae66df7575c1087-parte_um_final.scn
+res://parte2/parte_dois_final.tscn::1cf9c8857b7a34394bc4ad62a9b77cc6::1743099778::res://.godot/exported/133200997/export-079c4a87183537468a49ecf1189fcf23-parte_dois_final.scn
+res://parte3/parte_tres_final.tscn::910ca53d8e11df51d2de56ead281d05a::1743099779::res://.godot/exported/133200997/export-c044f9fef715696dcb02cf12cce1c838-parte_tres_final.scn
+res://PERSONAGENS/Douglas/DouglasTexturado.tscn::1e6cc4152a62340c9f5a81ae856c4f4e::1743018209::res://.godot/exported/133200997/export-e84744d8c8306f594b5b786b24b44f93-DouglasTexturado.scn
+res://PERSONAGENS/Giovanna/GiovannaTexturada.tscn::c99338d1e6750e8236cf642c6bd261b3::1743018209::res://.godot/exported/133200997/export-d46da1863a0aa5316c5224d5e47a28fc-GiovannaTexturada.scn
+res://PERSONAGENS/Guará/GuaráTexturado.tscn::d70c4efd964d38bec2c89663c82fc482::1743018209::res://.godot/exported/133200997/export-4533effd0ced39e942eda91e761b03c4-GuaráTexturado.scn
+res://PERSONAGENS/Juninho/JuninhoTexturado.tscn::6fe95ab96712aefccf48c687e06d6669::1743018209::res://.godot/exported/133200997/export-df2b9997f5bbf2418c0cab7f4dcb11ca-JuninhoTexturado.scn
+res://PERSONAGENS/Lana/Lana.tscn::3ec48ea8bfffcc1ff0917a11fae64889::1743018209::res://.godot/exported/133200997/export-69f5d10f8d3f048772a7c52d004ca572-Lana.scn
+res://PERSONAGENS/Lana/player.tscn::4a691bb17f6fde153a6f93c611836f5d::1743097877::res://.godot/exported/133200997/export-bcfcdad97bfa083ece8c082d8facf8ec-player.scn
+res://portais/transition.tscn::a98ccb13f94df017c2742a2fe0b0bd84::1743018210::res://.godot/exported/133200997/export-247e977c9ea99ce3a46444c4c8797f76-transition.scn
+res://portais/transition_2.tscn::4c10786f280e0bd574a17b96eea7e5c2::1743018210::res://.godot/exported/133200997/export-d7071ace2b1bb198486cfb00f93102fb-transition_2.scn
+res://UI/Options/PauseToOptions/input_button.tscn::71dadb077aad07a50e50073c3f79929d::1743018210::res://.godot/exported/133200997/export-6b375e1d40736436a2a3a7329c262efd-input_button.scn
+res://UI/Options/PauseToOptions/Optionsmenu.tscn::f47f8a38631c9940d8d627dc63929d37::1743049640::res://.godot/exported/133200997/export-ce0529662a2a1865993e0df96bc0a051-Optionsmenu.scn
+res://UI/Options/StartToOptions/OptionsmenuToStart.tscn::56e587102596e6e6fd431aed2edfebbe::1743018211::res://.godot/exported/133200997/export-f55f81f2b050a830d35ad7ff807d70c2-OptionsmenuToStart.scn
+res://UI/PauseMenu/pause_menu.tscn::2ee2aeffbf1f0697af7230872be30aa6::1743049638::res://.godot/exported/133200997/export-f5db35c1c48c9026304e38501e45e7a9-pause_menu.scn
+res://UI/SaveMenu/Save_MenuCool.tscn::f56eb5476c184c6a399681c2a8cdfd28::1743027198::res://.godot/exported/133200997/export-14f1388a6150d5766fbedfd1cae66b86-Save_MenuCool.scn
+res://UI/StartMenu/StartMenu.tscn::d03b8b075b69b7e8089f3aa0a7c9cfbf::1743097876::res://.godot/exported/133200997/export-9fbc3c5bf3ce618ee91ff9b17abad41e-StartMenu.scn
+res://healthbarfulanansei.tres::a96a2857a8cca35414969552b9f3ff22::1743095761::res://.godot/exported/133200997/export-618e4a34c3e6fc187ca97263b94a8839-healthbarfulanansei.res
+res://parte4.tscn::28578d05bcd9e27e38ecc714109f9f93::1743101078::res://.godot/exported/133200997/export-657cb5e7dce8858fd7f4ca4d4669ee7e-parte4.scn
+res://staminabarfulana.tres::50f58a65979ffda51c44b49edf667376::1743095761::res://.godot/exported/133200997/export-8e2149ee30a089af84acca2a5239575e-staminabarfulana.res
+res://11/Canvas/Pause/pause_menu.tscn::4336130e218853a8b84c20f7f3cb8dff::1743018185::res://.godot/exported/133200997/export-a077d3e814ac14611b538b298e60a41e-pause_menu.scn
+res://11/coisas novas/enemyhealthbar.tscn::b7f22daac6f7745e2e1f38b924421891::1743018185::res://.godot/exported/133200997/export-262f8866c2630fcc7f1a9923d499f7b7-enemyhealthbar.scn
+res://11/Personagens/Junin/JuninTexturizado.tscn::91371403d322fb693912846e48193b30::1743018185::res://.godot/exported/133200997/export-9d23736602a01a0ba0bf36bb6a9e2ca2-JuninTexturizado.scn
+res://11/healthbarfulanansei.tres::222e0048c23e2449a52a9878476e83b5::1743018015::res://.godot/exported/133200997/export-4e3c947f74d751402ddc4d6045f3dd29-healthbarfulanansei.res
+res://11/main.tscn::60105cd4929d83da29d0063ba6897ea1::1743099779::res://.godot/exported/133200997/export-4854be3596c14216d3bcca0b865ff7d0-main.scn
+res://11/player.tscn::16a1429adac96197a25713d1c7391c9c::1743018186::res://.godot/exported/133200997/export-1a7593c73b4a144de4a991a2a210d1db-player.scn
+res://11/staminabarfulana.tres::08c6d08d09638efe6b2938fb6c999791::1743018016::res://.godot/exported/133200997/export-5974b35080944b9df31f8167d2139b26-staminabarfulana.res

@@ -1,0 +1,668 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1733165267
+afbafbajfkafjka.tscn::PackedScene::831740466099416397::1733163444::0::1::::<><>::res://11/Personagens/Junin/Junin_inim.gd<>uid://bmomwxg1ui1jn::::res://11/Personagens/Junin/JuninTexturizado.tscn<>uid://b5nh5pne6j04e::::res://11/Personagens/Junin/Animações/AnimJ.res
+export_presets.cfg::TextFile::-1::1733156757::0::1::::<><>::
+healthbarfulanansei.tres::GradientTexture1D::4625093980307007491::1733164162::0::1::::<><>::
+icon.svg::CompressedTexture2D::910037080570675679::1733156757::1733156757::1::::<><>::
+parte4.tscn::PackedScene::2339538223470905506::1733162038::0::1::::<><>::uid://diq8h3q2y57bv::::res://CENARIO/objects/caverna/Caverna.tscn<>uid://d4nnr5n0yhq1g::::res://CENARIO/objects/caverna/Tocha_caverna.tscn<>res://portais/PortalCutsceneFim.gd<>uid://dmshoeekuq3pw::::res://Personagens/Lana/player.tscn
+staminabarfulana.tres::GradientTexture1D::2528309726943497908::1733164162::0::1::::<><>::
+::res://11/::1733164539
+healthbarfulanansei.tres::GradientTexture1D::935623459989464151::1733162340::0::1::::<><>::
+Healthplayeridk.gd::GDScript::-1::1733157237::0::1::::<>ProgressBar<>::
+main.gd::GDScript::-1::1733163234::0::1::::main<>Node<>::
+main.tscn::PackedScene::2501219694669050834::1733164539::0::1::::<><>::res://11/main.gd<>uid://dmshoeekuq3pw::::res://PERSONAGENS/Lana/player.tscn<>res://11/Healthplayeridk.gd<>uid://csttrphb20ita::::res://11/Canvas/Pause/pause_menu.tscn<>res://11/Manabar.gd<>uid://btr65xfs0hqf::::res://PERSONAGENS/Giovanna/GiovannaTexturada.tscn<>res://11/Personagens/Junin/Junin_inim.gd<>uid://bmomwxg1ui1jn::::res://11/Personagens/Junin/JuninTexturizado.tscn<>uid://b5nh5pne6j04e::::res://11/Personagens/Junin/Animações/AnimJ.res<>res://11/ProgressBardojunin.gd
+Manabar.gd::GDScript::-1::1733157237::0::1::::<>ProgressBar<>::
+player.gd::GDScript::-1::1733157238::0::1::::Player<>CharacterBody3D<>::
+player.tscn::PackedScene::8039137211127162500::1733157238::0::1::::<><>::res://11/player.gd<>uid://b3k2rb73unbnm::::res://11/Personagens/Lana/Lana.tscn<>uid://cma3g4xj4dewe::::res://11/Personagens/Lana/Animações/Anim.res
+ProgressBardojunin.gd::GDScript::-1::1733162340::0::1::::<>ProgressBar<>::
+scripite.gd::GDScript::-1::1733157238::0::1::::main<>Node<>::
+staminabarfulana.tres::GradientTexture1D::4939011571853050331::1733157238::0::1::::<><>::
+Timer.gd::GDScript::-1::1733157238::0::1::::<>Timer<>::
+::res://11/Canvas/::1733157649
+::res://11/Canvas/Pause/::1733157866
+pause_menu.gd::GDScript::-1::1733157649::0::1::::<>Control<>::
+pause_menu.tscn::PackedScene::6076648510303258878::1733157866::0::1::::<><>::res://11/Canvas/Pause/pause_menu.gd
+::res://11/coisas novas/::1733157237
+Barradevida.gd::GDScript::-1::1733157237::0::1::::<>ProgressBar<>::
+coisas novas.gd::GDScript::-1::1733157237::0::1::::<>RefCounted<>::
+enemyhealthbar.tscn::PackedScene::3937026346196740976::1733157237::0::1::::<><>::
+::res://11/Personagens/::1733162109
+::res://11/Personagens/Junin/::1733164534
+juninAnimações2.glb::PackedScene::6084415949063553550::1733157237::1733157242::1::::<><>::
+JuninTexturizado.tscn::PackedScene::3258357205799704167::1733157237::0::1::::<><>::uid://csxlpawa07wmo::::res://11/Personagens/Junin/juninAnimações2.glb<>uid://cl5yat4r003fw::::res://11/Personagens/Junin/Texturas/couro com Sangue.png<>uid://dccylukluoaw::::res://11/Personagens/Junin/Texturas/pele.001ComSangue02.png<>uid://bt1aeuqd6mnf7::::res://11/Personagens/Junin/Texturas/espada Base Color.png
+Junin_inim.gd::GDScript::-1::1733164534::0::1::::<>CharacterBody3D<>::
+::res://11/Personagens/Junin/Animações/::1733159251
+AnimJ.res::AnimationLibrary::4519402304559623098::1733159251::0::1::::<><>::uid://b56s22ylo1v0p::::res://audio/voz/Zumbi (2).mp3<>uid://cve2312ftbxsv::::res://11/Personagens/Junin/Animações/Nocaute.res<>uid://cfto3im1genlc::::res://11/Personagens/Junin/Animações/receberAtaque.res<>uid://cwgqm0cu1rbad::::res://11/Personagens/Junin/Animações/receberAtaque_02.res<>uid://lc012n85h34a::::res://11/Personagens/Junin/Animações/Respirando.res
+Nocaute.res::Animation::6256755363404609901::1733159250::0::1::::<><>::uid://ckx23u8vy0psv::::res://audio/voz/Zumbi (3).mp3
+receberAtaque.res::Animation::5163909242945533164::1733159251::0::1::::<><>::uid://cdrcq3y7dcm3q::::res://audio/voz/Zumbi (1).mp3
+receberAtaque_02.res::Animation::6330376412475880367::1733157237::0::1::::<><>::
+Respirando.res::Animation::777771830739843522::1733157237::0::1::::<><>::
+::res://11/Personagens/Junin/Texturas/::1733157241
+couro Base Color.png::CompressedTexture2D::139185511825544718::1733157237::1733157239::1::::<><>::
+couro com Sangue.png::CompressedTexture2D::5608308231402553320::1733157237::1733157239::1::::<><>::
+espada Base Color.png::CompressedTexture2D::3773690752958983214::1733157237::1733157238::1::::<><>::
+pedra textura.jpg::CompressedTexture2D::4761196189439091748::1733157238::1733157241::1::::<><>::
+pele.001 Base Color.png::CompressedTexture2D::6385489394470416590::1733157238::1733157238::1::::<><>::
+pele.001ComSangue02.png::CompressedTexture2D::214860188584263262::1733157238::1733157238::1::::<><>::
+::res://audio/::1733156829
+default_bus_layout.tres::AudioBusLayout::4330799771611970693::1733156828::0::1::::<><>::
+::res://audio/musicas/::1733156829
+bar (MP3).mp3::AudioStreamMP3::462543630305207259::1733156828::1733156828::1::::<><>::
+bônus 1 (MP3).mp3::AudioStreamMP3::6164661607654058692::1733156828::1733156829::1::::<><>::
+introdução (MP3).mp3::AudioStreamMP3::7144316477649749348::1733156829::1733156829::1::::<><>::
+ruínas (MP3).mp3::AudioStreamMP3::4941645330466772019::1733156829::1733156829::1::::<><>::
+vilarejo (MP3).mp3::AudioStreamMP3::2657610221179869160::1733156829::1733156829::1::::<><>::
+::res://audio/sons/::1733156829
+Rio.mp3::AudioStreamMP3::7724494189947214364::1733156829::1733156829::1::::<><>::
+Vento entre as arvores.mp3::AudioStreamMP3::6287475225673842263::1733156829::1733156829::1::::<><>::
+Vento ocasional.mp3::AudioStreamMP3::8898077008523079093::1733156829::1733156829::1::::<><>::
+::res://audio/voz/::1733156830
+Lana01.mp3::AudioStreamMP3::4132147478568227862::1733156829::1733156829::1::::<><>::
+Lana02.mp3::AudioStreamMP3::3670798619225817951::1733156829::1733156829::1::::<><>::
+Lana03.mp3::AudioStreamMP3::5365993158329079668::1733156829::1733156829::1::::<><>::
+LanaA.mp3::AudioStreamMP3::1811450341393873190::1733156829::1733156829::1::::<><>::
+Zumbi (1).mp3::AudioStreamMP3::5018653835994472760::1733156829::1733156829::1::::<><>::
+Zumbi (2).mp3::AudioStreamMP3::4557224281240459461::1733156830::1733156830::1::::<><>::
+Zumbi (3).mp3::AudioStreamMP3::5523900955576697565::1733156830::1733156830::1::::<><>::
+::res://bar/::1733156830
+bar_final.tscn::PackedScene::4655964707393433632::1733156830::0::1::::<><>::uid://t2wwhxn0cuwn::::res://CENARIO/objects/bar/Bar.tscn<>uid://dmshoeekuq3pw::::res://PERSONAGENS/Lana/player.tscn<>res://portais/portal_int_bar.gd<>uid://dw377np2ku8ps::::res://PERSONAGENS/Giovanna/Animações/bebendoRespirar.res<>uid://btr65xfs0hqf::::res://PERSONAGENS/Giovanna/GiovannaTexturada.tscn<>uid://drpe21y3y27bu::::res://PERSONAGENS/Douglas/Animações/secarCopo.res<>uid://6o1faa76sqno::::res://PERSONAGENS/Douglas/DouglasTexturado.tscn<>uid://c8xkyskxe8ar5::::res://portais/transition.tscn
+::res://CENARIO/::1733156842
+::res://CENARIO/collisions/::1733156833
+::res://CENARIO/collisions/arvores/::1733156830
+collision arvore cortada.res::ArrayMesh::2868054752659803897::1733156830::0::1::::<><>::
+collision arvore cortada.tres::ConcavePolygonShape3D::250860082975361861::1733156830::0::1::::<><>::
+collision arvore.tres::ConcavePolygonShape3D::1368505531508292392::1733156830::0::1::::<><>::
+collision raizes arvorelegal.res::ArrayMesh::839075072898571885::1733156830::0::1::::<><>::
+collision raizes arvorelegal.tres::ConcavePolygonShape3D::1027451368065385399::1733156830::0::1::::<><>::
+collision tronco arvorelegal.res::ArrayMesh::5309089830807366480::1733156830::0::1::::<><>::
+collision tronco arvorelegal.tres::ConcavePolygonShape3D::777092057455096745::1733156830::0::1::::<><>::
+::res://CENARIO/collisions/bar/::1733156830
+collision balcao.res::ArrayMesh::4773693705939825488::1733156830::0::1::::<><>::
+collision banco.res::ArrayMesh::6220843117144842018::1733156830::0::1::::<><>::
+collision banco.tres::ConcavePolygonShape3D::877987014794321387::1733156830::0::1::::<><>::
+collision barril.res::ArrayMesh::8018046158489418626::1733156830::0::1::::<><>::
+collision barril.tres::ConcavePolygonShape3D::7480353675074172876::1733156830::0::1::::<><>::
+collision beiral escada e galeria.res::ArrayMesh::1054449096967100836::1733156830::0::1::::<><>::
+collision beiral escada e galeria.tres::ConcavePolygonShape3D::548526643348316167::1733156830::0::1::::<><>::
+collision chao bar.res::ArrayMesh::1539480982895851331::1733156830::0::1::::<><>::
+collision chao bar.tres::ConcavePolygonShape3D::3049858442793457603::1733156830::0::1::::<><>::
+collision escada estante.res::ArrayMesh::2027384242454217723::1733156830::0::1::::<><>::
+collision escada estante.tres::ConcavePolygonShape3D::8052272742356258005::1733156830::0::1::::<><>::
+collision janela.res::ArrayMesh::7131212230461606461::1733156830::0::1::::<><>::
+collision janela.tres::ConvexPolygonShape3D::2997075596008546430::1733156830::0::1::::<><>::
+collision mesa.res::ArrayMesh::883205305953661529::1733156830::0::1::::<><>::
+collision mesa.tres::ConvexPolygonShape3D::2199090468810839144::1733156830::0::1::::<><>::
+collision paredes bar.res::ArrayMesh::6590547561912152989::1733156830::0::1::::<><>::
+collision paredes bar.tres::ConcavePolygonShape3D::1425932542231391288::1733156830::0::1::::<><>::
+collision porta.res::ArrayMesh::7550936846318555892::1733156830::0::1::::<><>::
+collision porta.tres::ConvexPolygonShape3D::3661165575424936687::1733156830::0::1::::<><>::
+collision quadro.res::ArrayMesh::3214220581640669847::1733156830::0::1::::<><>::
+collision quadro.tres::ConcavePolygonShape3D::666161757091068134::1733156830::0::1::::<><>::
+collision teto bar.res::ArrayMesh::2743398222010687427::1733156830::0::1::::<><>::
+collision teto bar.tres::ConcavePolygonShape3D::3045573133265543950::1733156830::0::1::::<><>::
+collsion balcao.tres::ConcavePolygonShape3D::8178930302180785102::1733156830::0::1::::<><>::
+::res://CENARIO/collisions/caverna/::1733156831
+collision chao caverna.res::ArrayMesh::7489544217549759117::1733156830::0::1::::<><>::
+collision chao caverna.tres::ConcavePolygonShape3D::8521336605497006873::1733156831::0::1::::<><>::
+collision costela.res::ArrayMesh::5204243521992480799::1733156831::0::1::::<><>::
+collision cranio.res::ArrayMesh::2564892704805536510::1733156831::0::1::::<><>::
+collision mortos.res::ArrayMesh::2481730973200037112::1733156831::0::1::::<><>::
+collision parede caverna.res::ArrayMesh::2534917292051287130::1733156831::0::1::::<><>::
+collision pedestal.res::ArrayMesh::5534699635626531403::1733156831::0::1::::<><>::
+collision pilar com vinha.res::ArrayMesh::8575736950289077588::1733156831::0::1::::<><>::
+collision pilar cortado 1.res::ArrayMesh::8326310299032655364::1733156831::0::1::::<><>::
+collision pilar cortado 2.res::ArrayMesh::6303866988917465409::1733156831::0::1::::<><>::
+collision pilar cortado 3.res::ArrayMesh::3806463900490112243::1733156831::0::1::::<><>::
+collision pilar cortado 4.res::ArrayMesh::2417666368377974557::1733156831::0::1::::<><>::
+collision pilar cortado ao meio.res::ArrayMesh::8744062673114628262::1733156831::0::1::::<><>::
+collision pilar cortado tombado.res::ArrayMesh::8379411336023867462::1733156831::0::1::::<><>::
+collision pilar sem vinha.res::ArrayMesh::9067963027434254656::1733156831::0::1::::<><>::
+collision pilar tombado.res::ArrayMesh::4518732937784281307::1733156831::0::1::::<><>::
+collision tocha caverna.res::ArrayMesh::697522631412081203::1733156831::0::1::::<><>::
+::res://CENARIO/collisions/parte1/::1733156831
+colision caixa.tres::ConcavePolygonShape3D::7838316507001539721::1733156831::0::1::::<><>::
+collision cerca inteira.res::ArrayMesh::6921629547605350433::1733156831::0::1::::<><>::
+collision cerca inteira.tres::ConcavePolygonShape3D::888610391537236637::1733156831::0::1::::<><>::
+collision cerca quebrada.res::ArrayMesh::2731558438244320984::1733156831::0::1::::<><>::
+collision cerca quebrada.tres::ConcavePolygonShape3D::7987272337541947561::1733156831::0::1::::<><>::
+collision chao.tres::ConcavePolygonShape3D::2515351797719996590::1733156831::0::1::::<><>::
+collision gramachaorio pt1.res::ArrayMesh::8031707055937359588::1733156831::0::1::::<><>::
+collision gramachaorio pt1.tres::ConcavePolygonShape3D::2952927543765802313::1733156831::0::1::::<><>::
+collision ponte.res::ArrayMesh::2538644842270043284::1733156831::0::1::::<><>::
+::res://CENARIO/collisions/parte2/::1733156832
+collision casa1.res::ArrayMesh::2145183629984064097::1733156831::0::1::::<><>::
+collision casa1.tres::ConcavePolygonShape3D::4840076450811274965::1733156831::0::1::::<><>::
+collision casa2.res::ArrayMesh::3898727703849134837::1733156831::0::1::::<><>::
+collision casa2.tres::ConcavePolygonShape3D::7777004350713122937::1733156831::0::1::::<><>::
+collision casa3.res::ArrayMesh::520483970294885115::1733156831::0::1::::<><>::
+collision casa3.tres::ConcavePolygonShape3D::3960126183209999767::1733156831::0::1::::<><>::
+collision chao pt2.res::ArrayMesh::523665767116658533::1733156831::0::1::::<><>::
+collision chao pt2.tres::ConcavePolygonShape3D::2238705643290697687::1733156831::0::1::::<><>::
+collision corrimao.res::ArrayMesh::8564338253881482723::1733156831::0::1::::<><>::
+collision corrimao.tres::ConcavePolygonShape3D::1392276921227062503::1733156831::0::1::::<><>::
+collision deque.res::ArrayMesh::6778458473209479138::1733156831::0::1::::<><>::
+collision deque.tres::ConcavePolygonShape3D::6818458858198382293::1733156831::0::1::::<><>::
+collision escombro de ponte.res::ArrayMesh::6157472380574003004::1733156831::0::1::::<><>::
+collision escombro de ponte.tres::ConcavePolygonShape3D::138860950927644507::1733156831::0::1::::<><>::
+collision forabar.res::ArrayMesh::2365705891471046014::1733156831::0::1::::<><>::
+collision forabar.tres::ConcavePolygonShape3D::5785283609345784659::1733156832::0::1::::<><>::
+collision paralelepipedo.res::ArrayMesh::420576190050658764::1733156832::0::1::::<><>::
+collision paralelepipedo.tres::ConcavePolygonShape3D::6108505131126277932::1733156832::0::1::::<><>::
+collision parede.res::ArrayMesh::5883059896201387969::1733156832::0::1::::<><>::
+collision poste .res::ArrayMesh::8567413497252974737::1733156832::0::1::::<><>::
+collision poste.tres::ConcavePolygonShape3D::3766981039129222147::1733156832::0::1::::<><>::
+::res://CENARIO/collisions/parte3/::1733156833
+colisioescada.glb::PackedScene::6548531014917340350::1733156832::1733156832::1::::<><>::
+collision chao pt3.res::ArrayMesh::1997496627431870981::1733156832::0::1::::<><>::
+collision chao pt3.tres::ConcavePolygonShape3D::4675123671899545337::1733156832::0::1::::<><>::
+collision escada shmungus.res::ArrayMesh::8923353605514500311::1733156832::0::1::::<><>::
+collision escada shmungus.tres::ConcavePolygonShape3D::5780310145299552129::1733156832::0::1::::<><>::
+collision pilar1.res::ArrayMesh::799576544249129697::1733156832::0::1::::<><>::
+collision pilar1.tres::ConcavePolygonShape3D::121775710750828622::1733156832::0::1::::<><>::
+collision pilar2.res::ArrayMesh::2811378488379416995::1733156832::0::1::::<><>::
+collision pilar2.tres::ConcavePolygonShape3D::9050286030820409813::1733156832::0::1::::<><>::
+collision pilar3.res::ArrayMesh::3076241049084475113::1733156832::0::1::::<><>::
+collision pilar3.tres::ConcavePolygonShape3D::311124804660760058::1733156832::0::1::::<><>::
+collision pilar entrada1.res::ArrayMesh::6407823784702493427::1733156832::0::1::::<><>::
+collision pilar entrada1.tres::ConcavePolygonShape3D::7947589166861181510::1733156832::0::1::::<><>::
+collision pilar entrada2.res::ArrayMesh::9195452031441106601::1733156832::0::1::::<><>::
+collision pilar entrada2.tres::ConcavePolygonShape3D::990644521160086234::1733156832::0::1::::<><>::
+collision shmungus.res::ArrayMesh::6086515406314024864::1733156832::0::1::::<><>::
+collision shmungus.tres::ConcavePolygonShape3D::3908166305492902352::1733156832::0::1::::<><>::
+collision tabua.tres::BoxShape3D::6807916197461289074::1733156832::0::1::::<><>::
+collision toco de pilar1.res::ArrayMesh::3561036095696827738::1733156832::0::1::::<><>::
+collision toco de pilar1.tres::ConcavePolygonShape3D::5303949000022601599::1733156833::0::1::::<><>::
+collision toco de pilar2.res::ArrayMesh::3866171468553409683::1733156833::0::1::::<><>::
+collision toco de pilar2.tres::ConcavePolygonShape3D::3811650109221053735::1733156833::0::1::::<><>::
+templocolisoon.res::ArrayMesh::8285715026517142163::1733156833::0::1::::<><>::
+::res://CENARIO/collisions/pedras/::1733156833
+collision pedra1.tres::ConcavePolygonShape3D::7328353276137037293::1733156833::0::1::::<><>::
+collision pedra2.tres::ConcavePolygonShape3D::7326819197176948894::1733156833::0::1::::<><>::
+collision pedra3.res::ArrayMesh::8610057076920233429::1733156833::0::1::::<><>::
+collision pedra3.tres::ConcavePolygonShape3D::6359436028854690446::1733156833::0::1::::<><>::
+collision pedras.res::ArrayMesh::1669945137822202597::1733156833::0::1::::<><>::
+collision pedras.tres::ConcavePolygonShape3D::6896250773929958944::1733156833::0::1::::<><>::
+::res://CENARIO/meshs/::1733156837
+tamanho lana.res::ArrayMesh::8613886297702152099::1733156833::0::1::::<><>::
+::res://CENARIO/meshs/arvores/::1733156833
+arvore1.res::ArrayMesh::6015432027578579789::1733156833::0::1::::<><>::
+arvore2.res::ArrayMesh::7500016692309938157::1733156833::0::1::::<><>::
+arvore3.res::ArrayMesh::2604406252378200972::1733156833::0::1::::<><>::
+arvore4.res::ArrayMesh::4470223793606878509::1733156833::0::1::::<><>::
+arvore5.res::ArrayMesh::871927250727739053::1733156833::0::1::::<><>::
+arvoresnovas (1).glb::PackedScene::3836544249230053634::1733156833::1733156833::1::::<><>::
+collision raizes arvorelegal.res::ArrayMesh::378678549868802578::1733156833::0::1::::<><>::
+collision tronco arvorelegal.res::ArrayMesh::4520270583705224376::1733156833::0::1::::<><>::
+mesh arvore cortada.res::ArrayMesh::6724614107648523693::1733156833::0::1::::<><>::
+mesh arvore legal.res::ArrayMesh::2329701820217414466::1733156833::0::1::::<><>::
+mesh tronco raizes arvore legal.res::ArrayMesh::1492227901431645976::1733156833::0::1::::<><>::
+raizes arvorelegal.res::ArrayMesh::3864007742696850699::1733156833::0::1::::<><>::
+::res://CENARIO/meshs/bar/::1733156834
+mesh balcao.res::ArrayMesh::5375616640983421820::1733156833::0::1::::<><>::
+mesh banco.res::ArrayMesh::364454179304969349::1733156833::0::1::::<><>::
+mesh barril.res::ArrayMesh::178179743962731630::1733156833::0::1::::<><>::
+mesh beiral escada e galeria.res::ArrayMesh::5544314824832543210::1733156833::0::1::::<><>::
+mesh chao bar.res::ArrayMesh::8132717962631203816::1733156833::0::1::::<><>::
+mesh copo.res::ArrayMesh::5601005821353430595::1733156833::0::1::::<><>::
+mesh escada estante.res::ArrayMesh::7873132520100932602::1733156833::0::1::::<><>::
+mesh garrafa.res::ArrayMesh::1008417671923811560::1733156833::0::1::::<><>::
+mesh janela.res::ArrayMesh::5003433300776048862::1733156833::0::1::::<><>::
+mesh luz chique.res::ArrayMesh::7553016796225914342::1733156833::0::1::::<><>::
+mesh luz.res::ArrayMesh::280562260231770452::1733156833::0::1::::<><>::
+mesh mesa.res::ArrayMesh::6749923823352528856::1733156833::0::1::::<><>::
+mesh paredes bar.res::ArrayMesh::645779567452596052::1733156833::0::1::::<><>::
+mesh porta.res::ArrayMesh::4147651460854983651::1733156833::0::1::::<><>::
+mesh pratos.res::ArrayMesh::5290013057027622721::1733156833::0::1::::<><>::
+mesh quadro.res::ArrayMesh::5953648494670708064::1733156833::0::1::::<><>::
+mesh teto bar.res::ArrayMesh::1164846630490401358::1733156833::0::1::::<><>::
+mesh umprato.res::ArrayMesh::7349365188310962571::1733156834::0::1::::<><>::
+::res://CENARIO/meshs/caverna/::1733156834
+mesh chao caverna.res::ArrayMesh::5298170104524672082::1733156834::0::1::::<><>::
+mesh costela.res::ArrayMesh::4228254488415591770::1733156834::0::1::::<><>::
+mesh cranio.res::ArrayMesh::7622517820181449054::1733156834::0::1::::<><>::
+mesh folhas.res::ArrayMesh::5891302749730071865::1733156834::0::1::::<><>::
+mesh mortos.res::ArrayMesh::5255645622992544657::1733156834::0::1::::<><>::
+mesh ossos.res::ArrayMesh::570921265308831048::1733156834::0::1::::<><>::
+mesh parede caverna.res::ArrayMesh::7130631475920453560::1733156834::0::1::::<><>::
+mesh pedestal.res::ArrayMesh::5301829994406798898::1733156834::0::1::::<><>::
+mesh pedra magica.res::ArrayMesh::8631758732909299009::1733156834::0::1::::<><>::
+mesh pilar com vinha.res::ArrayMesh::5021317831284953624::1733156834::0::1::::<><>::
+mesh pilar cortado 1.res::ArrayMesh::6147550351990977176::1733156834::0::1::::<><>::
+mesh pilar cortado 2.res::ArrayMesh::7085737493323589414::1733156834::0::1::::<><>::
+mesh pilar cortado 3.res::ArrayMesh::5961349565673591197::1733156834::0::1::::<><>::
+mesh pilar cortado 4.res::ArrayMesh::4732224428237464200::1733156834::0::1::::<><>::
+mesh pilar cortado ao meio.res::ArrayMesh::5767547482082612656::1733156834::0::1::::<><>::
+mesh pilar cortado tombado.res::ArrayMesh::1349597021783029297::1733156834::0::1::::<><>::
+mesh pilar sem vinha.res::ArrayMesh::1670294966479278274::1733156834::0::1::::<><>::
+mesh pilar tombado.res::ArrayMesh::5571262674264827843::1733156834::0::1::::<><>::
+mesh teto caverna.res::ArrayMesh::4909239655328692665::1733156834::0::1::::<><>::
+mesh tocha caverna.res::ArrayMesh::3050673719931656682::1733156834::0::1::::<><>::
+::res://CENARIO/meshs/geral/::1733156834
+::res://CENARIO/meshs/geral/grama/::1733156834
+grama.res::ArrayMesh::4924328912188627191::1733156834::0::1::::<><>::
+::res://CENARIO/meshs/parte1/::1733156835
+aguapt1.glb::PackedScene::4679739647264677810::1733156834::1733156834::1::::<><>::
+arvore png.res::ArrayMesh::1287339039694212851::1733156834::0::1::::<><>::uid://bqu2kcqmat5xo::::res://CENARIO/meshs/parte1/arvorePNG1_4-removebg-preview (2).png<>uid://cy5fq4k0omhge::::res://CENARIO/meshs/parte1/arvorePNG1_1-removebg-preview.png<>uid://bioekx38o2sn1::::res://CENARIO/meshs/parte1/arvorePNG1_2-removebg-preview (1).png<>uid://cka2r7owxb3on::::res://CENARIO/meshs/parte1/arvorePNG1_3-removebg-preview (1).png
+arvorefundo.glb::PackedScene::6019838812769508967::1733156834::1733156834::1::::<><>::
+arvorePNG1.glb::PackedScene::7315335967566937001::1733156834::1733156834::1::::<><>::
+arvores fundo.res::ArrayMesh::6670071685747407964::1733156835::0::1::::<><>::
+barco.res::ArrayMesh::6529197011745151801::1733156835::0::1::::<><>::
+chao2pt1.res::ArrayMesh::3004243641389060990::1733156835::0::1::::<><>::
+chao pt1 com grama.res::ArrayMesh::360499313259716814::1733156835::0::1::::<><>::
+chao.res::ArrayMesh::6806421924023205049::1733156835::0::1::::<><>::
+chaograma.res::ArrayMesh::4239449619098037785::1733156835::0::1::::<><>::
+chaogramapt1.glb::PackedScene::2605790090952599286::1733156835::1733156835::1::::<><>::
+chaopt1.glb::PackedScene::1499647491461346504::1733156835::1733156835::1::::<><>::
+colisao.glb::PackedScene::1077139547872526047::1733156835::1733156835::1::::<><>::
+colisao.res::ArrayMesh::2576184758949667851::1733156835::0::1::::<><>::
+mesh agua pt1.res::ArrayMesh::2890420373608010307::1733156835::0::1::::<><>::
+mesh caixa.res::ArrayMesh::4285927850208716176::1733156835::0::1::::<><>::
+mesh caminho.res::ArrayMesh::9078548567555206018::1733156835::0::1::::<><>::
+mesh caminhos pt1.res::ArrayMesh::4195798648823645722::1733156835::0::1::::<><>::
+mesh cerca inteira.res::ArrayMesh::1105581195983203665::1733156835::0::1::::<><>::
+mesh cerca quebrada.res::ArrayMesh::8993434505947191634::1733156835::0::1::::<><>::
+mesh chao.res::ArrayMesh::3022590074442614869::1733156835::0::1::::<><>::
+mesh gramachao.res::ArrayMesh::2540255533323906483::1733156835::0::1::::<><>::
+mesh ponte.res::ArrayMesh::6582911179011133958::1733156835::0::1::::<><>::
+pedrapt1.glb::PackedScene::5526712389664871187::1733156835::1733156835::1::::<><>::
+riopt1.glb::PackedScene::6444012266641178205::1733156835::1733156835::1::::<><>::
+riopt1.res::ArrayMesh::4691816207721230771::1733156835::0::1::::<><>::
+::res://CENARIO/meshs/parte2/::1733156836
+arvorefundopt2.res::ArrayMesh::6238104322175230147::1733156836::0::1::::<><>::
+arvorepng2.glb::PackedScene::8854146661700514671::1733156836::1733156836::1::::<><>::
+arvorepng2.res::ArrayMesh::4866655281149431629::1733156836::0::1::::<><>::uid://cl4m34gf4s7x6::::res://CENARIO/meshs/parte2/arvorepng2_4-removebg-preview (2).png<>uid://d3bsksf5q7yu6::::res://CENARIO/meshs/parte2/arvorepng2_1-removebg-preview.png<>uid://ciw2huhikws61::::res://CENARIO/meshs/parte2/arvorepng2_2-removebg-preview (1).png<>uid://n3ro4u5enelq::::res://CENARIO/meshs/parte2/arvorepng2_3-removebg-preview (1).png
+chaopt2.res::ArrayMesh::7284789367679119450::1733156836::0::1::::<><>::
+chaosemgrama.glb::PackedScene::2419901733123727312::1733156836::1733156836::1::::<><>::
+chaosemgrama.res::ArrayMesh::2277271057297604419::1733156836::0::1::::<><>::
+mesh agua pt2.res::ArrayMesh::6045443796588082004::1733156836::0::1::::<><>::
+mesh caminhos e pedras pt2.res::ArrayMesh::8770165886351403505::1733156836::0::1::::<><>::
+mesh casa1.res::ArrayMesh::4703921135643515185::1733156836::0::1::::<><>::
+mesh casa2.res::ArrayMesh::1346362355144471423::1733156836::0::1::::<><>::
+mesh casa3.res::ArrayMesh::4086678014005268849::1733156836::0::1::::<><>::
+mesh corrimao.res::ArrayMesh::8765376737474313777::1733156836::0::1::::<><>::
+mesh deque.res::ArrayMesh::289314773343459987::1733156836::0::1::::<><>::
+mesh escombro de ponte.res::ArrayMesh::7736072358741446251::1733156836::0::1::::<><>::
+mesh forabar.res::ArrayMesh::5047507837062692731::1733156836::0::1::::<><>::
+mesh paralelepipedo.res::ArrayMesh::1505472708289758502::1733156836::0::1::::<><>::
+mesh parte sem grama pt2.res::ArrayMesh::7760026361165171496::1733156836::0::1::::<><>::
+mesh postes.res::ArrayMesh::7924298235101848047::1733156836::0::1::::<><>::
+paredecolisao.glb::PackedScene::701018223350813991::1733156836::1733156836::1::::<><>::
+riopt2.res::ArrayMesh::5868586862818570689::1733156836::0::1::::<><>::
+::res://CENARIO/meshs/parte3/::1733156837
+arvore fundo 3.glb::PackedScene::6115503418308505427::1733156836::1733156836::1::::<><>::
+arvorefundo3.res::ArrayMesh::3755799254824709868::1733156836::0::1::::<><>::uid://l0sg3qfrejy1::::res://CENARIO/meshs/parte3/arvore fundo 3_4-removebg-preview (2).png<>uid://qaq0lmsekh44::::res://CENARIO/meshs/parte3/arvore fundo 3_1-removebg-preview.png<>uid://cj02b0ucrnikj::::res://CENARIO/meshs/parte3/arvore fundo 3_2-removebg-preview (1).png<>uid://cqi025gpy44ik::::res://CENARIO/meshs/parte3/arvore fundo 3_3-removebg-preview (1).png
+arvorefundopt3.res::ArrayMesh::762333145317489597::1733156837::0::1::::<><>::
+chao com grama pt3.res::ArrayMesh::5276583594495285672::1733156837::0::1::::<><>::
+colisionparede.glb::PackedScene::368856005632759430::1733156837::1733156837::1::::<><>::
+colisionparede.res::ArrayMesh::8827335798054966310::1733156837::0::1::::<><>::
+mesh aviso.res::ArrayMesh::13081860536278706::1733156837::0::1::::<><>::
+mesh caixote grama.res::ArrayMesh::667420186647436346::1733156837::0::1::::<><>::
+mesh caixote largo.res::ArrayMesh::1559804222398243407::1733156837::0::1::::<><>::
+mesh caixote.res::ArrayMesh::2780191771044376408::1733156837::0::1::::<><>::
+mesh chao sem grama pt3.res::ArrayMesh::7427743490731762230::1733156837::0::1::::<><>::
+mesh pilar1.res::ArrayMesh::6464728599217200155::1733156837::0::1::::<><>::
+mesh pilar2.res::ArrayMesh::1726774031516088596::1733156837::0::1::::<><>::
+mesh pilar3.res::ArrayMesh::1872727643085883431::1733156837::0::1::::<><>::
+mesh pilar entrada1.res::ArrayMesh::8650742937344784498::1733156837::0::1::::<><>::
+mesh pilar entrada2.res::ArrayMesh::91503947691603806::1733156837::0::1::::<><>::
+mesh shmungus.res::ArrayMesh::3983212683007585372::1733156837::0::1::::<><>::
+mesh tabua.res::ArrayMesh::6916744696258508929::1733156837::0::1::::<><>::
+mesh tocha torta.res::ArrayMesh::1472789288855125477::1733156837::0::1::::<><>::
+mesh tocha.res::ArrayMesh::5914006360171954864::1733156837::0::1::::<><>::
+mesh toco de pilar1.res::ArrayMesh::5255785196827534386::1733156837::0::1::::<><>::
+mesh toco de pilar2.res::ArrayMesh::1500333702122766084::1733156837::0::1::::<><>::
+mimi.res::ArrayMesh::8471991816172081893::1733156837::0::1::::<><>::
+::res://CENARIO/meshs/pedras/::1733156837
+mesh pedra1.res::ArrayMesh::101109754093726694::1733156837::0::1::::<><>::
+mesh pedra2.res::ArrayMesh::3434129575652421904::1733156837::0::1::::<><>::
+mesh pedra3.res::ArrayMesh::5825360945286035465::1733156837::0::1::::<><>::
+mesh pedra4.res::ArrayMesh::4066668121869575231::1733156837::0::1::::<><>::
+mesh pedra5.res::ArrayMesh::5877912920105325183::1733156837::0::1::::<><>::
+mesh pedra6.res::ArrayMesh::4207989144095793189::1733156837::0::1::::<><>::
+mesh pedra7.res::ArrayMesh::5475416845428568688::1733156837::0::1::::<><>::
+mesh pedras1.res::ArrayMesh::3638569898409947558::1733156837::0::1::::<><>::
+mesh pedras2.res::ArrayMesh::3606416071932628436::1733156837::0::1::::<><>::
+mesh pedras3.res::ArrayMesh::4908285209146494920::1733156837::0::1::::<><>::
+mesh pedras4.res::ArrayMesh::3886600153623935936::1733156837::0::1::::<><>::
+mesh pedras5.res::ArrayMesh::2756833233959451933::1733156837::0::1::::<><>::
+mesh pedras6.res::ArrayMesh::3721233372777501256::1733156837::0::1::::<><>::
+mesh pedras7.res::ArrayMesh::8684473487383328270::1733156837::0::1::::<><>::
+mesh pedras.res::ArrayMesh::2324214710281408093::1733156837::0::1::::<><>::
+mesh pedrinhas.res::ArrayMesh::180885493975158553::1733156837::0::1::::<><>::
+::res://CENARIO/meshs/texturas/::1733156842
+area.jpg::CompressedTexture2D::7609700121330238340::1733156837::1733156837::1::::<><>::
+arvere.jpg::CompressedTexture2D::2499036398062986957::1733156837::1733156838::1::::<><>::
+arvore fundo 3_1-removebg-preview.png::CompressedTexture2D::1124038212058493667::1733156838::1733156838::1::::<><>::
+arvore fundo 3_2-removebg-preview (1).png::CompressedTexture2D::5457792892672538421::1733156838::1733156838::1::::<><>::
+arvore fundo 3_3-removebg-preview (1).png::CompressedTexture2D::5913945614565900118::1733156838::1733156838::1::::<><>::
+arvore fundo 3_4-removebg-preview (2).png::CompressedTexture2D::824791840123814334::1733156838::1733156838::1::::<><>::
+arvore.jpg::CompressedTexture2D::3276872429378868822::1733156838::1733156838::1::::<><>::
+arvorePNG1_1-removebg-preview.png::CompressedTexture2D::6519638644767355852::1733156838::1733156838::1::::<><>::
+arvorePNG1_2-removebg-preview (1).png::CompressedTexture2D::2977094700075048948::1733156838::1733156838::1::::<><>::
+arvorePNG1_3-removebg-preview (1).png::CompressedTexture2D::5476401224472457361::1733156838::1733156838::1::::<><>::
+arvorePNG1_4-removebg-preview (2).png::CompressedTexture2D::3552387084036136492::1733156838::1733156838::1::::<><>::
+arvorepng2_1-removebg-preview.png::CompressedTexture2D::9127725769037169959::1733156838::1733156838::1::::<><>::
+arvorepng2_2-removebg-preview (1).png::CompressedTexture2D::5381421348100172176::1733156838::1733156838::1::::<><>::
+arvorepng2_3-removebg-preview (1).png::CompressedTexture2D::971316289841959678::1733156838::1733156838::1::::<><>::
+arvorepng2_4-removebg-preview (2).png::CompressedTexture2D::5605565741127483309::1733156838::1733156838::1::::<><>::
+avore legal.jpg::CompressedTexture2D::7153153587884558475::1733156838::1733156838::1::::<><>::
+bebida textura.png::CompressedTexture2D::5770992777692055766::1733156838::1733156838::1::::<><>::
+caixa dentro.jpg::CompressedTexture2D::8672138429840123811::1733156838::1733156839::1::::<><>::
+carvao.jpg::CompressedTexture2D::3393431419378346144::1733156839::1733156839::1::::<><>::
+ceu_meio_dia.png::CompressedTexture2D::5916370523442946477::1733156839::1733156839::1::::<><>::
+chao2.0.png::CompressedTexture2D::1394846900050053594::1733156839::1733156839::1::::<><>::
+coiso.jpg::CompressedTexture2D::4680515391654179244::1733156839::1733156839::1::::<><>::
+corda.jpg::CompressedTexture2D::4476042343750526076::1733156839::1733156839::1::::<><>::
+céu_dia.png::CompressedTexture2D::1976566855668912378::1733156839::1733156839::1::::<><>::
+céu_por_do_sol.png::CompressedTexture2D::4004533803890535183::1733156839::1733156839::1::::<><>::
+céu_por_do_soll.png::CompressedTexture2D::410019413788847033::1733156839::1733156839::1::::<><>::
+dourado.png::CompressedTexture2D::7676893717251007001::1733156839::1733156839::1::::<><>::
+gama.jpg::CompressedTexture2D::3231535707159824935::1733156839::1733156839::1::::<><>::
+garrafas1.png::CompressedTexture2D::5440438271853054026::1733156840::1733156840::1::::<><>::
+garrafas2.png::CompressedTexture2D::1821835018097947090::1733156840::1733156840::1::::<><>::
+garrafas3.png::CompressedTexture2D::6133243887936260672::1733156840::1733156840::1::::<><>::
+madeira.jpg::CompressedTexture2D::2859374782630091780::1733156840::1733156840::1::::<><>::
+metal.jpg::CompressedTexture2D::6156136700440174404::1733156840::1733156840::1::::<><>::
+pano.jpg::CompressedTexture2D::1325541502646728873::1733156840::1733156840::1::::<><>::
+papel véi.png::CompressedTexture2D::3601088133234677894::1733156840::1733156840::1::::<><>::
+PAPEL.jpg::CompressedTexture2D::2062015234810508312::1733156840::1733156840::1::::<><>::
+pared bar.jpg::CompressedTexture2D::6796135896612779728::1733156840::1733156840::1::::<><>::
+pared.jpg::CompressedTexture2D::6537384078298783542::1733156840::1733156840::1::::<><>::
+parede azu.jpg::CompressedTexture2D::4808183143500505307::1733156840::1733156840::1::::<><>::
+pedra.jpg::CompressedTexture2D::928687579901604210::1733156840::1733156840::1::::<><>::
+perda preta.jpg::CompressedTexture2D::498800498892683071::1733156840::1733156840::1::::<><>::
+potin marelo.jpg::CompressedTexture2D::4662163213532772573::1733156840::1733156840::1::::<><>::
+potin mint.jpg::CompressedTexture2D::8065008641058269197::1733156840::1733156841::1::::<><>::
+REBOCO.jpg::CompressedTexture2D::492393587150524253::1733156841::1733156841::1::::<><>::
+rede.png::CompressedTexture2D::7266203798003311231::1733156841::1733156841::1::::<><>::
+tauba.jpg::CompressedTexture2D::1548571248254448962::1733156841::1733156841::1::::<><>::
+telhado azu.png::CompressedTexture2D::5875490411322927588::1733156841::1733156841::1::::<><>::
+telhado rox.png::CompressedTexture2D::3983691530517601994::1733156841::1733156841::1::::<><>::
+telhado vermei.png::CompressedTexture2D::4023211396477350758::1733156841::1733156841::1::::<><>::
+terra.jpg::CompressedTexture2D::5279836704470158267::1733156841::1733156841::1::::<><>::
+terras.jpg::CompressedTexture2D::7196449017180345920::1733156841::1733156841::1::::<><>::
+textura beiral escada e galeria.jpg::CompressedTexture2D::202369146268404044::1733156841::1733156841::1::::<><>::
+textura madeira marrom estante escada.jpg::CompressedTexture2D::6440327637451411810::1733156841::1733156841::1::::<><>::
+texturabanco.jpg::CompressedTexture2D::1615249195692676146::1733156841::1733156841::1::::<><>::
+texturabarril.jpg::CompressedTexture2D::8647434477761573456::1733156841::1733156841::1::::<><>::
+texturachão.png::CompressedTexture2D::7274005602545133883::1733156841::1733156841::1::::<><>::
+texturagato1.jpg::CompressedTexture2D::2460650992593823239::1733156841::1733156841::1::::<><>::
+texturagato2.jpg::CompressedTexture2D::4406167827532979395::1733156841::1733156841::1::::<><>::
+texturagato3.jpg::CompressedTexture2D::1275059895273137041::1733156842::1733156842::1::::<><>::
+texturajanela.jpg::CompressedTexture2D::5275951311959669427::1733156842::1733156842::1::::<><>::
+texturaluz.png::CompressedTexture2D::1165401176250150227::1733156842::1733156842::1::::<><>::
+texturamesa.jpg::CompressedTexture2D::7121515511602167512::1733156842::1733156842::1::::<><>::
+texturaporta.jpg::CompressedTexture2D::9141760560091844055::1733156842::1733156842::1::::<><>::
+tijolin.jpg::CompressedTexture2D::1863879803935895993::1733156842::1733156842::1::::<><>::
+::res://CENARIO/objects/::1733156845
+Tamanho lana.tscn::PackedScene::8317306759265679160::1733156842::0::1::::<><>::uid://duyvpi3mqeh0v::::res://meshs/tamanho lana.res
+::res://CENARIO/objects/arvores/::1733156842
+Arvore1.tscn::PackedScene::7999798859381612515::1733156842::0::1::::<><>::uid://tq6c6usoq3eq::::res://CENARIO/collisions/arvores/collision arvore.tres<>uid://crx6j0lweasf2::::res://CENARIO/meshs/arvores/arvore1.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg
+Arvore2.tscn::PackedScene::269524973516671175::1733156842::0::1::::<><>::uid://tq6c6usoq3eq::::res://CENARIO/collisions/arvores/collision arvore.tres<>uid://de4cgdds4tg02::::res://CENARIO/meshs/arvores/arvore2.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg
+Arvore3.tscn::PackedScene::2147007893212701474::1733156842::0::1::::<><>::uid://tq6c6usoq3eq::::res://CENARIO/collisions/arvores/collision arvore.tres<>uid://bddugqgfpkr8g::::res://CENARIO/meshs/arvores/arvore3.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg
+Arvore4.tscn::PackedScene::3301496631859232200::1733156842::0::1::::<><>::uid://tq6c6usoq3eq::::res://CENARIO/collisions/arvores/collision arvore.tres<>uid://b4xn6yjx6jijd::::res://CENARIO/meshs/arvores/arvore4.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg
+Arvore5.tscn::PackedScene::7756168660031580539::1733156842::0::1::::<><>::uid://tq6c6usoq3eq::::res://CENARIO/collisions/arvores/collision arvore.tres<>uid://momrqxeojvov::::res://CENARIO/meshs/arvores/arvore5.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg
+Arvore_cortada.tscn::PackedScene::8178660341984543380::1733156842::0::1::::<><>::uid://dtrvna5n3hur::::res://CENARIO/collisions/arvores/collision arvore cortada.tres<>uid://c22poaek2am10::::res://CENARIO/meshs/arvores/mesh arvore cortada.res<>uid://bmxlu0lr312le::::res://CENARIO/meshs/texturas/arvore.jpg
+Arvore_legal.tscn::PackedScene::5533634728330216407::1733156842::0::1::::<><>::uid://vi31mraoxit1::::res://CENARIO/meshs/arvores/mesh tronco raizes arvore legal.res<>uid://c86bnobtofrex::::res://CENARIO/meshs/texturas/avore legal.jpg<>uid://8gr338t164tq::::res://CENARIO/meshs/arvores/mesh arvore legal.res<>uid://ovx8d36ybcrf::::res://CENARIO/collisions/arvores/collision raizes arvorelegal.tres<>uid://lcoufdt27oqb::::res://CENARIO/collisions/arvores/collision tronco arvorelegal.tres
+::res://CENARIO/objects/bar/::1733156843
+Balcão.tscn::PackedScene::1669573198562670676::1733156842::0::1::::<><>::uid://cit8vdrt3c4ts::::res://CENARIO/meshs/bar/mesh balcao.res<>uid://c5a8w0w3wifs::::res://CENARIO/meshs/texturas/textura beiral escada e galeria.jpg<>uid://cx00ixcfla1uc::::res://CENARIO/meshs/texturas/textura madeira marrom estante escada.jpg
+Banco.tscn::PackedScene::6754869906629214057::1733156842::0::1::::<><>::uid://fgsrigq6gk3f::::res://CENARIO/meshs/bar/mesh banco.res<>uid://xao6hrm3jxeg::::res://CENARIO/meshs/texturas/texturabanco.jpg
+Bar.tscn::PackedScene::1390701693607123145::1733156842::0::1::::<><>::uid://bxvrqnwlvyynx::::res://CENARIO/objects/bar/Chão_bar.tscn<>uid://d1opmll0ywffe::::res://CENARIO/objects/bar/Escada_estante.tscn<>uid://w08fukq3atfe::::res://CENARIO/objects/bar/Beiral_escada_e_galeria.tscn<>uid://x10vkn7p7ko7::::res://CENARIO/objects/bar/Balcão.tscn<>uid://c3idyq4ddjji4::::res://CENARIO/objects/bar/Banco.tscn<>uid://b0njpapn774jv::::res://CENARIO/objects/bar/Mesa.tscn<>uid://dye3tc7h030sj::::res://CENARIO/objects/bar/Porta.tscn<>uid://ky0pwb2x156g::::res://CENARIO/objects/bar/Barril.tscn<>uid://bm10rui2pe0if::::res://CENARIO/objects/bar/Garrafa_1.tscn<>uid://cwdqjbnjhlocx::::res://CENARIO/objects/bar/Garrafa_3.tscn<>uid://bby60e28acll3::::res://CENARIO/objects/bar/Copo.tscn<>uid://cixjmofs0o5nr::::res://CENARIO/objects/bar/Garrafa_2.tscn<>uid://dsuugt43v2b5::::res://CENARIO/objects/bar/Garrafas_1.tscn<>uid://d25536eap6j4n::::res://CENARIO/objects/bar/Garrafas_2.tscn<>uid://dxfo7nbuqagxd::::res://CENARIO/objects/bar/Garrafas_3.tscn<>uid://b6kebuxoqd2ke::::res://CENARIO/objects/bar/Pratos.tscn<>uid://vsvasjlfv77w::::res://CENARIO/objects/bar/Paredes_bar.tscn<>uid://ctkjf4jjpivgk::::res://CENARIO/objects/bar/Umprato.tscn<>uid://c4ej825uvv4f6::::res://CENARIO/objects/bar/Teto_bar.tscn<>uid://blj6b8jp5hf2s::::res://CENARIO/objects/bar/Janela.tscn<>uid://cfats1ib3b2yp::::res://CENARIO/objects/bar/Quadro1.tscn<>uid://cr36vk0ipdng3::::res://CENARIO/objects/bar/Quadro2.tscn<>uid://b8k0meg83a58o::::res://CENARIO/objects/bar/Quadro3.tscn<>uid://svmytrgx75tg::::res://CENARIO/objects/bar/Luz.tscn<>uid://do8sitlwy0isv::::res://CENARIO/objects/parte1/Caixa.tscn<>uid://c11boeg07fh2a::::res://CENARIO/objects/bar/Luz_chique.tscn<>uid://yro1chr8ate8::::res://CENARIO/objects/parte3/Tabua.tscn
+Barril.tscn::PackedScene::752979372522550908::1733156842::0::1::::<><>::uid://cskuhcmhe2so::::res://meshs/bar/mesh barril.res<>uid://dvg48nx6uv8u3::::res://meshs/texturas/texturabarril.jpg<>uid://detslj7iedm7e::::res://collisions/bar/collision barril.tres
+Beiral_escada_e_galeria.tscn::PackedScene::1597777660298478010::1733156842::0::1::::<><>::uid://ck8yb4y3200ao::::res://CENARIO/meshs/bar/mesh beiral escada e galeria.res<>uid://c5a8w0w3wifs::::res://CENARIO/meshs/texturas/textura beiral escada e galeria.jpg
+Chão_bar.tscn::PackedScene::4045177499100682657::1733156842::0::1::::<><>::uid://dn4sxagv22vg7::::res://CENARIO/meshs/bar/mesh chao bar.res<>uid://dbvt2r2x7crrf::::res://CENARIO/meshs/texturas/texturachão.png
+Copo.tscn::PackedScene::2508081718354531374::1733156842::0::1::::<><>::uid://cl2f0ogeaiqnj::::res://CENARIO/meshs/bar/mesh copo.res<>uid://c5a8w0w3wifs::::res://CENARIO/meshs/texturas/textura beiral escada e galeria.jpg<>uid://cohrn4r7dkuju::::res://CENARIO/meshs/texturas/bebida textura.png<>uid://cx00ixcfla1uc::::res://CENARIO/meshs/texturas/textura madeira marrom estante escada.jpg
+Escada_estante.tscn::PackedScene::9014006054561866194::1733156842::0::1::::<><>::uid://dkf2lvy25vxyg::::res://CENARIO/meshs/bar/mesh escada estante.res<>uid://cx00ixcfla1uc::::res://CENARIO/meshs/texturas/textura madeira marrom estante escada.jpg<>uid://c5a8w0w3wifs::::res://CENARIO/meshs/texturas/textura beiral escada e galeria.jpg<>uid://dmyt0xqxkqnmj::::res://CENARIO/collisions/bar/collision escada estante.tres
+Garrafas_1.tscn::PackedScene::248975732067886452::1733156842::0::1::::<><>::uid://bm10rui2pe0if::::res://objects/bar/Garrafa_1.tscn
+Garrafas_2.tscn::PackedScene::9118165308364648819::1733156842::0::1::::<><>::uid://cixjmofs0o5nr::::res://objects/bar/Garrafa_2.tscn
+Garrafas_3.tscn::PackedScene::8784835212106487913::1733156842::0::1::::<><>::uid://cwdqjbnjhlocx::::res://objects/bar/Garrafa_3.tscn
+Garrafa_1.tscn::PackedScene::3283909976343014761::1733156842::0::1::::<><>::uid://omqqyo0yha5u::::res://cenario/meshs/bar/mesh garrafa.res<>uid://cjrnhulvve1ic::::res://cenario/meshs/texturas/garrafas1.png
+Garrafa_2.tscn::PackedScene::5382401431198348483::1733156842::0::1::::<><>::uid://omqqyo0yha5u::::res://cenario/meshs/bar/mesh garrafa.res<>uid://07rmeg2shuf7::::res://cenario/meshs/texturas/garrafas2.png
+Garrafa_3.tscn::PackedScene::6324176677739030715::1733156842::0::1::::<><>::uid://omqqyo0yha5u::::res://cenario/meshs/bar/mesh garrafa.res<>uid://ctm8vpfif0g3y::::res://cenario/meshs/texturas/garrafas3.png
+Janela.tscn::PackedScene::3178963123963358324::1733156843::0::1::::<><>::uid://cdjx2ywticg0e::::res://CENARIO/meshs/bar/mesh janela.res<>uid://chfyfai1a7g72::::res://CENARIO/meshs/texturas/texturajanela.jpg<>uid://bix2nrfcw3g6i::::res://CENARIO/collisions/bar/collision janela.tres
+Luz.tscn::PackedScene::1307523605796722420::1733156843::0::1::::<><>::uid://d8524jc76y1i::::res://cenario/meshs/bar/mesh luz.res
+Luz_chique.tscn::PackedScene::6651511062229114234::1733156843::0::1::::<><>::uid://dfu0c3dd70lvi::::res://CENARIO/meshs/bar/mesh luz chique.res<>uid://qur8tdg0lwl4::::res://CENARIO/meshs/texturas/texturaluz.png
+Mesa.tscn::PackedScene::4168551949096940443::1733156843::0::1::::<><>::uid://c3fyi2vm2vhqe::::res://CENARIO/meshs/bar/mesh mesa.res<>uid://c8pyk46woerau::::res://CENARIO/meshs/texturas/texturamesa.jpg<>uid://6lix0y5j2t1a::::res://CENARIO/collisions/bar/collision mesa.tres
+Paredes_bar.tscn::PackedScene::1512400532650728942::1733156843::0::1::::<><>::uid://uky5veyt5lwa::::res://CENARIO/collisions/bar/collision paredes bar.tres<>uid://jg25o1budgu3::::res://CENARIO/meshs/bar/mesh paredes bar.res<>uid://cx00ixcfla1uc::::res://CENARIO/meshs/texturas/textura madeira marrom estante escada.jpg
+Porta.tscn::PackedScene::8853785970123001505::1733156843::0::1::::<><>::uid://b0dfhi5t0c340::::res://CENARIO/meshs/bar/mesh porta.res<>uid://d3ilpwxflb1n4::::res://CENARIO/meshs/texturas/texturaporta.jpg<>uid://bsfq4ku6xp5qp::::res://CENARIO/collisions/bar/collision porta.tres
+Pratos.tscn::PackedScene::4583164354432804700::1733156843::0::1::::<><>::uid://chmr0h7gx7wq0::::res://cenario/meshs/bar/mesh pratos.res
+Quadro1.tscn::PackedScene::5124972730777678227::1733156843::0::1::::<><>::uid://cq28yrlaiwf0k::::res://meshs/bar/mesh quadro.res<>uid://bbb7teckn44xn::::res://meshs/texturas/texturagato1.jpg<>uid://jqxt7mb1ypfa::::res://collisions/bar/collision quadro.tres
+Quadro2.tscn::PackedScene::6025774579031463012::1733156843::0::1::::<><>::uid://cq28yrlaiwf0k::::res://CENARIO/meshs/bar/mesh quadro.res<>uid://b31m68ckw63b0::::res://CENARIO/meshs/texturas/texturagato2.jpg<>uid://jqxt7mb1ypfa::::res://CENARIO/collisions/bar/collision quadro.tres
+Quadro3.tscn::PackedScene::4724835876533837128::1733156843::0::1::::<><>::uid://cq28yrlaiwf0k::::res://meshs/bar/mesh quadro.res<>uid://sfwbyasd6q8h::::res://meshs/texturas/texturagato3.jpg<>uid://jqxt7mb1ypfa::::res://collisions/bar/collision quadro.tres
+Teto_bar.tscn::PackedScene::6817182193451357109::1733156843::0::1::::<><>::uid://qui4bapw1jxm::::res://CENARIO/meshs/bar/mesh teto bar.res<>uid://c5a8w0w3wifs::::res://CENARIO/meshs/texturas/textura beiral escada e galeria.jpg
+Umprato.tscn::PackedScene::6127630093463534522::1733156843::0::1::::<><>::uid://dcyc8amc84cnr::::res://CENARIO/meshs/bar/mesh umprato.res
+::res://CENARIO/objects/caverna/::1733156843
+Caverna.tscn::PackedScene::7755820502197865607::1733156843::0::1::::<><>::uid://c0yo02h1rasa5::::res://CENARIO/objects/caverna/Chao_caverna.tscn<>uid://b4jfarcgk8q47::::res://CENARIO/objects/caverna/Teto_caverna.tscn<>uid://cvyiw6mrfijtt::::res://CENARIO/objects/caverna/Parede_caverna.tscn<>uid://d4nnr5n0yhq1g::::res://CENARIO/objects/caverna/Tocha_caverna.tscn<>uid://b6hiurw877kl5::::res://CENARIO/objects/caverna/Ossos.tscn<>uid://baxeie2v0dnls::::res://CENARIO/objects/caverna/Cranio.tscn<>uid://wfo4quc5obv6::::res://CENARIO/objects/caverna/Folhas.tscn<>uid://dm7g1oajt1jma::::res://CENARIO/objects/caverna/Mortos.tscn<>uid://dwb6pcb0rexip::::res://CENARIO/objects/caverna/Pedra_magica.tscn<>uid://cg7npdllejw7n::::res://CENARIO/objects/caverna/Costela.tscn<>uid://bvmu22ylf10wi::::res://CENARIO/objects/caverna/Pedestal.tscn<>uid://bshdf81qgsclq::::res://CENARIO/objects/caverna/Pilar_tombado.tscn<>uid://bcg37gky81knd::::res://CENARIO/objects/caverna/Pilar_com_vinha.tscn<>uid://c4kiiraxfoj6n::::res://CENARIO/objects/caverna/Pilar_cortado_1.tscn<>uid://dhxxrth3a3yc1::::res://CENARIO/objects/caverna/Pilar_cortado_2.tscn<>uid://dfvla4x7yppi6::::res://CENARIO/objects/caverna/Pilar_cortado_3.tscn<>uid://ckm0801h1c0nt::::res://CENARIO/objects/caverna/Pilar_cortado_4.tscn<>uid://cyyeudgv1wbh3::::res://CENARIO/objects/caverna/Pilar_sem_vinha.tscn<>uid://ck2h7e2jg2a7q::::res://CENARIO/objects/caverna/Pilar_cortado_ao_meio.tscn<>uid://c3tvixnpbamy1::::res://CENARIO/objects/caverna/Pilar_cortado_tombado.tscn
+Chao_caverna.tscn::PackedScene::6578003637328943606::1733156843::0::1::::<><>::uid://chqqc8hbegj4e::::res://CENARIO/meshs/caverna/mesh chao caverna.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg<>uid://dtn2f0i3c1owf::::res://CENARIO/collisions/caverna/collision chao caverna.tres
+Costela.tscn::PackedScene::5260850800227261005::1733156843::0::1::::<><>::uid://b1igy7edvbugg::::res://CENARIO/meshs/caverna/mesh costela.res
+Cranio.tscn::PackedScene::2434158779149586372::1733156843::0::1::::<><>::uid://dgun0wuav8pva::::res://CENARIO/meshs/caverna/mesh cranio.res
+Folhas.tscn::PackedScene::1555379146130187517::1733156843::0::1::::<><>::uid://cp615pjalgyyj::::res://CENARIO/meshs/caverna/mesh folhas.res
+Mortos.tscn::PackedScene::8067999731225974620::1733156843::0::1::::<><>::uid://cg44ylga5r362::::res://CENARIO/meshs/caverna/mesh mortos.res
+Ossos.tscn::PackedScene::4577247860996804060::1733156843::0::1::::<><>::uid://ies8wifph85a::::res://CENARIO/meshs/caverna/mesh ossos.res
+Parede_caverna.tscn::PackedScene::6296878820831273069::1733156843::0::1::::<><>::uid://c8uepufhg68nc::::res://CENARIO/meshs/caverna/mesh parede caverna.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pedestal.tscn::PackedScene::3886422945144542680::1733156843::0::1::::<><>::uid://chsimonyjl5as::::res://CENARIO/meshs/caverna/mesh pedestal.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pedra_magica.tscn::PackedScene::8707390110304701323::1733156843::0::1::::<><>::uid://du8j2m3gf1dgj::::res://CENARIO/meshs/caverna/mesh pedra magica.res
+Pilar_com_vinha.tscn::PackedScene::2540942190419670341::1733156843::0::1::::<><>::uid://cdsmmu7bs71sm::::res://CENARIO/meshs/caverna/mesh pilar com vinha.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_cortado_1.tscn::PackedScene::6829462526672320495::1733156843::0::1::::<><>::uid://ctt6iyc5lgmce::::res://CENARIO/meshs/caverna/mesh pilar cortado 1.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_cortado_2.tscn::PackedScene::7699492504249520478::1733156843::0::1::::<><>::uid://c77ncc3ndtu4u::::res://CENARIO/meshs/caverna/mesh pilar cortado 2.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_cortado_3.tscn::PackedScene::7554227649219420067::1733156843::0::1::::<><>::uid://cq6ys6gccc2jp::::res://CENARIO/meshs/caverna/mesh pilar cortado 3.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_cortado_4.tscn::PackedScene::5501080546434835521::1733156843::0::1::::<><>::uid://b8olbr7tsctfc::::res://CENARIO/meshs/caverna/mesh pilar cortado 4.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_cortado_ao_meio.tscn::PackedScene::5530950419701580776::1733156843::0::1::::<><>::uid://cof3wua22lotk::::res://CENARIO/meshs/caverna/mesh pilar cortado ao meio.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_cortado_tombado.tscn::PackedScene::6778642738579972650::1733156843::0::1::::<><>::uid://th0wvvoweygf::::res://CENARIO/meshs/caverna/mesh pilar cortado tombado.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_sem_vinha.tscn::PackedScene::6507197432474209406::1733156843::0::1::::<><>::uid://x2drqi2iteus::::res://CENARIO/meshs/caverna/mesh pilar sem vinha.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Pilar_tombado.tscn::PackedScene::3664463367575090814::1733156843::0::1::::<><>::uid://clm048542tfnn::::res://CENARIO/meshs/caverna/mesh pilar tombado.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Teto_caverna.tscn::PackedScene::4440781030220264226::1733156843::0::1::::<><>::uid://cb7cpvu5xfckf::::res://CENARIO/meshs/caverna/mesh teto caverna.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Tocha_caverna.tscn::PackedScene::9222396703738580562::1733156843::0::1::::<><>::uid://bjp1fd6u2drp7::::res://CENARIO/meshs/caverna/mesh tocha caverna.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg<>uid://bol2k4tedfewm::::res://CENARIO/meshs/texturas/carvao.jpg
+::res://CENARIO/objects/parte1/::1733156844
+Agua_pt_1.tscn::PackedScene::6536108468026804357::1733156843::0::1::::<><>::uid://bhge2iivn2kj8::::res://CENARIO/meshs/parte1/mesh agua pt1.res
+Barco.tscn::PackedScene::8537819240692147377::1733156843::0::1::::<><>::uid://c0a16krk1wrmn::::res://meshs/parte1/barco.res<>uid://bg0dqqs5y8jii::::res://meshs/texturas/madeira.jpg
+Caixa.tscn::PackedScene::8211138536085909857::1733156844::0::1::::<><>::uid://djw66snpou2o8::::res://collisions/parte1/colision caixa.tres<>uid://b2ceut8ag6tqm::::res://meshs/parte1/mesh caixa.res<>uid://bg0dqqs5y8jii::::res://meshs/texturas/madeira.jpg
+Cenário_parte_1.tscn::PackedScene::5541181326598512527::1733156844::0::1::::<><>::uid://bixn44lc2iomf::::res://CENARIO/objects/parte1/Chaogramapt_1.tscn<>uid://dl8frvklbgfff::::res://CENARIO/objects/arvores/Arvore1.tscn<>uid://dye3tc7h030sj::::res://CENARIO/objects/bar/Porta.tscn<>uid://cijgpkuosnnua::::res://CENARIO/objects/parte3/Tocha.tscn<>uid://dtv1vuv22h426::::res://CENARIO/objects/parte1/Barco.tscn<>uid://d3tbixysp6hf::::res://CENARIO/objects/arvores/Arvore2.tscn<>uid://yro1chr8ate8::::res://CENARIO/objects/parte3/Tabua.tscn<>uid://c0ee0s1f61tn6::::res://CENARIO/objects/parte1/Agua_pt_1.tscn<>uid://5ua52x8j1mja::::res://CENARIO/objects/arvores/Arvore3.tscn<>uid://bnbjfxir86q0o::::res://CENARIO/objects/arvores/Arvore4.tscn<>uid://dire72ehs5xi6::::res://CENARIO/objects/arvores/Arvore5.tscn<>uid://ck3sfj03gfybn::::res://CENARIO/objects/arvores/Arvore_legal.tscn<>uid://cxr35d0d1y1hj::::res://CENARIO/objects/pedras/Pedras.tscn<>uid://8v66bxipx8d::::res://CENARIO/objects/parte1/Ponte.tscn<>uid://ber1xq0o45hvn::::res://CENARIO/objects/parte1/Cerca_inteira.tscn<>uid://bkw8bi53a1j71::::res://CENARIO/objects/parte1/Cerca_quebrada.tscn<>uid://do8sitlwy0isv::::res://CENARIO/objects/parte1/Caixa.tscn<>uid://bqghj4yplogqs::::res://CENARIO/objects/parte3/Caixote_grama.tscn<>uid://cgxwggxjkgmkx::::res://CENARIO/objects/parte3/Caixote_largo.tscn<>uid://c7akg2kprcam::::res://CENARIO/objects/pedras/Pedra_1.tscn<>uid://dx65xqq54eu17::::res://CENARIO/objects/pedras/Pedra_2.tscn<>uid://8as77d31wmwj::::res://CENARIO/objects/pedras/Pedra_3.tscn<>uid://dwaclp5cn4p56::::res://CENARIO/objects/pedras/Pedras_1.tscn<>uid://iub1s0ypus0s::::res://CENARIO/objects/pedras/Pedras_2.tscn<>uid://dgeq8eoybj47r::::res://CENARIO/objects/pedras/Pedras_3.tscn<>uid://g3wlexp7pkc2::::res://CENARIO/objects/pedras/Pedras_5.tscn<>uid://gq08wpiqlukr::::res://CENARIO/objects/pedras/Pedras_7.tscn
+Cerca_inteira.tscn::PackedScene::2703891074805737779::1733156844::0::1::::<><>::uid://mwpjvrwcptjh::::res://collisions/parte1/collision cerca inteira.tres<>uid://p0s04pk5dtef::::res://meshs/parte1/mesh cerca inteira.res<>uid://bg0dqqs5y8jii::::res://meshs/texturas/madeira.jpg
+Cerca_quebrada.tscn::PackedScene::3135731345022097102::1733156844::0::1::::<><>::uid://dl2dhc7xrwbs8::::res://CENARIO/collisions/parte1/collision cerca quebrada.tres<>uid://d1eqs1r13s155::::res://CENARIO/meshs/parte1/mesh cerca quebrada.res<>uid://bg0dqqs5y8jii::::res://CENARIO/meshs/texturas/madeira.jpg
+Chaogramapt_1.tscn::PackedScene::2996254770367226693::1733156844::0::1::::<><>::uid://bmbm6kvs41qf4::::res://CENARIO/meshs/texturas/gama.jpg<>uid://bhge2iivn2kj8::::res://CENARIO/meshs/parte1/mesh agua pt1.res<>uid://b01qgqqsnuqqk::::res://CENARIO/meshs/parte1/mesh caminhos pt1.res<>uid://ccfm8iiyghtpv::::res://CENARIO/meshs/geral/grama/grama.res<>uid://dgogwcqo7yvi7::::res://CENARIO/meshs/texturas/area.jpg<>uid://b730r60ho4lxr::::res://CENARIO/meshs/parte1/riopt1.res<>uid://c38c1lrflq13j::::res://CENARIO/meshs/parte1/chao.res<>uid://c2bbduykg3hyq::::res://CENARIO/meshs/parte1/arvores fundo.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg<>uid://b1nvd6510ueer::::res://CENARIO/meshs/parte1/chaograma.res<>uid://slujyrcbfos6::::res://CENARIO/meshs/parte1/arvore png.res
+Chão_parte_1.tscn::PackedScene::7039148638359087676::1733156844::0::1::::<><>::uid://bjcfu8fot3hx2::::res://meshs/parte1/mesh chao.res<>uid://chhuey3k4ik7d::::res://meshs/texturas/terra.jpg<>uid://bmbm6kvs41qf4::::res://meshs/texturas/gama.jpg<>uid://dgogwcqo7yvi7::::res://meshs/texturas/area.jpg<>uid://bb3pqg7ymwshi::::res://collisions/parte1/collision chao.tres
+Mesh_caminhos_pt_1.tscn::PackedScene::2891913090359047928::1733156844::0::1::::<><>::res://CENARIO/meshs/parte1/mesh caminhos pt1.res<>uid://dgogwcqo7yvi7::::res://CENARIO/meshs/texturas/area.jpg
+Ponte.tscn::PackedScene::69456513168101721::1733156844::0::1::::<><>::uid://c012t5wk4jo8u::::res://meshs/parte1/mesh ponte.res<>uid://bg0dqqs5y8jii::::res://meshs/texturas/madeira.jpg
+::res://CENARIO/objects/parte2/::1733156844
+Agua_pt_2.tscn::PackedScene::329158731512640057::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh agua pt2.res
+Caminhos_e_pedras_pt_2.tscn::PackedScene::1713621993459124727::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh caminhos e pedras pt2.res<>uid://dgogwcqo7yvi7::::res://CENARIO/meshs/texturas/area.jpg
+Casa_1.tscn::PackedScene::5729442732576847482::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh casa1.res<>uid://bg0dqqs5y8jii::::res://CENARIO/meshs/texturas/madeira.jpg<>uid://1s43fh4e17jx::::res://CENARIO/meshs/texturas/tijolin.jpg<>uid://s5dqe74lcx02::::res://CENARIO/meshs/texturas/pano.jpg<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>uid://ctycw34uppfw3::::res://CENARIO/meshs/texturas/metal.jpg<>uid://b7one8500f7af::::res://CENARIO/meshs/texturas/potin marelo.jpg<>uid://dm50rqgql4dv6::::res://CENARIO/meshs/texturas/potin mint.jpg<>uid://dhm0k2rle7x4d::::res://CENARIO/meshs/texturas/dourado.png<>res://CENARIO/collisions/parte2/collision casa1.tres
+Casa_2.tscn::PackedScene::7645167034570974948::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh casa2.res<>uid://ctycw34uppfw3::::res://CENARIO/meshs/texturas/metal.jpg<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>uid://carecroew14qx::::res://CENARIO/meshs/texturas/parede azu.jpg<>uid://harwd56n8ihx::::res://CENARIO/meshs/texturas/REBOCO.jpg<>uid://cpyep61aakdai::::res://CENARIO/meshs/texturas/telhado azu.png<>res://CENARIO/collisions/parte2/collision casa2.tres
+Casa_3.tscn::PackedScene::8144532921898731590::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh casa3.res<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>uid://bxk4x6ye3n6u1::::res://CENARIO/meshs/texturas/telhado vermei.png<>uid://c0e004koncdak::::res://CENARIO/meshs/texturas/pared.jpg<>uid://ctycw34uppfw3::::res://CENARIO/meshs/texturas/metal.jpg<>res://CENARIO/collisions/parte2/collision casa3.tres
+Cenário_parte_2.tscn::PackedScene::4876996257287067798::1733156844::0::1::::<><>::uid://bgiww7m01m43r::::res://CENARIO/objects/parte2/Poste.tscn<>uid://d2yewg0m64nqe::::res://CENARIO/objects/parte2/Deque.tscn<>uid://dox4d5hnvt46j::::res://CENARIO/objects/parte2/Fora_bar.tscn<>uid://c28p6euaf3uqh::::res://CENARIO/objects/parte2/Paralelepipedo.tscn<>uid://cnvnc468bkfbe::::res://CENARIO/objects/parte2/Casa_1.tscn<>uid://dg6m1wn0avyho::::res://CENARIO/objects/parte2/Casa_2.tscn<>uid://dobjjc8wu8ux7::::res://CENARIO/objects/parte2/Casa_3.tscn<>uid://cinfndm0g5i7k::::res://CENARIO/objects/parte2/Parte_sem_grama_pt_2.tscn<>uid://7pgw1io6k2ch::::res://CENARIO/objects/parte2/Corrimao.tscn<>uid://bdpl6x6jnyb20::::res://CENARIO/objects/parte3/Pilar_1.tscn<>uid://cblpdpjrxr05v::::res://CENARIO/meshs/parte2/arvorepng2.res<>uid://dps3f0v8mistd::::res://CENARIO/objects/parte2/Escombros_ponte.tscn<>uid://cu41ww2orovot::::res://CENARIO/meshs/parte2/arvorefundopt2.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg<>uid://cpu11ecdf6n8d::::res://CENARIO/meshs/parte2/riopt2.res<>uid://duujwbqsfi23f::::res://CENARIO/objects/parte2/Chao_grama_pt_2.tscn<>uid://expgw3ejfo7j::::res://CENARIO/objects/parte2/Agua_pt_2.tscn<>uid://bmbm6kvs41qf4::::res://CENARIO/meshs/texturas/gama.jpg<>uid://dgogwcqo7yvi7::::res://CENARIO/meshs/texturas/area.jpg<>uid://bqghj4yplogqs::::res://CENARIO/objects/parte3/Caixote_grama.tscn<>uid://cgxwggxjkgmkx::::res://CENARIO/objects/parte3/Caixote_largo.tscn<>uid://v4aeyf4gos5e::::res://CENARIO/objects/parte3/Caixote.tscn<>uid://ber1xq0o45hvn::::res://CENARIO/objects/parte1/Cerca_inteira.tscn<>uid://yro1chr8ate8::::res://CENARIO/objects/parte3/Tabua.tscn<>uid://bkw8bi53a1j71::::res://CENARIO/objects/parte1/Cerca_quebrada.tscn<>uid://cijgpkuosnnua::::res://CENARIO/objects/parte3/Tocha.tscn<>uid://ky0pwb2x156g::::res://CENARIO/objects/bar/Barril.tscn<>uid://dl8frvklbgfff::::res://CENARIO/objects/arvores/Arvore1.tscn<>uid://d3tbixysp6hf::::res://CENARIO/objects/arvores/Arvore2.tscn<>uid://5ua52x8j1mja::::res://CENARIO/objects/arvores/Arvore3.tscn<>uid://bnbjfxir86q0o::::res://CENARIO/objects/arvores/Arvore4.tscn<>uid://dire72ehs5xi6::::res://CENARIO/objects/arvores/Arvore5.tscn
+Chao_grama_pt_2.tscn::PackedScene::8604912297387038969::1733156844::0::1::::<><>::uid://bmbm6kvs41qf4::::res://CENARIO/meshs/texturas/gama.jpg<>uid://db12ofswkrwes::::res://CENARIO/meshs/parte2/chaopt2.res<>uid://ccfm8iiyghtpv::::res://CENARIO/meshs/geral/grama/grama.res<>uid://7pek61f7vtff::::res://CENARIO/meshs/parte2/chaosemgrama.res<>uid://yoddscp3qgq6::::res://CENARIO/objects/parte2/Caminhos_e_pedras_pt_2.tscn<>uid://dw7ll6sjjuu7r::::res://CENARIO/meshs/parte2/mesh caminhos e pedras pt2.res
+Corrimao.tscn::PackedScene::2277413630793925175::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh corrimao.res<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>res://CENARIO/collisions/parte2/collision corrimao.tres
+Deque.tscn::PackedScene::9104188405188603888::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh deque.res<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>uid://bg0dqqs5y8jii::::res://CENARIO/meshs/texturas/madeira.jpg<>uid://ctycw34uppfw3::::res://CENARIO/meshs/texturas/metal.jpg<>res://CENARIO/collisions/parte2/collision deque.tres
+Escombros_ponte.tscn::PackedScene::8250963857030237617::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh escombro de ponte.res<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>res://CENARIO/collisions/parte2/collision escombro de ponte.tres
+Fora_bar.tscn::PackedScene::8191154287660713699::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh forabar.res<>uid://1s43fh4e17jx::::res://CENARIO/meshs/texturas/tijolin.jpg<>uid://ctycw34uppfw3::::res://CENARIO/meshs/texturas/metal.jpg<>uid://c0e004koncdak::::res://CENARIO/meshs/texturas/pared.jpg<>uid://bw0y22al8dfmw::::res://CENARIO/meshs/texturas/telhado rox.png<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>uid://dhm0k2rle7x4d::::res://CENARIO/meshs/texturas/dourado.png<>uid://bg0dqqs5y8jii::::res://CENARIO/meshs/texturas/madeira.jpg<>res://CENARIO/collisions/parte2/collision forabar.tres
+Paralelepipedo.tscn::PackedScene::6737030966996892583::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh paralelepipedo.res<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>res://CENARIO/collisions/parte2/collision paralelepipedo.tres
+Parte_sem_grama_pt_2.tscn::PackedScene::5361516004830630746::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh parte sem grama pt2.res<>uid://bmbm6kvs41qf4::::res://CENARIO/meshs/texturas/gama.jpg
+Poste.tscn::PackedScene::2825445529316537565::1733156844::0::1::::<><>::res://CENARIO/meshs/parte2/mesh postes.res<>uid://ctycw34uppfw3::::res://CENARIO/meshs/texturas/metal.jpg<>uid://bg0dqqs5y8jii::::res://CENARIO/meshs/texturas/madeira.jpg<>uid://hdvf3cnjoflv::::res://CENARIO/meshs/texturas/perda preta.jpg<>res://CENARIO/collisions/parte2/collision poste.tres
+Rio_pt_2.tscn::PackedScene::3932574148736466387::1733156844::0::1::::<><>::uid://cpu11ecdf6n8d::::res://CENARIO/meshs/parte2/riopt2.res<>uid://bmbm6kvs41qf4::::res://CENARIO/meshs/texturas/gama.jpg<>uid://dgogwcqo7yvi7::::res://CENARIO/meshs/texturas/area.jpg
+::res://CENARIO/objects/parte3/::1733156845
+Aviso.tscn::PackedScene::7985111755527639763::1733156844::0::1::::<><>::uid://glprrwsqwji::::res://meshs/parte3/mesh aviso.res<>uid://wce0h82qug8i::::res://meshs/texturas/tauba.jpg<>uid://4m4dbvyydxc7::::res://meshs/texturas/PAPEL.jpg<>uid://b7xjn02dlnnng::::res://meshs/texturas/coiso.jpg
+Caixote.tscn::PackedScene::1533841084052676088::1733156844::0::1::::<><>::uid://bfu0l8h61jrpo::::res://meshs/parte3/mesh caixote.res
+Caixote_grama.tscn::PackedScene::3522271100469736138::1733156844::0::1::::<><>::uid://jrkkv1xok1u1::::res://meshs/parte3/mesh caixote grama.res<>uid://s5dqe74lcx02::::res://meshs/texturas/pano.jpg
+Caixote_largo.tscn::PackedScene::5242801957255197515::1733156844::0::1::::<><>::uid://wht0oj0ffs20::::res://meshs/parte3/mesh caixote largo.res
+Cenário_parte_3.tscn::PackedScene::7590529209954710234::1733156844::0::1::::<><>::uid://b5w7mxaskb3fg::::res://CENARIO/objects/parte3/Chão_parte_3.tscn<>uid://b7iqmcq416mvc::::res://CENARIO/objects/parte3/Shmungus.tscn<>uid://bdpl6x6jnyb20::::res://CENARIO/objects/parte3/Pilar_1.tscn<>uid://jogkn44nq0mf::::res://CENARIO/objects/parte3/Pilar_2.tscn<>uid://dft8edald46t5::::res://CENARIO/objects/parte3/Toco_de_pilar_1.tscn<>uid://f7obndhnct4t::::res://CENARIO/objects/parte3/Toco_de_pilar_2.tscn<>uid://bcmrjmrjuweug::::res://CENARIO/objects/parte3/Pilar_3.tscn<>uid://cijgpkuosnnua::::res://CENARIO/objects/parte3/Tocha.tscn<>uid://7rh8k5onuv5j::::res://CENARIO/objects/parte3/Tocha_torta.tscn<>uid://gq08wpiqlukr::::res://CENARIO/objects/pedras/Pedras_7.tscn<>uid://0m8dp3c7psdf::::res://CENARIO/objects/pedras/Pedras_6.tscn<>uid://b5xwel6ia0ftw::::res://CENARIO/objects/pedras/Pedrinhas.tscn<>uid://cwx7ai3v752::::res://CENARIO/objects/pedras/Pedra_4.tscn<>uid://g3wlexp7pkc2::::res://CENARIO/objects/pedras/Pedras_5.tscn<>uid://dgeq8eoybj47r::::res://CENARIO/objects/pedras/Pedras_3.tscn<>uid://dwaclp5cn4p56::::res://CENARIO/objects/pedras/Pedras_1.tscn<>uid://iub1s0ypus0s::::res://CENARIO/objects/pedras/Pedras_2.tscn<>uid://bmyna4jh3qhxc::::res://CENARIO/objects/parte3/Pilar_entrada_1.tscn<>uid://ctrehgobjsv2h::::res://CENARIO/objects/parte3/Pilar_entrada_2.tscn<>uid://v4aeyf4gos5e::::res://CENARIO/objects/parte3/Caixote.tscn<>uid://cgxwggxjkgmkx::::res://CENARIO/objects/parte3/Caixote_largo.tscn<>uid://bqghj4yplogqs::::res://CENARIO/objects/parte3/Caixote_grama.tscn<>uid://do8sitlwy0isv::::res://CENARIO/objects/parte1/Caixa.tscn<>uid://dl1bvhkxcmckx::::res://CENARIO/objects/parte3/Aviso.tscn<>uid://yro1chr8ate8::::res://CENARIO/objects/parte3/Tabua.tscn<>uid://dl8frvklbgfff::::res://CENARIO/objects/arvores/Arvore1.tscn<>uid://d3tbixysp6hf::::res://CENARIO/objects/arvores/Arvore2.tscn<>uid://5ua52x8j1mja::::res://CENARIO/objects/arvores/Arvore3.tscn<>uid://bnbjfxir86q0o::::res://CENARIO/objects/arvores/Arvore4.tscn<>uid://dire72ehs5xi6::::res://CENARIO/objects/arvores/Arvore5.tscn<>uid://c3idyq4ddjji4::::res://CENARIO/objects/bar/Banco.tscn<>uid://ky0pwb2x156g::::res://CENARIO/objects/bar/Barril.tscn<>uid://bkw8bi53a1j71::::res://CENARIO/objects/parte1/Cerca_quebrada.tscn<>uid://k4jrr7g1cslp::::res://CENARIO/meshs/parte3/arvorefundopt3.res<>uid://btrlp2sjlkydg::::res://CENARIO/meshs/parte3/arvorefundo3.res<>uid://bbus08uq4wjqj::::res://CENARIO/meshs/texturas/arvere.jpg
+Chão_parte_3.tscn::PackedScene::4539467885587099400::1733156844::0::1::::<><>::uid://chgatcm66axwq::::res://CENARIO/meshs/parte3/chao com grama pt3.res<>uid://bmbm6kvs41qf4::::res://CENARIO/meshs/texturas/gama.jpg<>uid://dgogwcqo7yvi7::::res://CENARIO/meshs/texturas/area.jpg<>uid://dd3b35x01yeok::::res://CENARIO/meshs/parte3/mesh chao sem grama pt3.res<>uid://b7uwusbasck78::::res://CENARIO/collisions/parte3/collision chao pt3.tres<>uid://ccfm8iiyghtpv::::res://CENARIO/meshs/geral/grama/grama.res
+Pilar_1.tscn::PackedScene::2628677383802804515::1733156844::0::1::::<><>::uid://cydteuwq3tykp::::res://CENARIO/meshs/parte3/mesh pilar1.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg<>uid://by8vmfmyn4bq::::res://CENARIO/collisions/parte3/collision pilar1.tres
+Pilar_2.tscn::PackedScene::660983770133313841::1733156844::0::1::::<><>::uid://yupylyht8hkm::::res://CENARIO/meshs/parte3/mesh pilar2.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg<>uid://d17a5hkcceh3b::::res://CENARIO/collisions/parte3/collision pilar2.tres
+Pilar_3.tscn::PackedScene::2552619822018449422::1733156844::0::1::::<><>::uid://1xfsytv0h2el::::res://CENARIO/meshs/parte3/mesh pilar3.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg<>uid://eoygef0gqmec::::res://CENARIO/collisions/parte3/collision pilar3.tres
+Pilar_entrada_1.tscn::PackedScene::3279022731789385356::1733156844::0::1::::<><>::uid://dviqqb73nxsxu::::res://meshs/parte3/mesh pilar entrada1.res<>uid://nh4l4ft51tgk::::res://meshs/texturas/pedra.jpg
+Pilar_entrada_2.tscn::PackedScene::6141779523681791537::1733156845::0::1::::<><>::uid://bklb6qs48u43::::res://meshs/parte3/mesh pilar entrada2.res<>uid://nh4l4ft51tgk::::res://meshs/texturas/pedra.jpg
+Shmungus.tscn::PackedScene::4649971734670913716::1733156845::0::1::::<><>::uid://bw0q6wfpi03ae::::res://CENARIO/meshs/parte3/mesh shmungus.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg
+Tabua.tscn::PackedScene::1720523254348905829::1733156845::0::1::::<><>::uid://c5sr1lo2vttor::::res://CENARIO/meshs/parte3/mesh tabua.res<>uid://wce0h82qug8i::::res://CENARIO/meshs/texturas/tauba.jpg<>uid://c382ndg48dynq::::res://CENARIO/collisions/parte3/collision tabua.tres
+Tocha.tscn::PackedScene::5353323161932437796::1733156845::0::1::::<><>::uid://cqi125y8qviyy::::res://meshs/parte3/mesh tocha.res<>uid://ctycw34uppfw3::::res://meshs/texturas/metal.jpg<>uid://bol2k4tedfewm::::res://meshs/texturas/carvao.jpg
+Tocha_torta.tscn::PackedScene::2281621940616192905::1733156845::0::1::::<><>::uid://u8ovh22421fl::::res://meshs/parte3/mesh tocha torta.res<>uid://ctycw34uppfw3::::res://meshs/texturas/metal.jpg<>uid://bol2k4tedfewm::::res://meshs/texturas/carvao.jpg
+Toco_de_pilar_1.tscn::PackedScene::7551440408608539160::1733156845::0::1::::<><>::uid://cg47aqsrsiv0m::::res://CENARIO/meshs/parte3/mesh toco de pilar1.res<>uid://nh4l4ft51tgk::::res://CENARIO/meshs/texturas/pedra.jpg<>uid://chtjjaqbarr16::::res://CENARIO/collisions/parte3/collision toco de pilar1.tres
+Toco_de_pilar_2.tscn::PackedScene::417856817786197177::1733156845::0::1::::<><>::uid://vm1jocgv3ik7::::res://meshs/parte3/mesh toco de pilar2.res<>uid://nh4l4ft51tgk::::res://meshs/texturas/pedra.jpg<>uid://buknk5nngbmx8::::res://collisions/parte3/collision toco de pilar2.tres
+::res://CENARIO/objects/pedras/::1733156845
+Pedras.tscn::PackedScene::6424033038856756447::1733156845::0::1::::<><>::uid://c5iuiis004u61::::res://collisions/pedras/collision pedras.tres<>uid://8d4qhcp2t5q4::::res://meshs/pedras/mesh pedras.res
+Pedras_1.tscn::PackedScene::8703558523138288463::1733156845::0::1::::<><>::uid://br3sykdvijewc::::res://meshs/pedras/mesh pedras1.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedras_2.tscn::PackedScene::602906436971464316::1733156845::0::1::::<><>::uid://brm8e7ss12qoa::::res://meshs/pedras/mesh pedras2.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedras_3.tscn::PackedScene::7589683259819698845::1733156845::0::1::::<><>::uid://cb6u0f1f05wcm::::res://meshs/pedras/mesh pedras3.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedras_4.tscn::PackedScene::7427144449232946219::1733156845::0::1::::<><>::uid://bvmx0bu5oy305::::res://meshs/pedras/mesh pedras4.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedras_5.tscn::PackedScene::480291302864481567::1733156845::0::1::::<><>::uid://bfjov1rsyf3hx::::res://meshs/pedras/mesh pedras5.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedras_6.tscn::PackedScene::1781503473381554795::1733156845::0::1::::<><>::uid://btauf1qr5l21q::::res://meshs/pedras/mesh pedras6.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedras_7.tscn::PackedScene::455741140982263885::1733156845::0::1::::<><>::uid://dvy3alaft1hj7::::res://meshs/pedras/mesh pedras7.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedra_1.tscn::PackedScene::206455990669916428::1733156845::0::1::::<><>::uid://dcn554ncvfigj::::res://collisions/pedras/collision pedra1.tres<>uid://bo8i65e2ndys::::res://meshs/pedras/mesh pedra1.res
+Pedra_2.tscn::PackedScene::8839464614665178260::1733156845::0::1::::<><>::uid://bo6ru256jtyqi::::res://meshs/pedras/mesh pedra2.res<>uid://dcnfv2287q5ju::::res://collisions/pedras/collision pedra2.tres
+Pedra_3.tscn::PackedScene::2317383578019255477::1733156845::0::1::::<><>::uid://cwus8nre1fk4e::::res://collisions/pedras/collision pedra3.tres<>uid://co833xjytmdqn::::res://meshs/pedras/mesh pedra3.res
+Pedra_4.tscn::PackedScene::5507283757763199::1733156845::0::1::::<><>::uid://bx66ou4vlg688::::res://meshs/pedras/mesh pedra4.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedra_5.tscn::PackedScene::3784822489166816084::1733156845::0::1::::<><>::uid://cp0kmqjmpm544::::res://meshs/pedras/mesh pedra5.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedra_6.tscn::PackedScene::1649271880835418394::1733156845::0::1::::<><>::uid://b07m74fyjeee4::::res://meshs/pedras/mesh pedra6.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedra_7.tscn::PackedScene::6218919603361061828::1733156845::0::1::::<><>::uid://ckalkyxpwsq2k::::res://meshs/pedras/mesh pedra7.res<>uid://hdvf3cnjoflv::::res://meshs/texturas/perda preta.jpg
+Pedrinhas.tscn::PackedScene::4540910224204190136::1733156845::0::1::::<><>::uid://ctvfmiufh5xl::::res://CENARIO/meshs/pedras/mesh pedrinhas.res
+::res://cutscenes/::1733156845
+Créditos.ogv::VideoStreamTheora::-1::1733156845::0::1::::<><>::
+Fim.ogv::VideoStreamTheora::-1::1733156845::0::1::::<><>::
+Introdução.ogv::VideoStreamTheora::-1::1733156845::0::1::::<><>::
+::res://parte1/::1733164539
+parte1_Final_Code.gd::GDScript::-1::1733156846::0::1::::parte1_Final<>Node<>::
+parte_um_final.tscn::PackedScene::5854783507771750383::1733164539::0::1::::<><>::res://parte1/parte1_Final_Code.gd<>uid://ck7gpgt4u4t3d::::res://CENARIO/objects/parte1/Cenário_parte_1.tscn<>uid://c8xkyskxe8ar5::::res://portais/transition.tscn<>uid://dmshoeekuq3pw::::res://PERSONAGENS/Lana/player.tscn<>uid://3fp1dbiqyq63::::res://CENARIO/meshs/texturas/céu_dia.png<>res://portais/rio.gd<>res://portais/portal1.gd<>uid://gs4hi6xunjao::::res://UI/PauseMenu/pause_menu.tscn<>uid://ctao7gljhhrop::::res://UI/Options/PauseToOptions/Optionsmenu.tscn<>res://parte1/Vida.gd<>res://parte1/Stamina.gd<>uid://bgghhepuw8e4p::::res://PERSONAGENS/Guará/GuaráTexturado.tscn<>uid://ckqk5k3en2rso::::res://PERSONAGENS/Guará/Animações/loboDeitado.res<>res://11/ProgressBardojunin.gd<>res://11/Personagens/Junin/Junin_inim.gd<>uid://bmomwxg1ui1jn::::res://11/Personagens/Junin/JuninTexturizado.tscn<>uid://b5nh5pne6j04e::::res://11/Personagens/Junin/Animações/AnimJ.res
+ProgressBar.gd::GDScript::-1::1733156846::0::1::::<>ProgressBar<>::
+ProgressBardojunito.gd::GDScript::-1::1733162516::0::1::::<>ProgressBar<>::
+Stamina.gd::GDScript::-1::1733156846::0::1::::<>ProgressBar<>::
+Vida.gd::GDScript::-1::1733156846::0::1::::<>ProgressBar<>::
+::res://parte2/::1733156846
+parte2_Final_Code.gd::GDScript::-1::1733156846::0::1::::parte2_Final<>Node<>::
+parte_dois_final.tscn::PackedScene::1446982522602690852::1733156846::0::1::::<><>::res://parte2/parte2_Final_Code.gd<>uid://cbqpoexmq5upy::::res://CENARIO/objects/parte2/Cenário_parte_2.tscn<>uid://cqj601nqqkcxh::::res://CENARIO/meshs/texturas/ceu_meio_dia.png<>uid://c8xkyskxe8ar5::::res://portais/transition.tscn<>uid://dmshoeekuq3pw::::res://PERSONAGENS/Lana/player.tscn<>res://portais/rio2.gd<>res://portais/portal_bar.gd<>res://portais/portal2.gd<>uid://dy1ka7yrce7gj::::res://audio/sons/Vento ocasional.mp3<>uid://ctao7gljhhrop::::res://UI/Options/PauseToOptions/Optionsmenu.tscn<>uid://gs4hi6xunjao::::res://UI/PauseMenu/pause_menu.tscn<>res://UI/PauseMenu/pause_menu2.gd
+::res://parte3/::1733156846
+parte3_Final_Code.gd::GDScript::-1::1733156846::0::1::::parte3_Final<>Node<>::
+parte_tres_final.tscn::PackedScene::638953685217266991::1733156847::0::1::::<><>::res://parte3/parte3_Final_Code.gd<>uid://f3u7vtto3fnl::::res://CENARIO/meshs/texturas/céu_por_do_soll.png<>uid://c8xkyskxe8ar5::::res://portais/transition.tscn<>uid://dge553utnhri5::::res://CENARIO/objects/parte3/Cenário_parte_3.tscn<>uid://5ua52x8j1mja::::res://CENARIO/objects/arvores/Arvore3.tscn<>uid://dmshoeekuq3pw::::res://PERSONAGENS/Lana/player.tscn<>uid://gs4hi6xunjao::::res://UI/PauseMenu/pause_menu.tscn<>res://UI/PauseMenu/pause_menu3.gd<>uid://ctao7gljhhrop::::res://UI/Options/PauseToOptions/Optionsmenu.tscn<>res://portais/portal3.gd
+::res://PERSONAGENS/::1733156849
+::res://PERSONAGENS/Douglas/::1733165144
+douglasBarFINAL.glb::PackedScene::3326287577870822809::1733156847::1733165301::1::::<><>::
+DouglasTexturado.tscn::PackedScene::2206343013613379720::1733156847::0::1::::<><>::uid://bnnjp822wp3i8::::res://PERSONAGENS/Douglas/douglasBarFINAL.glb<>uid://i2ndw366oecu::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_textura madeira marrom estante escada.jpg<>uid://prpuncbo5luc::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_textura beiral escada e galeria.jpg<>uid://d1sxw68uhymov::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_esponja01amarelo.png<>uid://bn6fsyqsu1wk3::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_esponja02verde.png<>uid://bthq0lwjtm53h::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_preto.png<>uid://ddkc23726e2ca::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_botaocosturado3txt.png<>uid://dodf4u3mdsqf7::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_tenistxt.png<>uid://dhllrjgirdvhm::::res://PERSONAGENS/Douglas/Texturas/pele.001 Base Color.png<>uid://dobq3xgs23f2::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_camisa Base Color.png<>uid://djuny3shm7eqx::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_chapeutxt.png<>uid://d217kokpbxqao::::res://PERSONAGENS/Douglas/Texturas/douglasBarFINAL_colete3txt.png<>uid://dblui558ihdf1::::res://PERSONAGENS/Giovanna/Texturas/branco.png
+::res://PERSONAGENS/Douglas/Animações/::1733156847
+secarCopo.res::Animation::8383730547631020302::1733156847::0::1::::<><>::
+::res://PERSONAGENS/Douglas/Texturas/::1733165140
+douglasBarFINAL_botaocosturado3txt.png::CompressedTexture2D::7390643531310879904::1733156847::1733165298::1::::<><>::
+douglasBarFINAL_camisa Base Color.png::CompressedTexture2D::239558615648244781::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_chapeutxt.png::CompressedTexture2D::7833082877658102119::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_colete3txt.png::CompressedTexture2D::9109996204078043894::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_esponja01amarelo.png::CompressedTexture2D::9022768243662178193::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_esponja02verde.png::CompressedTexture2D::3363208376740381720::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_preto.png::CompressedTexture2D::3735476086003385831::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_tenistxt.png::CompressedTexture2D::8148455462532496970::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_textura beiral escada e galeria.jpg::CompressedTexture2D::1088874233117594182::1733156847::1733165297::1::::<><>::
+douglasBarFINAL_textura madeira marrom estante escada.jpg::CompressedTexture2D::618044826970258088::1733156847::1733165297::1::::<><>::
+pele.001 Base Color.png::CompressedTexture2D::7673990839622323062::1733156847::1733165297::1::::<><>::
+::res://PERSONAGENS/Giovanna/::1733165146
+GiovannaTexturada.tscn::PackedScene::110501180936478089::1733156847::0::1::::<><>::uid://bh7uuu183cnx8::::res://PERSONAGENS/Giovanna/goivannaBebendoEmLoop.glb<>uid://kd7rv18r5pck::::res://PERSONAGENS/Giovanna/Texturas/cabeloGiovanna.png<>uid://d4giwk4ccye8m::::res://PERSONAGENS/Giovanna/Texturas/CanecaMarrom.jpg<>uid://kmlk7y6g1a62::::res://PERSONAGENS/Giovanna/Texturas/verdeCalça.png<>uid://br7s71wvhgo40::::res://PERSONAGENS/Giovanna/Texturas/goivannaBebendoEmLoop_bebida textura.png<>uid://dxuermovg8df0::::res://PERSONAGENS/Giovanna/Texturas/goivannaBebendoEmLoop_textura beiral escada e galeria.jpg<>uid://djdkos5hnh8q5::::res://PERSONAGENS/Giovanna/Texturas/peleTexturaFINAL.png<>uid://dblui558ihdf1::::res://PERSONAGENS/Giovanna/Texturas/branco.png<>uid://b65wwt7yus0po::::res://PERSONAGENS/Giovanna/Texturas/preto.png<>uid://dkebe5siedure::::res://PERSONAGENS/Giovanna/Texturas/olhos verdes.png
+goivannaBebendoEmLoop.glb::PackedScene::2945053825191466323::1733156848::1733165303::1::::<><>::
+::res://PERSONAGENS/Giovanna/Animações/::1733156848
+bebendoRespirar.res::Animation::8763219984619735540::1733156848::0::1::::<><>::
+::res://PERSONAGENS/Giovanna/Texturas/::1733165141
+branco.png::CompressedTexture2D::7253389299773536808::1733156848::1733165297::1::::<><>::
+cabeloGiovanna.png::CompressedTexture2D::710056016585964330::1733156848::1733165297::1::::<><>::
+CanecaMarrom.jpg::CompressedTexture2D::9207650376641962462::1733156848::1733165297::1::::<><>::
+goivannaBebendoEmLoop_bebida textura.png::CompressedTexture2D::3646842565500869611::1733156848::1733165297::1::::<><>::
+goivannaBebendoEmLoop_grid.png::CompressedTexture2D::1368474770374130912::1733156848::1733165298::1::::<><>::
+goivannaBebendoEmLoop_textura beiral escada e galeria.jpg::CompressedTexture2D::8815166889173618775::1733156848::1733165298::1::::<><>::
+olhos verdes.png::CompressedTexture2D::7869477462520206318::1733156848::1733165298::1::::<><>::
+peleTexturaFINAL.png::CompressedTexture2D::7797787940226276394::1733156848::1733165298::1::::<><>::
+preto.png::CompressedTexture2D::4625582278895976000::1733156848::1733165298::1::::<><>::
+verdeCalça.png::CompressedTexture2D::727348433528570953::1733156848::1733165298::1::::<><>::
+::res://PERSONAGENS/Guará/::1733165149
+gifLoboRespirando2.glb::PackedScene::6580091001322264401::1733156848::1733165306::1::::<><>::
+GuaráTexturado.tscn::PackedScene::2820377765757230881::1733156848::0::1::::<><>::uid://c00pew4qt65hd::::res://PERSONAGENS/Guará/gifLoboRespirando2.glb<>uid://c2ehpxvfr552c::::res://PERSONAGENS/Lana/TexturasPersonage/gengiva Base Color.png<>uid://beh4lsmv6boqi::::res://PERSONAGENS/Lana/TexturasPersonage/preto Base Color.png<>uid://3cy6xg8p2xhb::::res://PERSONAGENS/Lana/TexturasPersonage/ambar3.png<>uid://ubhhisdb2430::::res://PERSONAGENS/Guará/texturasLobo/pele Base Color.png<>uid://bhnrgvxensbqk::::res://PERSONAGENS/Guará/texturasLobo/pele Base Color02.png<>uid://dblui558ihdf1::::res://PERSONAGENS/Giovanna/Texturas/branco.png
+::res://PERSONAGENS/Guará/Animações/::1733156848
+loboDeitado.res::Animation::5508421160264514526::1733156848::0::1::::<><>::
+::res://PERSONAGENS/Guará/texturasLobo/::1733165139
+pele Base Color02.png::CompressedTexture2D::2905623542323241934::1733156848::1733165296::1::::<><>::
+pele Base Color.png::CompressedTexture2D::1406279218153425933::1733156848::1733165296::1::::<><>::
+UVlayoutLobo.png::CompressedTexture2D::7668000989763661553::1733156848::1733165297::1::::<><>::
+::res://PERSONAGENS/Juninho/::1733165148
+juninAnimaçõesRecebendoAtaqueeRespirando.glb::PackedScene::1754734621327872378::1733156849::1733165305::1::::<><>::
+JuninhoScript.gd::GDScript::-1::1733156849::0::1::::<>CharacterBody3D<>::
+JuninhoTexturado.tscn::PackedScene::9048328120706977094::1733156849::0::1::::<><>::uid://0aahtuvtlsak::::res://PERSONAGENS/Juninho/juninAnimaçõesRecebendoAtaqueeRespirando.glb<>uid://l1lsamdleafl::::res://PERSONAGENS/Juninho/texturasJunin/espada Base Color.png<>uid://bup8jvll0m3xu::::res://PERSONAGENS/Juninho/texturasJunin/couro com Sangue.png<>uid://d1v5dr8iguieo::::res://PERSONAGENS/Juninho/texturasJunin/pele.001ComSangue02.png<>uid://beh4lsmv6boqi::::res://PERSONAGENS/Lana/TexturasPersonage/preto Base Color.png<>uid://dels40x4g638g::::res://PERSONAGENS/Juninho/Animações/Global.res
+::res://PERSONAGENS/Juninho/Animações/::1733156849
+Global.res::AnimationLibrary::7463871624760280976::1733156849::0::1::::<><>::
+::res://PERSONAGENS/Juninho/texturasJunin/::1733165143
+couro Base Color.png::CompressedTexture2D::861367345170400362::1733156849::1733165297::1::::<><>::
+couro com Sangue.png::CompressedTexture2D::3823184076187987234::1733156849::1733165296::1::::<><>::
+espada Base Color.png::CompressedTexture2D::826451151523445989::1733156849::1733165296::1::::<><>::
+pedra textura.jpg::CompressedTexture2D::5997426473995636929::1733156849::1733165300::1::::<><>::
+pele.001 Base Color.png::CompressedTexture2D::4205876631861640700::1733156849::1733165297::1::::<><>::
+pele.001ComSangue02.png::CompressedTexture2D::9029351729915904118::1733156849::1733165297::1::::<><>::
+::res://PERSONAGENS/Lana/::1733165148
+Lana.tscn::PackedScene::4374021903656205938::1733156849::0::1::::<><>::uid://c134tqu22oo5j::::res://PERSONAGENS/Lana/priscillaComAnimações02.glb<>uid://dfrnkc00a0lqj::::res://PERSONAGENS/Lana/TexturasPersonage/cajado Textura02.png<>uid://x8p6h5mp3p17::::res://PERSONAGENS/Lana/TexturasPersonage/Cabelo Base Color.png<>uid://cvfv5gal3bf8e::::res://PERSONAGENS/Lana/TexturasPersonage/xuxinha Base Color.png<>uid://bww1iyk33xd4q::::res://PERSONAGENS/Lana/TexturasPersonage/texturaCabeça1.png<>uid://beh4lsmv6boqi::::res://PERSONAGENS/Lana/TexturasPersonage/preto Base Color.png<>uid://3skvojydl1ov::::res://PERSONAGENS/Lana/TexturasPersonage/interior da boca Base Color.png<>uid://d042tkqe3jgk1::::res://PERSONAGENS/Lana/TexturasPersonage/cargo Base Color.png<>uid://yq8l2fs0nvi7::::res://PERSONAGENS/Lana/TexturasPersonage/blusaTextura.png<>uid://b5ws4gobl382g::::res://PERSONAGENS/Lana/TexturasPersonage/meia Base Color.png<>uid://3cy6xg8p2xhb::::res://PERSONAGENS/Lana/TexturasPersonage/ambar3.png<>uid://cma3g4xj4dewe::::res://PERSONAGENS/Lana/Animações/Anim.res
+LanaComAnimações01_meia Base Color.png::CompressedTexture2D::144484967531539212::1733156849::1733165297::1::::<><>::
+player.gd::GDScript::-1::1733156849::0::1::::Player<>CharacterBody3D<>::
+player.tscn::PackedScene::8039137211127162500::1733164540::0::1::::<><>::res://Personagens/Lana/player.gd<>uid://b3k2rb73unbnm::::res://PERSONAGENS/Lana/Lana.tscn<>uid://cma3g4xj4dewe::::res://PERSONAGENS/Lana/Animações/Anim.res
+priscillaComAnimações02.glb::PackedScene::6657349474496233917::1733156850::1733165304::1::::<><>::uid://d1oudfmhdhsj3::::res://PERSONAGENS/Lana/priscillaComAnimações02_meia Base Color.png
+priscillaComAnimações02_meia Base Color.png::CompressedTexture2D::9014293252938782942::1733156850::1733165297::1::::<><>::
+::res://PERSONAGENS/Lana/Animações/::1733156850
+Anim.res::AnimationLibrary::5616819840758932680::1733156850::0::1::::<><>::uid://be28rwq3vxuhw::::res://Personagens/Lana/Animações/correr-CajadoNasCostas.res<>uid://bsn43odmk7hms::::res://Personagens/Lana/Animações/correr-CajadoNasmaos.res<>uid://6dpdcdpr3njk::::res://Personagens/Lana/Animações/sacarCajadoAnimação.res<>uid://bk734k22wywnc::::res://Personagens/Lana/Animações/FulanaAtacar01.res<>uid://q7g1q61u6u7t::::res://Personagens/Lana/Animações/FulanaAtaqueGiratorio.res<>uid://dhbkp1dqcvs7r::::res://Personagens/Lana/Animações/FulanaAtaqueGiratorio_001.res<>uid://d6nkvlsdip2p::::res://Personagens/Lana/Animações/FulanaAtaqueGiratorioVuado.res<>uid://neo6dxkygh7e::::res://Personagens/Lana/Animações/FulanaChute01.res<>uid://dnc303hpxpqnj::::res://Personagens/Lana/Animações/FulanaChute02.res<>uid://drahegrqwj7b2::::res://Personagens/Lana/Animações/pular comArma.res<>uid://md21k1jx1ow0::::res://Personagens/Lana/Animações/pular semArma.res
+correr-CajadoNasCostas.res::Animation::2724949458394277212::1733156850::0::1::::<><>::
+correr-CajadoNasmaos.res::Animation::3678468315521195558::1733156850::0::1::::<><>::
+FulanaAtacar01.res::Animation::3156121640224386388::1733156850::0::1::::<><>::uid://by4v4oidbhuew::::res://audio/voz/Lana01.mp3
+FulanaAtaqueGiratorio.res::Animation::1189493208408386651::1733156850::0::1::::<><>::
+FulanaAtaqueGiratorioVuado.res::Animation::275370540940344145::1733156850::0::1::::<><>::uid://ciplegtuxvosa::::res://audio/voz/Lana03.mp3
+FulanaAtaqueGiratorio_001.res::Animation::7653283662107831457::1733156850::0::1::::<><>::uid://02qk71hworqs::::res://audio/voz/LanaA.mp3
+FulanaChute01.res::Animation::921618069407665680::1733156850::0::1::::<><>::uid://bskfrtuetlne2::::res://audio/voz/Lana02.mp3
+FulanaChute02.res::Animation::8077591976707237643::1733156850::0::1::::<><>::
+pular comArma.res::Animation::8352904897209371429::1733156850::0::1::::<><>::
+pular semArma.res::Animation::850145612203899421::1733156850::0::1::::<><>::
+sacarCajadoAnimação.res::Animation::2182963508700873344::1733156850::0::1::::<><>::
+::res://PERSONAGENS/Lana/TexturasPersonage/::1733165141
+ambar3.png::CompressedTexture2D::1970930163636855091::1733156850::1733165297::1::::<><>::
+blusaTextura.png::CompressedTexture2D::1719587022578238332::1733156850::1733165297::1::::<><>::
+Cabelo Base Color.png::CompressedTexture2D::1683434398635238560::1733156850::1733165297::1::::<><>::
+cajado Textura02.png::CompressedTexture2D::7546108014737186429::1733156850::1733165297::1::::<><>::
+cargo Base Color.png::CompressedTexture2D::8975523935956626062::1733156850::1733165297::1::::<><>::
+gengiva Base Color.png::CompressedTexture2D::6676650703216309872::1733156850::1733165297::1::::<><>::
+interior da boca Base Color.png::CompressedTexture2D::2003091843362714017::1733156850::1733165297::1::::<><>::
+meia Base Color.png::CompressedTexture2D::4538647334145063376::1733156850::1733165297::1::::<><>::
+preto Base Color.png::CompressedTexture2D::2683408104000412280::1733156850::1733165297::1::::<><>::
+priscillaComAnimações02_meia Base Color.png::CompressedTexture2D::7022906934922806876::1733156851::1733165297::1::::<><>::
+texturaCabeça1.png::CompressedTexture2D::3977585759801261166::1733156851::1733165298::1::::<><>::
+xuxinha Base Color.png::CompressedTexture2D::6258457918897777826::1733156851::1733165297::1::::<><>::
+::res://portais/::1733164540
+portal1.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+portal2.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+portal3.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+PortalCutsceneFim.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+portal_bar.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+portal_int_bar.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+rio2.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+rio.gd::GDScript::-1::1733156851::0::1::::<>Area3D<>::
+shaders_transition.gdshader::Shader::-1::1733164540::0::1::::<><>::
+transition.gdshader::Shader::-1::1733156851::0::1::::<><>::
+transition.tscn::PackedScene::7137204886686032264::1733156851::0::1::::<><>::res://portais/shaders_transition.gdshader
+transition_2.tscn::PackedScene::5529659313098148560::1733156851::0::1::::<><>::res://portais/shaders_transition.gdshader
+::res://UI/::1733156852
+::res://UI/Options/::1733156851
+::res://UI/Options/PauseToOptions/::1733156851
+Backeverything.gd::GDScript::-1::1733156851::0::1::::<>Button<>::
+BGMsoundvolume.gd::GDScript::-1::1733156851::0::1::::<>HSlider<>::
+inputs.gd::GDScript::-1::1733156851::0::1::::<>Control<>::
+input_button.tscn::PackedScene::7997889472266773::1733156851::0::1::::<><>::
+Mastersoundvolume.gd::GDScript::-1::1733156851::0::1::::<>HSlider<>::
+Optionsmenu.gd::GDScript::-1::1733156851::0::1::::<>Control<>::
+Optionsmenu.tscn::PackedScene::6107336912364022455::1733156851::0::1::::<><>::res://UI/PauseMenu/blurmaterial.gdshader<>res://UI/Options/PauseToOptions/BGMsoundvolume.gd<>res://UI/Options/PauseToOptions/Mastersoundvolume.gd<>res://UI/Options/PauseToOptions/SFXsoundvolume.gd<>uid://d4yva5jr2j6::::res://UI/Options/PauseToOptions/input_button.tscn<>res://UI/Options/PauseToOptions/inputs.gd
+SFXsoundvolume.gd::GDScript::-1::1733156851::0::1::::<>HSlider<>::
+::res://UI/Options/StartToOptions/::1733156851
+OptionsmenuToStart.gd::GDScript::-1::1733156851::0::1::::<>Control<>::
+OptionsmenuToStart.tscn::PackedScene::218042725094315848::1733156851::0::1::::<><>::res://UI/Options/StartToOptions/OptionsmenuToStart.gd<>res://UI/Options/PauseToOptions/Mastersoundvolume.gd<>res://UI/Options/PauseToOptions/BGMsoundvolume.gd<>res://UI/Options/PauseToOptions/SFXsoundvolume.gd<>res://UI/Options/PauseToOptions/inputs.gd<>uid://d4yva5jr2j6::::res://UI/Options/PauseToOptions/input_button.tscn<>res://UI/PauseMenu/blurmaterial.gdshader
+::res://UI/PauseMenu/::1733156852
+blurmaterial.gdshader::Shader::-1::1733156852::0::1::::<><>::
+pause_menu2.gd::GDScript::-1::1733156852::0::1::::<>Control<>::
+pause_menu3.gd::GDScript::-1::1733156852::0::1::::<>Control<>::
+pause_menu.gd::GDScript::-1::1733156852::0::1::::<>Control<>::
+pause_menu.tscn::PackedScene::460065623896832890::1733156852::0::1::::<><>::res://UI/PauseMenu/pause_menu.gd<>res://UI/PauseMenu/blurmaterial.gdshader
+::res://UI/SaveMenu/::1733161162
+Save_MenuCool.gd::GDScript::-1::1733156852::0::1::::<>Control<>::
+Save_MenuCool.tscn::PackedScene::1818389327553986283::1733161162::0::1::::<><>::res://UI/SaveMenu/Save_MenuCool.gd<>res://UI/StartMenu/telapretatransiçãomenustart.gdshader
+::res://UI/StartMenu/::1733156852
+CelestialInstagram.gd::GDScript::-1::1733156852::0::1::::<>Sprite2D<>::
+StartMenu.gd::GDScript::-1::1733156852::0::1::::<>Control<>::
+StartMenu.tscn::PackedScene::251386809383658168::1733156852::0::1::::<><>::res://UI/StartMenu/StartMenu.gd<>uid://kky6x7uuls1c::::res://UI/StartMenu/PNG/CelestialIcon.png<>uid://b1ck3n1xuidc0::::res://UI/StartMenu/PNG/Origomnite_20241125_224603_0000-removebg-preview.png<>res://UI/StartMenu/CelestialInstagram.gd<>uid://cicf7fe2hu5d0::::res://UI/StartMenu/PNG/LogoStartMenu.png
+telapretatransiçãomenustart.gdshader::Shader::-1::1733156852::0::1::::<><>::
+::res://UI/StartMenu/PNG/::1733156852
+CelestialIcon.png::CompressedTexture2D::724046039765052374::1733156852::1733156852::1::::<><>::
+LogoStartMenu.png::CompressedTexture2D::5338841872400269799::1733156852::1733156852::1::::<><>::
+Origomnite_20241125_224603_0000-removebg-preview.png::CompressedTexture2D::4216117269987590473::1733156852::1733156852::1::::<><>::

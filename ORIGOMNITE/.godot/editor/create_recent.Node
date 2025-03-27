@@ -1,0 +1,14 @@
+VideoStreamPlayer
+Marker3D
+MeshInstance3D
+StaticBody3D
+Label
+TextEdit
+TextureRect
+Control
+Node2D
+Node
+Node3D
+ProgressBar
+SubViewport
+AudioStreamPlayer3D
