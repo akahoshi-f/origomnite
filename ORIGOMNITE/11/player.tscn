@@ -1,0 +1,149 @@
+[gd_scene load_steps=6 format=3 uid="uid://dmshoeekuq3pw"]
+
+[ext_resource type="Script" uid="uid://0nu2jd14wnlf" path="res://11/player.gd" id="1_axd2p"]
+[ext_resource type="PackedScene" uid="uid://b3k2rb73unbnm" path="res://PERSONAGENS/Lana/Lana.tscn" id="2_1mcyh"]
+[ext_resource type="AnimationLibrary" uid="uid://cma3g4xj4dewe" path="res://PERSONAGENS/Lana/Animações/Anim.res" id="3_no8gg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qjbp4"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tu8j7"]
+radius = 0.384845
+height = 1.74068
+
+[node name="Player" type="CharacterBody3D"]
+collision_mask = 2
+script = ExtResource("1_axd2p")
+
+[node name="Personaidk" type="Node3D" parent="."]
+
+[node name="Lana" parent="Personaidk" instance=ExtResource("2_1mcyh")]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, 0, 0)
+
+[node name="HitboxAtacar" type="Area3D" parent="Personaidk"]
+disable_mode = 2
+collision_layer = 2
+collision_mask = 2
+
+[node name="Atacar" type="CollisionShape3D" parent="Personaidk/HitboxAtacar"]
+transform = Transform3D(0.853423, -0.201442, 0, 0.521218, 0.329834, 0, 0, 0, 0.368542, 0, 1.19074, -0.559748)
+shape = SubResource("BoxShape3D_qjbp4")
+
+[node name="HitboxChute1" type="Area3D" parent="Personaidk"]
+disable_mode = 2
+collision_layer = 2
+collision_mask = 2
+
+[node name="Atacar2" type="CollisionShape3D" parent="Personaidk/HitboxChute1"]
+transform = Transform3D(0.312609, 0.00736996, 0, -0.00737252, 0.312501, 0, 0, 0, 0.498593, 0.0120143, 0.985312, -0.644801)
+shape = SubResource("BoxShape3D_qjbp4")
+
+[node name="HitboxChute2" type="Area3D" parent="Personaidk"]
+disable_mode = 2
+collision_layer = 2
+collision_mask = 2
+
+[node name="Atacar3" type="CollisionShape3D" parent="Personaidk/HitboxChute2"]
+transform = Transform3D(0.228778, 0.00510128, 0, -0.00539547, 0.216304, 0, 0, 0, 0.916252, 0.0120143, 0.985312, -1.00805)
+shape = SubResource("BoxShape3D_qjbp4")
+
+[node name="HitboxGiratorio" type="Area3D" parent="Personaidk"]
+disable_mode = 2
+collision_layer = 2
+collision_mask = 2
+
+[node name="Atacar4" type="CollisionShape3D" parent="Personaidk/HitboxGiratorio"]
+transform = Transform3D(0.0405412, 0.0010214, 1.46719, -0.00689481, 0.312317, 3.28959e-16, -0.289529, -0.00729446, 0.205442, 0.182023, 0.985312, -0.772259)
+shape = SubResource("BoxShape3D_qjbp4")
+
+[node name="HitboxGiratorio2" type="Area3D" parent="Personaidk"]
+disable_mode = 2
+collision_layer = 2
+collision_mask = 2
+
+[node name="Atacar5" type="CollisionShape3D" parent="Personaidk/HitboxGiratorio2"]
+transform = Transform3D(0.0405412, 0.0010214, 1.46719, -0.00689481, 0.312317, 3.28959e-16, -0.289529, -0.00729446, 0.205442, 0.182023, 0.985312, -0.772259)
+shape = SubResource("BoxShape3D_qjbp4")
+
+[node name="HitboxGiratorioAlto" type="Area3D" parent="Personaidk"]
+disable_mode = 2
+collision_layer = 2
+collision_mask = 2
+
+[node name="Atacar6" type="CollisionShape3D" parent="Personaidk/HitboxGiratorioAlto"]
+transform = Transform3D(0.109912, 0.00148692, 0.207065, -0.0133914, 0.325719, -5.14897e-11, -0.557083, -0.00753642, 0.0408536, 0.108267, 0.985312, -1.00616)
+shape = SubResource("BoxShape3D_qjbp4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.891134, 0)
+shape = SubResource("CapsuleShape3D_tu8j7")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Personaidk/Lana")
+libraries = {
+"Anim": ExtResource("3_no8gg")
+}
+
+[node name="Interação" type="Label" parent="."]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -530.0
+offset_top = -5.0
+offset_right = -312.0
+offset_bottom = 18.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = -103.0
+offset_right = -17.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Dialogos" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 17.0
+offset_top = -77.0
+offset_right = -24.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="SpringArmPivot" type="Node3D" parent="."]
+
+[node name="SpringArm3D" type="SpringArm3D" parent="SpringArmPivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.432, 0)
+collision_mask = 2
+spring_length = 3.0
+
+[node name="Camera3D" type="Camera3D" parent="SpringArmPivot/SpringArm3D"]
+
+[node name="RayCast3D" type="RayCast3D" parent="SpringArmPivot"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, -0.00181031, 1.20017, -0.0832149)
+collision_mask = 4
+
+[node name="ehossotimer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="saquetimer" type="Timer" parent="."]
+wait_time = 6.0
+one_shot = true
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
+[connection signal="animation_started" from="AnimationPlayer" to="." method="_on_animation_player_animation_started"]
+[connection signal="timeout" from="saquetimer" to="." method="_on_saquetimer_timeout"]

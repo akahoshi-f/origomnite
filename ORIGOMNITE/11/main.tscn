@@ -1,0 +1,458 @@
+[gd_scene load_steps=28 format=3 uid="uid://bbvuytymwa21s"]
+
+[ext_resource type="Script" uid="uid://begd16ghnn22d" path="res://11/main.gd" id="1_7gvv4"]
+[ext_resource type="PackedScene" uid="uid://dmshoeekuq3pw" path="res://PERSONAGENS/Lana/player.tscn" id="1_tsi4e"]
+[ext_resource type="Script" uid="uid://dpmeso8olokw2" path="res://11/Healthplayeridk.gd" id="4_fo5ib"]
+[ext_resource type="PackedScene" uid="uid://csttrphb20ita" path="res://11/Canvas/Pause/pause_menu.tscn" id="5_6ocs7"]
+[ext_resource type="Script" uid="uid://c52vtmjspep7m" path="res://11/Manabar.gd" id="5_mx8mu"]
+[ext_resource type="PackedScene" uid="uid://btr65xfs0hqf" path="res://PERSONAGENS/Giovanna/GiovannaTexturada.tscn" id="5_pdvfr"]
+[ext_resource type="Script" uid="uid://dasp7sn7dmmb" path="res://11/Personagens/Junin/Junin_inim.gd" id="6_3j4gr"]
+[ext_resource type="PackedScene" uid="uid://bmomwxg1ui1jn" path="res://11/Personagens/Junin/JuninTexturizado.tscn" id="6_rwvug"]
+[ext_resource type="AnimationLibrary" uid="uid://b5nh5pne6j04e" path="res://11/Personagens/Junin/Animações/AnimJ.res" id="8_ef6uh"]
+[ext_resource type="Script" uid="uid://dey67i33136o0" path="res://11/ProgressBardojunin.gd" id="9_bwj8u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bb3dp"]
+bg_color = Color(0.164706, 0.0666667, 0, 1)
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_60rp2"]
+bg_color = Color(0, 1, 0.301961, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_va5ny"]
+bg_color = Color(0.3, 0.175, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0nxtw"]
+bg_color = Color(1, 0.716667, 0, 1)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_4wfyd"]
+vertices = PackedVector3Array(-29.5, 0.43662, -29.5, -29.5, 0.43662, 29.5, 29.5, 0.43662, 29.5, 29.5, 0.43662, -29.5, 45.5, 4.93662, 7, 45.5, 4.93662, 14.25, 52.75, 4.93662, 14.25, 52.75, 4.93662, 7, 67.75, 9.68662, 7, 67.75, 9.68662, 14.25, 75, 9.68662, 14.25, 75, 9.68662, 7, 31.75, 0.68662, 12.25, 31.75, 0.68662, 14.25, 33.75, 0.68662, 14.25, 33.75, 0.68662, 12.25, 36, 2.93662, 13.5, 36, 2.93662, 18.75, 41.25, 2.93662, 18.75, 41.25, 2.93662, 13.5, 78.25, 11.6866, 15.5, 78.25, 11.6866, 22.75, 85.5, 11.6866, 22.75, 85.5, 11.6866, 15.5, 56.75, 7.18662, 16.5, 56.75, 7.18662, 23.75, 64, 7.18662, 23.75, 64, 7.18662, 16.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1), PackedInt32Array(7, 6, 4), PackedInt32Array(4, 6, 5), PackedInt32Array(11, 10, 8), PackedInt32Array(8, 10, 9), PackedInt32Array(15, 14, 12), PackedInt32Array(12, 14, 13), PackedInt32Array(19, 18, 16), PackedInt32Array(16, 18, 17), PackedInt32Array(23, 22, 20), PackedInt32Array(20, 22, 21), PackedInt32Array(27, 26, 24), PackedInt32Array(24, 26, 25)]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4genf"]
+size = Vector3(60, 2, 60)
+
+[sub_resource type="BoxMesh" id="BoxMesh_qqkki"]
+size = Vector3(60, 2, 60)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ciw7k"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_7ibb3"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="BoxMesh" id="BoxMesh_lbvq1"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_u2bj1"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hwflg"]
+height = 1.50292
+radius = 0.746324
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0h053"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_yavwf"]
+height = 1.52946
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0rijj"]
+bg_color = Color(0.207426, 0, 0.013734, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5r8aa"]
+bg_color = Color(0, 1, 0.301961, 1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_48j3u"]
+viewport_path = NodePath("NavigationRegion3D/Junin_inim/SubViewport")
+
+[node name="main" type="Node"]
+script = ExtResource("1_7gvv4")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.765573, 0.643349, 0, -0.643349, 0.765573, 4.09038, 13.3828, 44.01)
+shadow_enabled = true
+
+[node name="Jogador" parent="." instance=ExtResource("1_tsi4e")]
+transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, 23.7216, 0, 6.79106)
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PauseMenu" parent="CanvasLayer" node_paths=PackedStringArray("main") instance=ExtResource("5_6ocs7")]
+main = NodePath("../..")
+metadata/_edit_use_anchors_ = true
+
+[node name="Barras" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Health" type="ProgressBar" parent="CanvasLayer/Barras"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -328.0
+offset_top = -51.0
+offset_right = -17.0
+offset_bottom = -18.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_styles/background = SubResource("StyleBoxFlat_bb3dp")
+theme_override_styles/fill = SubResource("StyleBoxFlat_60rp2")
+max_value = 30.0
+step = 1.0
+value = 30.0
+fill_mode = 1
+script = ExtResource("4_fo5ib")
+
+[node name="Mana" type="ProgressBar" parent="CanvasLayer/Barras"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -299.0
+offset_top = -66.0
+offset_right = -17.0
+offset_bottom = -56.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_styles/background = SubResource("StyleBoxFlat_va5ny")
+theme_override_styles/fill = SubResource("StyleBoxFlat_0nxtw")
+max_value = 20.0
+step = 1.0
+value = 20.0
+fill_mode = 1
+show_percentage = false
+script = ExtResource("5_mx8mu")
+
+[node name="Giovanna" parent="." instance=ExtResource("5_pdvfr")]
+transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, -7.30118, 0, -2.32531)
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_4wfyd")
+navigation_layers = 2
+
+[node name="Ground" type="StaticBody3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Ground"]
+shape = SubResource("BoxShape3D_4genf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/Ground"]
+mesh = SubResource("BoxMesh_qqkki")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="NavigationRegion3D/Ground"]
+transform = Transform3D(5.99, 0, 0, 0, 5.99, 0, 0, 0, 5.99, 38.6285, 0.453234, 16.1211)
+layers = 3
+mesh = SubResource("BoxMesh_ciw7k")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/Ground/MeshInstance3D2"]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Ground/MeshInstance3D2/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_7ibb3")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="NavigationRegion3D/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 49.144, 1.46162, 10.6061)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/Ground/MeshInstance3D4"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Ground/MeshInstance3D4/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="NavigationRegion3D/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 60.3209, 3.7033, 20.111)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/Ground/MeshInstance3D5"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Ground/MeshInstance3D5/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="NavigationRegion3D/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 71.3043, 6.26396, 10.6061)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/Ground/MeshInstance3D6"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Ground/MeshInstance3D6/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="NavigationRegion3D/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 81.8801, 8.39863, 19.135)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/Ground/MeshInstance3D7"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Ground/MeshInstance3D7/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="Junin_inim" type="CharacterBody3D" parent="NavigationRegion3D" node_paths=PackedStringArray("target")]
+transform = Transform3D(-2, 0, -3.01992e-07, 0, 2, 0, 3.01992e-07, 0, -2, -10.916, 0, -2.33972)
+collision_layer = 2
+collision_mask = 3
+script = ExtResource("6_3j4gr")
+target = NodePath("../../Jogador")
+HP = 50
+
+[node name="NPC" type="Node3D" parent="NavigationRegion3D/Junin_inim"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.319222, 0, 0)
+
+[node name="juninAnimações3" parent="NavigationRegion3D/Junin_inim/NPC" instance=ExtResource("6_rwvug")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="Area3D" type="Area3D" parent="NavigationRegion3D/Junin_inim/NPC/juninAnimações3"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.0957475, 0.769517, 0.265417)
+collision_layer = 8
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Junin_inim/NPC/juninAnimações3/Area3D"]
+transform = Transform3D(1, 0, 8.52651e-14, 0, 1, 0, -8.52651e-14, 0, 1, -0.113342, -0.0198047, 0.0710491)
+shape = SubResource("CylinderShape3D_hwflg")
+
+[node name="ataque1" type="Area3D" parent="NavigationRegion3D/Junin_inim/NPC"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.245868)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Junin_inim/NPC/ataque1"]
+transform = Transform3D(1.82447, -0.042418, -3.66065e-10, 0.246516, 0.313936, 5.44301e-09, -2.50336e-09, -6.40494e-09, 0.269212, -0.0434113, 0.992417, -0.791274)
+shape = SubResource("BoxShape3D_0h053")
+
+[node name="ataque2" type="Area3D" parent="NavigationRegion3D/Junin_inim/NPC"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.245868)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Junin_inim/NPC/ataque2"]
+transform = Transform3D(1.11683, -0.138305, -1.68569e-08, 1.24843, 0.106757, 0.142678, -0.497743, -0.0425637, 0.357861, 0.103101, 0.769936, -0.780422)
+shape = SubResource("BoxShape3D_0h053")
+
+[node name="CollisionBody" type="CollisionShape3D" parent="NavigationRegion3D/Junin_inim"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.213683, 0.76473, 0)
+shape = SubResource("CapsuleShape3D_yavwf")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="NavigationRegion3D/Junin_inim"]
+root_node = NodePath("../NPC/juninAnimações3")
+libraries = {
+&"AnimJ": ExtResource("8_ef6uh")
+}
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="NavigationRegion3D/Junin_inim"]
+path_height_offset = 1.0
+navigation_layers = 2
+
+[node name="SubViewport" type="SubViewport" parent="NavigationRegion3D/Junin_inim"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(317, 100)
+render_target_update_mode = 4
+
+[node name="ProgressBar" type="ProgressBar" parent="NavigationRegion3D/Junin_inim/SubViewport"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -13.5
+offset_right = 75.0
+offset_bottom = 13.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_0rijj")
+theme_override_styles/fill = SubResource("StyleBoxFlat_5r8aa")
+max_value = 50.0
+step = 1.0
+value = 50.0
+script = ExtResource("9_bwj8u")
+
+[node name="Sprite3D" type="Sprite3D" parent="NavigationRegion3D/Junin_inim"]
+transform = Transform3D(-0.5, 0, 7.54979e-08, 0, 0.5, 0, -7.54979e-08, 0, -0.5, 0.315905, 1.69181, -0.458245)
+billboard = 1
+texture = SubResource("ViewportTexture_48j3u")
+
+[node name="AtqT" type="Timer" parent="NavigationRegion3D/Junin_inim"]
+wait_time = 5.0
+one_shot = true
+
+[node name="NavigationRegion3D2" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_4wfyd")
+navigation_layers = 2
+
+[node name="Ground" type="StaticBody3D" parent="NavigationRegion3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Ground"]
+shape = SubResource("BoxShape3D_4genf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D2/Ground"]
+mesh = SubResource("BoxMesh_qqkki")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="NavigationRegion3D2/Ground"]
+transform = Transform3D(5.99, 0, 0, 0, 5.99, 0, 0, 0, 5.99, 38.6285, 0.453234, 16.1211)
+layers = 3
+mesh = SubResource("BoxMesh_ciw7k")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D2/Ground/MeshInstance3D2"]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Ground/MeshInstance3D2/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_7ibb3")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="NavigationRegion3D2/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 49.144, 1.46162, 10.6061)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D2/Ground/MeshInstance3D4"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Ground/MeshInstance3D4/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="NavigationRegion3D2/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 60.3209, 3.7033, 20.111)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D2/Ground/MeshInstance3D5"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Ground/MeshInstance3D5/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="NavigationRegion3D2/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 71.3043, 6.26396, 10.6061)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D2/Ground/MeshInstance3D6"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Ground/MeshInstance3D6/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="NavigationRegion3D2/Ground"]
+transform = Transform3D(8.05, 0, 0, 0, 8.05, 0, 0, 0, 8.05, 81.8801, 8.39863, 19.135)
+layers = 2
+mesh = SubResource("BoxMesh_lbvq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D2/Ground/MeshInstance3D7"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Ground/MeshInstance3D7/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_u2bj1")
+
+[node name="Junin_inim" type="CharacterBody3D" parent="NavigationRegion3D2" node_paths=PackedStringArray("target")]
+transform = Transform3D(-2, 0, -3.01992e-07, 0, 2, 0, 3.01992e-07, 0, -2, -10.916, 0, -2.33972)
+collision_layer = 2
+collision_mask = 3
+script = ExtResource("6_3j4gr")
+target = NodePath("../../Jogador")
+HP = 50
+
+[node name="NPC" type="Node3D" parent="NavigationRegion3D2/Junin_inim"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.319222, 0, 0)
+
+[node name="juninAnimações3" parent="NavigationRegion3D2/Junin_inim/NPC" instance=ExtResource("6_rwvug")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="Area3D" type="Area3D" parent="NavigationRegion3D2/Junin_inim/NPC/juninAnimações3"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.0957475, 0.769517, 0.265417)
+collision_layer = 8
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Junin_inim/NPC/juninAnimações3/Area3D"]
+transform = Transform3D(1, 0, 8.52651e-14, 0, 1, 0, -8.52651e-14, 0, 1, -0.113342, -0.0198047, 0.0710491)
+shape = SubResource("CylinderShape3D_hwflg")
+
+[node name="ataque1" type="Area3D" parent="NavigationRegion3D2/Junin_inim/NPC"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.245868)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Junin_inim/NPC/ataque1"]
+transform = Transform3D(1.82447, -0.042418, -3.66065e-10, 0.246516, 0.313936, 5.44301e-09, -2.50336e-09, -6.40494e-09, 0.269212, -0.0434113, 0.992417, -0.791274)
+shape = SubResource("BoxShape3D_0h053")
+
+[node name="ataque2" type="Area3D" parent="NavigationRegion3D2/Junin_inim/NPC"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.245868)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D2/Junin_inim/NPC/ataque2"]
+transform = Transform3D(1.11683, -0.138305, -1.68569e-08, 1.24843, 0.106757, 0.142678, -0.497743, -0.0425637, 0.357861, 0.103101, 0.769936, -0.780422)
+shape = SubResource("BoxShape3D_0h053")
+
+[node name="CollisionBody" type="CollisionShape3D" parent="NavigationRegion3D2/Junin_inim"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.213683, 0.76473, 0)
+shape = SubResource("CapsuleShape3D_yavwf")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="NavigationRegion3D2/Junin_inim"]
+root_node = NodePath("../NPC/juninAnimações3")
+libraries = {
+&"AnimJ": ExtResource("8_ef6uh")
+}
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="NavigationRegion3D2/Junin_inim"]
+path_height_offset = 1.0
+navigation_layers = 2
+
+[node name="SubViewport" type="SubViewport" parent="NavigationRegion3D2/Junin_inim"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(317, 100)
+render_target_update_mode = 4
+
+[node name="ProgressBar" type="ProgressBar" parent="NavigationRegion3D2/Junin_inim/SubViewport"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -13.5
+offset_right = 75.0
+offset_bottom = 13.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_0rijj")
+theme_override_styles/fill = SubResource("StyleBoxFlat_5r8aa")
+max_value = 50.0
+step = 1.0
+value = 50.0
+script = ExtResource("9_bwj8u")
+
+[node name="Sprite3D" type="Sprite3D" parent="NavigationRegion3D2/Junin_inim"]
+transform = Transform3D(-0.5, 0, 7.54979e-08, 0, 0.5, 0, -7.54979e-08, 0, -0.5, 0.315905, 1.69181, -0.458245)
+billboard = 1
+texture = SubResource("ViewportTexture_48j3u")
+
+[node name="AtqT" type="Timer" parent="NavigationRegion3D2/Junin_inim"]
+wait_time = 5.0
+one_shot = true
+
+[connection signal="value_changed" from="CanvasLayer/Barras/Health" to="CanvasLayer/Barras/Health" method="_on_value_changed"]
+[connection signal="value_changed" from="CanvasLayer/Barras/Mana" to="CanvasLayer/Barras/Mana" method="_on_value_changed"]
+[connection signal="body_entered" from="NavigationRegion3D/Junin_inim/NPC/juninAnimações3/Area3D" to="NavigationRegion3D/Junin_inim" method="_on_area_3d_body_entered"]
+[connection signal="animation_finished" from="NavigationRegion3D/Junin_inim/AnimationPlayer" to="NavigationRegion3D/Junin_inim" method="_on_animation_player_animation_finished"]
+[connection signal="animation_started" from="NavigationRegion3D/Junin_inim/AnimationPlayer" to="NavigationRegion3D/Junin_inim" method="_on_animation_player_animation_started"]
+[connection signal="value_changed" from="NavigationRegion3D/Junin_inim/SubViewport/ProgressBar" to="NavigationRegion3D/Junin_inim/SubViewport/ProgressBar" method="_on_value_changed"]
+[connection signal="body_entered" from="NavigationRegion3D2/Junin_inim/NPC/juninAnimações3/Area3D" to="NavigationRegion3D2/Junin_inim" method="_on_area_3d_body_entered"]
+[connection signal="animation_finished" from="NavigationRegion3D2/Junin_inim/AnimationPlayer" to="NavigationRegion3D2/Junin_inim" method="_on_animation_player_animation_finished"]
+[connection signal="animation_started" from="NavigationRegion3D2/Junin_inim/AnimationPlayer" to="NavigationRegion3D2/Junin_inim" method="_on_animation_player_animation_started"]
+[connection signal="value_changed" from="NavigationRegion3D2/Junin_inim/SubViewport/ProgressBar" to="NavigationRegion3D2/Junin_inim/SubViewport/ProgressBar" method="_on_value_changed"]

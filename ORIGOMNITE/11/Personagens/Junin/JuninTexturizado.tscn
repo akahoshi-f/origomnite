@@ -1,0 +1,46 @@
+[gd_scene load_steps=11 format=3 uid="uid://bmomwxg1ui1jn"]
+
+[ext_resource type="PackedScene" uid="uid://csxlpawa07wmo" path="res://11/Personagens/Junin/juninAnimações2.glb" id="1_4jmce"]
+[ext_resource type="Texture2D" uid="uid://cl5yat4r003fw" path="res://11/Personagens/Junin/Texturas/couro com Sangue.png" id="2_smw57"]
+[ext_resource type="Texture2D" uid="uid://dccylukluoaw" path="res://11/Personagens/Junin/Texturas/pele.001ComSangue02.png" id="3_vept5"]
+[ext_resource type="Texture2D" uid="uid://bt1aeuqd6mnf7" path="res://11/Personagens/Junin/Texturas/espada Base Color.png" id="4_mvefw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7gd3w"]
+albedo_texture = ExtResource("4_mvefw")
+metallic = 1.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_16cbo"]
+albedo_texture = ExtResource("2_smw57")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p1v23"]
+albedo_texture = ExtResource("4_mvefw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fk3q8"]
+albedo_texture = ExtResource("3_vept5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v4tab"]
+albedo_texture = ExtResource("4_mvefw")
+metallic = 1.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b3olu"]
+albedo_texture = ExtResource("2_smw57")
+
+[node name="juninAnimações2" instance=ExtResource("1_4jmce")]
+
+[node name="armadura" parent="Armature/Skeleton3D" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_7gd3w")
+surface_material_override/1 = SubResource("StandardMaterial3D_16cbo")
+
+[node name="botas" parent="Armature/Skeleton3D" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_p1v23")
+
+[node name="corpo" parent="Armature/Skeleton3D" index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_fk3q8")
+surface_material_override/1 = SubResource("StandardMaterial3D_fk3q8")
+
+[node name="Cube_001" parent="Armature/Skeleton3D" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_v4tab")
+surface_material_override/1 = SubResource("StandardMaterial3D_v4tab")
+
+[node name="cueca" parent="Armature/Skeleton3D" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_b3olu")

@@ -1,0 +1,66 @@
+[gd_scene load_steps=2 format=3 uid="uid://csttrphb20ita"]
+
+[ext_resource type="Script" uid="uid://bo0ajer0m7nfj" path="res://11/Canvas/Pause/pause_menu.gd" id="1_5efpg"]
+
+[node name="PauseMenu" type="Control"]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5efpg")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -106.5
+offset_right = 87.0
+offset_bottom = 106.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -106.5
+offset_right = 87.0
+offset_bottom = 106.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Pausado"
+horizontal_alignment = 1
+
+[node name="Voltar" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Voltar"
+
+[node name="Salvar" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Salvar"
+
+[node name="Carregar" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Carregar"
+
+[node name="Sair" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Sair"
+
+[connection signal="pressed" from="Panel/VBoxContainer/Voltar" to="." method="_on_voltar_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/Sair" to="." method="_on_sair_pressed"]
