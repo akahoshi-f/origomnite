@@ -1,0 +1,5 @@
+[gd_resource type="ConcavePolygonShape3D" format=3 uid="uid://bjnke6dbpix2m"]
+
+[resource]
+data = PackedVector3Array(-23.9753, 0, 18.8304, 23.9753, 0, -18.8309, 23.9753, 0, 18.8304, -23.9753, 0, 18.8304, -23.9753, 0, -18.8309, 23.9753, 0, -18.8309)
+backface_collision = true
