@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqq73egmfw8ye"]
+
+[ext_resource type="ArrayMesh" uid="uid://duyvpi3mqeh0v" path="res://CENARIO/meshs/tamanho lana.res" id="1_li6dp"]
+
+[node name="tamanho lana" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_li6dp")
