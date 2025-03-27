@@ -1,0 +1,28 @@
+[gd_scene load_steps=7 format=3 uid="uid://cijgpkuosnnua"]
+
+[ext_resource type="ArrayMesh" uid="uid://cqi125y8qviyy" path="res://CENARIO/meshs/parte3/mesh tocha.res" id="1_r0otn"]
+[ext_resource type="Texture2D" uid="uid://ctycw34uppfw3" path="res://CENARIO/meshs/texturas/metal.jpg" id="2_jfued"]
+[ext_resource type="Texture2D" uid="uid://bol2k4tedfewm" path="res://CENARIO/meshs/texturas/carvao.jpg" id="3_5mqq3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e2h6e"]
+cull_mode = 2
+albedo_texture = ExtResource("2_jfued")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_davk3"]
+cull_mode = 2
+albedo_texture = ExtResource("3_5mqq3")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hbvha"]
+size = Vector3(1.19421, 6.15082, 1.24945)
+
+[node name="tocha" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.980512, -0.19646, 2.95573e-19, 0.194115, 0.968812, -0.154021, 0.0302588, 0.151019, 0.988068, 0, 0, 0)
+mesh = ExtResource("1_r0otn")
+surface_material_override/0 = SubResource("StandardMaterial3D_e2h6e")
+surface_material_override/1 = SubResource("StandardMaterial3D_davk3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00140381, -0.0179138, 0.0196838)
+shape = SubResource("BoxShape3D_hbvha")

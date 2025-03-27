@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://d25536eap6j4n"]
+
+[ext_resource type="PackedScene" uid="uid://cixjmofs0o5nr" path="res://CENARIO/objects/bar/Garrafa_2.tscn" id="1_8dm12"]
+
+[node name="garrafas 2" type="Node3D"]
+
+[node name="garrafa 2" parent="." instance=ExtResource("1_8dm12")]
+
+[node name="garrafa 7" parent="." instance=ExtResource("1_8dm12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.303097, 0.885554, 0.559915)
+
+[node name="garrafa 5" parent="." instance=ExtResource("1_8dm12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.569455, 0.885554, 0)
+
+[node name="garrafa 6" parent="." instance=ExtResource("1_8dm12")]
+transform = Transform3D(0.958462, 0, -0.28522, 0, 1, 0, 0.28522, 0, 0.958462, -1.13539, 0.885554, 0)
+
+[node name="garrafa 4" parent="." instance=ExtResource("1_8dm12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.575647, 0.885554, 0.0250164)
+
+[node name="garrafa 3" parent="." instance=ExtResource("1_8dm12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.272188, 0.885554, 0.506582)

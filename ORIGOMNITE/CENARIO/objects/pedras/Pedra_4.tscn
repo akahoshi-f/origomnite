@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://cwx7ai3v752"]
+
+[ext_resource type="ArrayMesh" uid="uid://bx66ou4vlg688" path="res://CENARIO/meshs/pedras/mesh pedra4.res" id="1_x5mhg"]
+[ext_resource type="Texture2D" uid="uid://hdvf3cnjoflv" path="res://CENARIO/meshs/texturas/perda preta.jpg" id="2_1x1at"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h1rj2"]
+albedo_texture = ExtResource("2_1x1at")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_nrul3"]
+points = PackedVector3Array(-0.187731, 0.285411, 1.73387, 0.566409, -0.155709, -2.17071, 0.565176, 0.0316985, -2.16577, -1.97196, -0.412373, -0.800415, 0.622844, -1.02221, 1.01312, 1.444, 1.22298, -0.101859, -0.492658, 1.14756, -0.22568, 2.10281, -0.285057, 0.344704, -1.26172, -1.29466, 0.15169, -0.250271, -0.850807, -1.74126, -1.43498, 0.531819, 0.710741, -0.57023, -0.538878, 1.86939, 1.63104, -0.59415, -0.790246, -0.303952, 0.646708, -1.57996, 1.39088, 0.789891, 0.908666, -0.615659, 1.02182, 0.640704, -1.83261, 0.09559, -0.85953, 1.64473, -0.788599, 0.720077, 1.06283, 1.02928, -1.03693, -1.44885, -0.598274, 0.782081, -0.877834, -1.28861, 0.90484, -1.12126, -0.904842, -1.28854, 1.13675, -0.471636, -1.67703, -1.43651, 0.65786, -0.351327, -0.124406, -0.851868, 1.66803, 2.08139, 0.158217, 0.52842, 0.251125, 0.776355, 1.20136, -0.185779, 1.22537, 0.275109, 0.127807, 0.472023, -1.92398, -0.309279, 0.968791, -1.03848, 1.25845, 1.22567, -0.54093, -1.76434, 0.284515, -0.0381933)
+
+[node name="pedra4" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_x5mhg")
+surface_material_override/0 = SubResource("StandardMaterial3D_h1rj2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_nrul3")

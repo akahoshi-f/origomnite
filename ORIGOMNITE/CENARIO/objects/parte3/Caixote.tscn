@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://v4aeyf4gos5e"]
+
+[ext_resource type="ArrayMesh" uid="uid://bfu0l8h61jrpo" path="res://CENARIO/meshs/parte3/mesh caixote.res" id="1_4k655"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_axvs7"]
+size = Vector3(2.53131, 2.51575, 2.50781)
+
+[node name="caixote" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.992364, 0.00537524, 0.123227, -0.00392949, 0.999921, -0.0119724, -0.123282, 0.0113968, 0.992306, 0, 0, 0)
+mesh = ExtResource("1_4k655")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00204468, 6.10352e-05, 0.0078125)
+shape = SubResource("BoxShape3D_axvs7")

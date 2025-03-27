@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://blj6b8jp5hf2s"]
+
+[ext_resource type="ArrayMesh" uid="uid://cdjx2ywticg0e" path="res://CENARIO/meshs/bar/mesh janela.res" id="1_lyu8p"]
+[ext_resource type="Texture2D" uid="uid://chfyfai1a7g72" path="res://CENARIO/meshs/texturas/texturajanela.jpg" id="2_1xvw8"]
+[ext_resource type="Shape3D" uid="uid://bix2nrfcw3g6i" path="res://CENARIO/collisions/bar/collision janela.tres" id="2_htoux"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_av1e3"]
+albedo_texture = ExtResource("2_1xvw8")
+
+[node name="janela" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0488958, 0.692875, 0)
+mesh = ExtResource("1_lyu8p")
+surface_material_override/0 = SubResource("StandardMaterial3D_av1e3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("2_htoux")

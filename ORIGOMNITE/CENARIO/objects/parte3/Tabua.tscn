@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://yro1chr8ate8"]
+
+[ext_resource type="ArrayMesh" uid="uid://c5sr1lo2vttor" path="res://CENARIO/meshs/parte3/mesh tabua.res" id="1_0dwt8"]
+[ext_resource type="Texture2D" uid="uid://wce0h82qug8i" path="res://CENARIO/meshs/texturas/tauba.jpg" id="2_qwhsd"]
+[ext_resource type="Shape3D" uid="uid://c382ndg48dynq" path="res://CENARIO/collisions/parte3/collision tabua.tres" id="3_eofk0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6fswg"]
+cull_mode = 2
+albedo_texture = ExtResource("2_qwhsd")
+
+[node name="tabua" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.98632, 0, 0.164841, 0.0487668, 0.955237, -0.291794, -0.157462, 0.295841, 0.94217, 0, 0, 0)
+mesh = ExtResource("1_0dwt8")
+surface_material_override/0 = SubResource("StandardMaterial3D_6fswg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("3_eofk0")

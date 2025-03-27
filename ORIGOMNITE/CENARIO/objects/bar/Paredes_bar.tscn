@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://vsvasjlfv77w"]
+
+[ext_resource type="Shape3D" uid="uid://uky5veyt5lwa" path="res://CENARIO/collisions/bar/collision paredes bar.tres" id="1_w3haw"]
+[ext_resource type="ArrayMesh" uid="uid://jg25o1budgu3" path="res://CENARIO/meshs/bar/mesh paredes bar.res" id="2_dk36g"]
+[ext_resource type="Texture2D" uid="uid://cx00ixcfla1uc" path="res://CENARIO/meshs/texturas/textura madeira marrom estante escada.jpg" id="3_06560"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f44n8"]
+albedo_texture = ExtResource("3_06560")
+
+[node name="paredes bar" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = ExtResource("1_w3haw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_dk36g")
+surface_material_override/0 = SubResource("StandardMaterial3D_f44n8")

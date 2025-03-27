@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://8as77d31wmwj"]
+
+[ext_resource type="Shape3D" uid="uid://cwus8nre1fk4e" path="res://CENARIO/collisions/pedras/collision pedra3.tres" id="1_fc7xk"]
+[ext_resource type="ArrayMesh" uid="uid://co833xjytmdqn" path="res://CENARIO/meshs/pedras/mesh pedra3.res" id="2_gx61t"]
+
+[node name="pedra3" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57725, -0.369598, 0.600504)
+shape = ExtResource("1_fc7xk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_gx61t")

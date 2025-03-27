@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://cr36vk0ipdng3"]
+
+[ext_resource type="ArrayMesh" uid="uid://cq28yrlaiwf0k" path="res://CENARIO/meshs/bar/mesh quadro.res" id="1_bumx5"]
+[ext_resource type="Texture2D" uid="uid://b31m68ckw63b0" path="res://CENARIO/meshs/texturas/texturagato2.jpg" id="2_ciqs5"]
+[ext_resource type="Shape3D" uid="uid://jqxt7mb1ypfa" path="res://CENARIO/collisions/bar/collision quadro.tres" id="3_xthxw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rl86p"]
+albedo_texture = ExtResource("2_ciqs5")
+
+[node name="quadro2" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_bumx5")
+surface_material_override/0 = SubResource("StandardMaterial3D_rl86p")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0918474)
+shape = ExtResource("3_xthxw")

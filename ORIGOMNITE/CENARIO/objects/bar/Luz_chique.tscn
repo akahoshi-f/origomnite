@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://c11boeg07fh2a"]
+
+[ext_resource type="ArrayMesh" uid="uid://dfu0c3dd70lvi" path="res://CENARIO/meshs/bar/mesh luz chique.res" id="1_4i2jc"]
+[ext_resource type="Texture2D" uid="uid://qur8tdg0lwl4" path="res://CENARIO/meshs/texturas/texturaluz.png" id="2_a3ym2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y3cff"]
+albedo_texture = ExtResource("2_a3ym2")
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hxf5f"]
+radius = 0.8811
+height = 2.05571
+
+[node name="luz chique" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_4i2jc")
+surface_material_override/0 = SubResource("StandardMaterial3D_y3cff")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.113254, -0.675036)
+shape = SubResource("CapsuleShape3D_hxf5f")

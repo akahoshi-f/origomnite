@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://bqghj4yplogqs"]
+
+[ext_resource type="ArrayMesh" uid="uid://jrkkv1xok1u1" path="res://CENARIO/meshs/parte3/mesh caixote grama.res" id="1_x8f6k"]
+[ext_resource type="Texture2D" uid="uid://s5dqe74lcx02" path="res://CENARIO/meshs/texturas/pano.jpg" id="2_ovurg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4yw3p"]
+cull_mode = 2
+albedo_texture = ExtResource("2_ovurg")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ikx52"]
+size = Vector3(2.59775, 2.67166, 6.64868)
+
+[node name="caixote grama" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.999761, 0, -0.0218672, 0, 1, 0, 0.0218672, 0, 0.999761, 2.22087, 0.137453, 0.694022)
+mesh = ExtResource("1_x8f6k")
+surface_material_override/2 = SubResource("StandardMaterial3D_4yw3p")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.308273, 0.134232, -1.28479)
+shape = SubResource("BoxShape3D_ikx52")

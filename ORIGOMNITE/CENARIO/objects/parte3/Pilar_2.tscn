@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://jogkn44nq0mf"]
+
+[ext_resource type="ArrayMesh" uid="uid://yupylyht8hkm" path="res://CENARIO/meshs/parte3/mesh pilar2.res" id="1_eo1qb"]
+[ext_resource type="Texture2D" uid="uid://nh4l4ft51tgk" path="res://CENARIO/meshs/texturas/pedra.jpg" id="2_v4e71"]
+[ext_resource type="Shape3D" uid="uid://d17a5hkcceh3b" path="res://CENARIO/collisions/parte3/collision pilar2.tres" id="3_3k2uh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jarc1"]
+albedo_texture = ExtResource("2_v4e71")
+
+[node name="pilar2" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.66367, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_eo1qb")
+surface_material_override/0 = SubResource("StandardMaterial3D_jarc1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.195389, -18.1911, 0)
+shape = ExtResource("3_3k2uh")

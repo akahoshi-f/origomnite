@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctkjf4jjpivgk"]
+
+[ext_resource type="ArrayMesh" uid="uid://dcyc8amc84cnr" path="res://CENARIO/meshs/bar/mesh umprato.res" id="1_v5cqg"]
+
+[node name="umprato" type="MeshInstance3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_v5cqg")

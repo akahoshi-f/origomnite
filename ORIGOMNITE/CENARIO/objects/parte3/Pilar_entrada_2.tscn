@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://ctrehgobjsv2h"]
+
+[ext_resource type="ArrayMesh" uid="uid://bklb6qs48u43" path="res://CENARIO/meshs/parte3/mesh pilar entrada2.res" id="2_j2v22"]
+[ext_resource type="Texture2D" uid="uid://nh4l4ft51tgk" path="res://CENARIO/meshs/texturas/pedra.jpg" id="3_5l6ca"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ufydy"]
+albedo_texture = ExtResource("3_5l6ca")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_rnbpv"]
+points = PackedVector3Array(4.19153, -7.47693, -0.191065, -3.40994, 3.65273, 0.351312, -3.40994, 3.65273, 0.892999, 1.20481, 8.26854, -1.2772, -0.422481, -9.10624, -2.63487, 2.562, -8.29158, 3.88056, -1.77967, -9.10624, 2.25067, 0.933223, 5.00992, 2.25067, -1.50883, 6.90965, -2.90641, 3.9192, -3.40365, -1.2772, -1.77967, 7.99642, 1.16453, 1.20481, -3.13323, 3.60903, -0.965655, -4.21661, -3.17794, 3.9192, -8.562, -1.00567, -2.05126, -8.83412, 1.16453, -0.422481, 4.46738, -2.90641, -2.05126, 3.92485, -2.90641, -2.86602, 7.7243, 0.621464, 3.9192, -3.40365, -0.734133, -2.59443, -3.94789, 1.97914, -0.694068, 4.7378, 2.25067, 2.01957, -3.13323, 3.60903, 0.933223, 8.26854, -1.82027, 2.29042, 5.00992, -1.00567, 0.390793, 7.18177, 1.7076, 0.120694, -4.21661, -2.90641, -1.94823, 7.38075, -2.24815, 4.19153, -8.562, 0.080469, -2.59443, 4.46738, 1.43607, 0.120694, -9.10624, -2.63487, 1.4764, -8.562, 3.60903, -2.32359, -7.74735, 1.97914)
+
+[node name="pilar entrada2" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0311213, 7.58918, 0)
+mesh = ExtResource("2_j2v22")
+surface_material_override/0 = SubResource("StandardMaterial3D_ufydy")
+
+[node name="@CollisionShape3D@21734" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0311213, 7.58918, 0)
+shape = SubResource("ConvexPolygonShape3D_rnbpv")

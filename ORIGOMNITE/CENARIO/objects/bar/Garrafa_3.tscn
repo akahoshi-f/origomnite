@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://cwdqjbnjhlocx"]
+
+[ext_resource type="ArrayMesh" uid="uid://omqqyo0yha5u" path="res://CENARIO/meshs/bar/mesh garrafa.res" id="1_0m8iu"]
+[ext_resource type="Texture2D" uid="uid://ctm8vpfif0g3y" path="res://CENARIO/meshs/texturas/garrafas3.png" id="2_hfjso"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h3alv"]
+albedo_texture = ExtResource("2_hfjso")
+
+[node name="garrafa 3" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.880642, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_0m8iu")
+surface_material_override/1 = SubResource("StandardMaterial3D_h3alv")

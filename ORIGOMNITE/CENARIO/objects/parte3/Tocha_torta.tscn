@@ -1,0 +1,28 @@
+[gd_scene load_steps=7 format=3 uid="uid://7rh8k5onuv5j"]
+
+[ext_resource type="ArrayMesh" uid="uid://u8ovh22421fl" path="res://CENARIO/meshs/parte3/mesh tocha torta.res" id="1_4qltw"]
+[ext_resource type="Texture2D" uid="uid://ctycw34uppfw3" path="res://CENARIO/meshs/texturas/metal.jpg" id="2_rm50p"]
+[ext_resource type="Texture2D" uid="uid://bol2k4tedfewm" path="res://CENARIO/meshs/texturas/carvao.jpg" id="3_qtjm5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_43vox"]
+cull_mode = 2
+albedo_texture = ExtResource("2_rm50p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_roht5"]
+cull_mode = 2
+albedo_texture = ExtResource("3_qtjm5")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5qlxe"]
+size = Vector3(1.9108, 5.94681, 1.93702)
+
+[node name="tocha torta" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.990176, 0.13983, 0, -0.139796, 0.989935, 0.0220417, 0.00308209, -0.0218252, 0.999757, 0, 0, 0)
+mesh = ExtResource("1_4qltw")
+surface_material_override/0 = SubResource("StandardMaterial3D_43vox")
+surface_material_override/1 = SubResource("StandardMaterial3D_roht5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.217789, -0.0182817, 0.0699676)
+shape = SubResource("BoxShape3D_5qlxe")

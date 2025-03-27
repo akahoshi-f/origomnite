@@ -1,0 +1,40 @@
+[gd_scene load_steps=9 format=3 uid="uid://x10vkn7p7ko7"]
+
+[ext_resource type="ArrayMesh" uid="uid://cit8vdrt3c4ts" path="res://CENARIO/meshs/bar/mesh balcao.res" id="1_stb0y"]
+[ext_resource type="Texture2D" uid="uid://c5a8w0w3wifs" path="res://CENARIO/meshs/texturas/textura beiral escada e galeria.jpg" id="2_ck7ka"]
+[ext_resource type="Texture2D" uid="uid://cx00ixcfla1uc" path="res://CENARIO/meshs/texturas/textura madeira marrom estante escada.jpg" id="3_5tiar"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6rhpv"]
+albedo_texture = ExtResource("2_ck7ka")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vh0j1"]
+albedo_texture = ExtResource("3_5tiar")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t34xv"]
+size = Vector3(25.6152, 8.1524, 3.43555)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0fan0"]
+size = Vector3(3.55582, 8.42969, 8.04077)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ygq05"]
+size = Vector3(6.04407, 8.47559, 3.57373)
+
+[node name="balcão" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.17751, 0)
+mesh = ExtResource("1_stb0y")
+surface_material_override/0 = SubResource("StandardMaterial3D_6rhpv")
+surface_material_override/1 = SubResource("StandardMaterial3D_vh0j1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8916, 3.83175, 0.553711)
+shape = SubResource("BoxShape3D_t34xv")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.9421, 3.71484, 6.13916)
+shape = SubResource("BoxShape3D_0fan0")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.497, 3.73779, 8.53046)
+shape = SubResource("BoxShape3D_ygq05")
