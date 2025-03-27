@@ -45,9 +45,7 @@ O projeto foi desenvolvido ao longo de seis meses, permitindo aos membros do gru
 </div>
 
 #
-
 **EXECUTÁVEL DISPONÍVEL EM:** [**Origomnite - Download**](https://drive.google.com/file/d/1BNerI7TX913HHIkPyoHeAGtMw9c04zi0/view?usp=sharing)
-
 #
 
 ### **Desenvolvido por:**
