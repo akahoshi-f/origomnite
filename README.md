@@ -1,17 +1,28 @@
 # Origomnite
-Trabalho de Conclusão de Curso, feito no terceiro ano do ensino médio para aprovação no curso técnico de Programação em Jogos Digitais. 
+Origomnite é um projeto de jogo desenvolvido como Trabalho de Conclusão de Curso no terceiro ano do ensino médio, com o objetivo de aprovação no curso técnico de Programação em Jogos Digitais.
 
-Feito no período de 6 meses, foi utilizada a engine Godot e a linguagem **GDScript**, para programação; **Blender** para modelagem 3D; **Krita** para arte 2D;  
+O projeto foi desenvolvido ao longo de seis meses, permitindo aos membros do grupo aprimorar tanto habilidades técnicas (hard skills) quanto habilidades interpessoais (soft skills), incluindo:
 
+**Trabalho em equipe; Senso crítico; Resolução de problemas; Liderança; Criatividade.**     
+**Desenvolvimento de jogos digitais; Programação (GDScript); Arte (Modelagem 3D, Arte 2D e Animação); Game design; Marketing.**
 
 
 ### Tecnologias utilizadas:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width=40 height=40/>
-          
-### DISPONÍVEL EM:
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original.svg" width=40 height=40> - **Godot Engine** (para o desenvolvimento do jogo)
 
-**Criado por:**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width=40 height=40/> - **Blender** (para modelagem 3D)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Calligrakrita-base.svg/1200px-Calligrakrita-base.svg.png" width=40 height=40/> - **Krita** (para arte 2D)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" width=40 height=40/> - **Microsoft Word** (para documentação e organização)
+       
+#
+
+**EXECUTÁVEL DISPONÍVEL EM:** https://drive.google.com/file/d/1BNerI7TX913HHIkPyoHeAGtMw9c04zi0/view?usp=sharing
+
+#
+### **Criado por:**
 
 Carlos Henrique Kengi Cerqueira Aoki
 
@@ -29,6 +40,7 @@ Leonardo Gusmão Moura
 
 Renato Livramento Alves da Silva
 
+# SOBRE
 
 Origomnite é um projeto de um jogo que, utilizando-se de uma protagonista
 moralmente cinza em um mundo fantasioso e inspirado pela cultura e geografia
