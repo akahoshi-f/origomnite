@@ -1,0 +1,64 @@
+[gd_scene load_steps=17 format=3 uid="uid://bgghhepuw8e4p"]
+
+[ext_resource type="PackedScene" uid="uid://c00pew4qt65hd" path="res://PERSONAGENS/Guará/gifLoboRespirando2.glb" id="1_eatrg"]
+[ext_resource type="Texture2D" uid="uid://c2ehpxvfr552c" path="res://PERSONAGENS/Lana/TexturasPersonage/gengiva Base Color.png" id="2_0jxgd"]
+[ext_resource type="Texture2D" uid="uid://beh4lsmv6boqi" path="res://PERSONAGENS/Lana/TexturasPersonage/preto Base Color.png" id="3_cx8no"]
+[ext_resource type="Texture2D" uid="uid://3cy6xg8p2xhb" path="res://PERSONAGENS/Lana/TexturasPersonage/ambar3.png" id="4_bdvsf"]
+[ext_resource type="Texture2D" uid="uid://ubhhisdb2430" path="res://PERSONAGENS/Guará/texturasLobo/pele Base Color.png" id="5_jetmd"]
+[ext_resource type="Texture2D" uid="uid://bhnrgvxensbqk" path="res://PERSONAGENS/Guará/texturasLobo/pele Base Color02.png" id="6_m6o7c"]
+[ext_resource type="Texture2D" uid="uid://dblui558ihdf1" path="res://PERSONAGENS/Giovanna/Texturas/branco.png" id="7_124nc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rbp42"]
+albedo_texture = ExtResource("2_0jxgd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3iani"]
+albedo_texture = ExtResource("3_cx8no")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ggwxj"]
+albedo_texture = ExtResource("4_bdvsf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uckj1"]
+albedo_texture = ExtResource("4_bdvsf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gmefa"]
+albedo_texture = ExtResource("3_cx8no")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gpcqi"]
+albedo_texture = ExtResource("3_cx8no")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ufwhc"]
+albedo_texture = ExtResource("5_jetmd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yejny"]
+albedo_texture = ExtResource("6_m6o7c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6bovy"]
+albedo_texture = ExtResource("7_124nc")
+
+[node name="gifLoboRespirando2" instance=ExtResource("1_eatrg")]
+
+[node name="lingua" parent="Armature_001/Skeleton3D" index="0"]
+transform = Transform3D(0.999999, -1.55512e-06, 4.37201e-06, -8.39228e-07, 0.866025, 0.5, -4.56383e-06, -0.5, 0.866025, -8.83123e-07, -0.129976, 0.396793)
+
+[node name="lingua" parent="Armature_001/Skeleton3D/lingua" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_rbp42")
+
+[node name="pupila_L_001" parent="Armature_001/Skeleton3D" index="1"]
+transform = Transform3D(1.28561, -0.153321, 0.0814165, 0.118349, 1.2192, 0.427167, -0.127002, -0.415897, 1.22222, 0.0545857, 0.806769, 0.508765)
+
+[node name="pupila_L_001" parent="Armature_001/Skeleton3D/pupila_L_001" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_3iani")
+surface_material_override/1 = SubResource("StandardMaterial3D_ggwxj")
+
+[node name="pupila_L_002" parent="Armature_001/Skeleton3D" index="2"]
+transform = Transform3D(-1.23592, 0.117607, -0.37628, 0.00127712, 1.23939, 0.38318, -0.394229, -0.364687, 1.18089, -0.0540928, 0.807437, 0.509283)
+
+[node name="pupila_L_002" parent="Armature_001/Skeleton3D/pupila_L_002" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_uckj1")
+surface_material_override/1 = SubResource("StandardMaterial3D_gmefa")
+
+[node name="lobo" parent="Armature_001/Skeleton3D" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_gpcqi")
+surface_material_override/1 = SubResource("StandardMaterial3D_ufwhc")
+surface_material_override/2 = SubResource("StandardMaterial3D_yejny")
+surface_material_override/3 = SubResource("StandardMaterial3D_6bovy")
