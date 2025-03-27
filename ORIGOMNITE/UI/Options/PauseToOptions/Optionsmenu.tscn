@@ -1,0 +1,372 @@
+[gd_scene load_steps=9 format=3 uid="uid://ctao7gljhhrop"]
+
+[ext_resource type="Shader" uid="uid://csoanl5ul88kt" path="res://UI/PauseMenu/blurmaterial.gdshader" id="1_n1x2v"]
+[ext_resource type="Script" uid="uid://bs2m8k8auv3gr" path="res://UI/Options/PauseToOptions/BGMsoundvolume.gd" id="1_tflim"]
+[ext_resource type="Script" uid="uid://bul7p8mdw0eln" path="res://UI/Options/PauseToOptions/Mastersoundvolume.gd" id="1_tiwni"]
+[ext_resource type="Script" uid="uid://ci172sdb8gxfn" path="res://UI/Options/PauseToOptions/SFXsoundvolume.gd" id="3_bo0kj"]
+[ext_resource type="PackedScene" uid="uid://d4yva5jr2j6" path="res://UI/Options/PauseToOptions/input_button.tscn" id="4_6wtld"]
+[ext_resource type="Script" uid="uid://b5un8s1jdvhe2" path="res://UI/Options/PauseToOptions/inputs.gd" id="4_fqf8y"]
+
+[sub_resource type="GDScript" id="GDScript_2u00w"]
+resource_name = "OptionsMenu"
+script/source = "extends Control
+
+func _ready():
+	hide()
+
+
+func _on_backeverything_pressed():
+	hide()
+	var PauseMenu = $\"../PauseMenu\"
+	PauseMenu.visible = true
+
+
+func _on_resetsound_pressed():
+	$Panel/TabContainer/Som/SFXsoundvolume.value = 0.5
+	$Panel/TabContainer/Som/Mastersoundvolume.value = 0.5
+	$Panel/TabContainer/Som/BGMsoundvolume.value = 0.5
+
+
+func _on_resetall_pressed():
+	$\"Panel/TabContainer/Jogo/OpçãoDificuldade\".selected = 1
+	$\"Panel/TabContainer/Jogo/OpçãoIdiomaa\".selected = 0
+	$\"Panel/TabContainer/Jogo/DicasBotão\".button_pressed = false
+
+
+
+
+
+func _on_windows_setting_item_focused(index):
+	print(index)
+"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wo8fl"]
+shader = ExtResource("1_n1x2v")
+shader_parameter/lod = 2.0
+
+[node name="Optionsmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_2u00w")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_wo8fl")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -254.0
+offset_top = -232.0
+offset_right = 259.003
+offset_bottom = 251.999
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+tab_alignment = 1
+current_tab = 0
+clip_tabs = false
+
+[node name="Jogo" type="TabBar" parent="Panel/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="Language" type="Label" parent="Panel/TabContainer/Jogo"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 119.0
+offset_top = 44.84
+offset_right = -330.0
+offset_bottom = -380.16
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.32, 1.32)
+text = "Idioma:"
+
+[node name="Dificulty" type="Label" parent="Panel/TabContainer/Jogo"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 104.0
+offset_top = 142.0
+offset_right = -317.0
+offset_bottom = -283.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.32, 1.32)
+text = "Dificuldade:"
+
+[node name="OpçãoIdiomaa" type="OptionButton" parent="Panel/TabContainer/Jogo"]
+layout_mode = 0
+offset_left = 204.72
+offset_top = 41.0
+offset_right = 364.72
+offset_bottom = 72.0
+scale = Vector2(1.32, 1.32)
+selected = 0
+item_count = 5
+popup/item_0/text = "Português (BR)"
+popup/item_0/id = 0
+popup/item_1/text = "English"
+popup/item_1/id = 1
+popup/item_2/text = "Japanese"
+popup/item_2/id = 2
+popup/item_3/text = "Chinese"
+popup/item_3/id = 3
+popup/item_4/text = "Korean"
+popup/item_4/id = 4
+
+[node name="OpçãoDificuldade" type="OptionButton" parent="Panel/TabContainer/Jogo"]
+layout_mode = 0
+offset_left = 238.0
+offset_top = 138.0
+offset_right = 372.0
+offset_bottom = 169.0
+scale = Vector2(1.32, 1.32)
+selected = 1
+item_count = 3
+popup/item_0/text = "Fácil"
+popup/item_0/id = 0
+popup/item_1/text = "Normal"
+popup/item_1/id = 1
+popup/item_2/text = "Difícil"
+popup/item_2/id = 2
+
+[node name="DicasBotão" type="CheckButton" parent="Panel/TabContainer/Jogo"]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -125.5
+offset_top = 187.0
+offset_right = 70.5
+offset_bottom = -221.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.32, 1.32)
+text = "Dicas de Controles:"
+
+[node name="Resetall" type="Button" parent="Panel/TabContainer/Jogo"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -81.5
+offset_top = -103.0
+offset_right = 29.5
+offset_bottom = -72.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(1.515, 1.515)
+text = "Resetar Tudo"
+
+[node name="Som" type="TabBar" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="Mastersound" type="Label" parent="Panel/TabContainer/Som"]
+layout_mode = 0
+offset_left = 215.0
+offset_top = 70.0
+offset_right = 274.0
+offset_bottom = 93.0
+scale = Vector2(1.32, 1.32)
+text = "Master:"
+
+[node name="BGMsound" type="Label" parent="Panel/TabContainer/Som"]
+layout_mode = 0
+offset_left = 225.0
+offset_top = 165.0
+offset_right = 267.0
+offset_bottom = 188.0
+scale = Vector2(1.32, 1.32)
+text = "BGM:"
+
+[node name="Resetsound" type="Button" parent="Panel/TabContainer/Som"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -81.5
+offset_top = -103.0
+offset_right = 29.5
+offset_bottom = -72.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(1.515, 1.515)
+text = "Resetar Som"
+
+[node name="Mastersoundvolume" type="HSlider" parent="Panel/TabContainer/Som"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -136.5
+offset_top = -343.0
+offset_right = 133.5
+offset_bottom = -327.0
+grow_horizontal = 2
+grow_vertical = 0
+max_value = 1.0
+step = 0.001
+value = 0.5
+script = ExtResource("1_tiwni")
+bus_name = "Master"
+
+[node name="BGMsoundvolume" type="HSlider" parent="Panel/TabContainer/Som"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -136.5
+offset_top = -253.0
+offset_right = 133.5
+offset_bottom = -237.0
+grow_horizontal = 2
+grow_vertical = 0
+max_value = 1.0
+step = 0.001
+value = 0.5
+script = ExtResource("1_tflim")
+bus_name = "BGM"
+
+[node name="SFXsound" type="Label" parent="Panel/TabContainer/Som"]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 255.0
+offset_right = 270.0
+offset_bottom = 278.0
+scale = Vector2(1.32, 1.32)
+text = "SFX:"
+
+[node name="SFXsoundvolume" type="HSlider" parent="Panel/TabContainer/Som"]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 290.0
+offset_right = 390.0
+offset_bottom = 306.0
+max_value = 1.0
+step = 0.001
+value = 0.5
+script = ExtResource("3_bo0kj")
+bus_name = "SFX"
+
+[node name="Controle" type="TabBar" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+focus_neighbor_bottom = NodePath("inputs/MarginContainer/VBoxContainer/ScrollContainer/ActionList/InputButton")
+metadata/_tab_index = 2
+
+[node name="inputs" type="Control" parent="Panel/TabContainer/Controle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_fqf8y")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/TabContainer/Controle/inputs"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 5.0
+offset_bottom = -9.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/TabContainer/Controle/inputs/MarginContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/TabContainer/Controle/inputs/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ActionList" type="VBoxContainer" parent="Panel/TabContainer/Controle/inputs/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="InputButton" parent="Panel/TabContainer/Controle/inputs/MarginContainer/VBoxContainer/ScrollContainer/ActionList" instance=ExtResource("4_6wtld")]
+layout_mode = 2
+
+[node name="InputButton2" parent="Panel/TabContainer/Controle/inputs/MarginContainer/VBoxContainer/ScrollContainer/ActionList" instance=ExtResource("4_6wtld")]
+layout_mode = 2
+
+[node name="InputButton3" parent="Panel/TabContainer/Controle/inputs/MarginContainer/VBoxContainer/ScrollContainer/ActionList" instance=ExtResource("4_6wtld")]
+layout_mode = 2
+
+[node name="InputButton4" parent="Panel/TabContainer/Controle/inputs/MarginContainer/VBoxContainer/ScrollContainer/ActionList" instance=ExtResource("4_6wtld")]
+layout_mode = 2
+
+[node name="Resetcontrol" type="Button" parent="Panel/TabContainer/Controle/inputs"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -121.5
+offset_top = -110.0
+offset_right = 61.5
+offset_bottom = -75.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(1.32, 1.4)
+focus_mode = 0
+text = "Resetar Controles"
+
+[node name="Backeverything" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -42.0
+offset_right = 129.0
+offset_bottom = -11.0
+grow_vertical = 0
+text = "Voltar"
+
+[connection signal="pressed" from="Panel/TabContainer/Jogo/Resetall" to="." method="_on_resetall_pressed"]
+[connection signal="pressed" from="Panel/TabContainer/Som/Resetsound" to="." method="_on_resetsound_pressed"]
+[connection signal="drag_started" from="Panel/TabContainer/Som/BGMsoundvolume" to="Panel/TabContainer/Som/Mastersoundvolume" method="_on_bg_msoundvolume_drag_started"]
+[connection signal="pressed" from="Panel/TabContainer/Controle/inputs/Resetcontrol" to="Panel/TabContainer/Controle/inputs" method="_on_resetcontrol_pressed"]
+[connection signal="pressed" from="Panel/Backeverything" to="." method="_on_backeverything_pressed"]
