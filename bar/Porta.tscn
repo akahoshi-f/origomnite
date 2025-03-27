@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://dye3tc7h030sj"]
+
+[ext_resource type="ArrayMesh" uid="uid://b0dfhi5t0c340" path="res://CENARIO/meshs/bar/mesh porta.res" id="1_pxcrk"]
+[ext_resource type="Texture2D" uid="uid://d3ilpwxflb1n4" path="res://CENARIO/meshs/texturas/texturaporta.jpg" id="2_g0teq"]
+[ext_resource type="Shape3D" uid="uid://bsfq4ku6xp5qp" path="res://CENARIO/collisions/bar/collision porta.tres" id="3_he6nn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cxjdi"]
+cull_mode = 2
+albedo_texture = ExtResource("2_g0teq")
+
+[node name="porta" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.19356, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_pxcrk")
+surface_material_override/0 = SubResource("StandardMaterial3D_cxjdi")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.995, 0, 0, 0, 0.995, 0, 0, 0, 0.995, 0, -0.0347342, 0)
+shape = ExtResource("3_he6nn")

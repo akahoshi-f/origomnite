@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3idyq4ddjji4"]
+
+[ext_resource type="ArrayMesh" uid="uid://fgsrigq6gk3f" path="res://CENARIO/meshs/bar/mesh banco.res" id="2_s2gta"]
+[ext_resource type="Texture2D" uid="uid://xao6hrm3jxeg" path="res://CENARIO/meshs/texturas/texturabanco.jpg" id="3_2v0yj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7q7dp"]
+albedo_texture = ExtResource("3_2v0yj")
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_i336t"]
+height = 2.1963
+radius = 0.724578
+
+[node name="banco" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1077, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.08751, 0.410176, 1.15339)
+mesh = ExtResource("2_s2gta")
+surface_material_override/0 = SubResource("StandardMaterial3D_7q7dp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CylinderShape3D_i336t")
