@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://svmytrgx75tg"]
-
-[ext_resource type="ArrayMesh" uid="uid://d8524jc76y1i" path="res://CENARIO/meshs/bar/mesh luz.res" id="1_oipew"]
-
-[node name="luz" type="MeshInstance3D"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = ExtResource("1_oipew")

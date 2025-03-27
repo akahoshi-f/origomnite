@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6kebuxoqd2ke"]
-
-[ext_resource type="ArrayMesh" uid="uid://chmr0h7gx7wq0" path="res://CENARIO/meshs/bar/mesh pratos.res" id="1_30lxv"]
-
-[node name="pratos" type="MeshInstance3D"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = ExtResource("1_30lxv")
