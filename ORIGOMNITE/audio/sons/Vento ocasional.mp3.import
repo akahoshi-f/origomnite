@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dy1ka7yrce7gj"
+path="res://.godot/imported/Vento ocasional.mp3-19445b149d760efc187a17cd4064f28a.mp3str"
+
+[deps]
+
+source_file="res://audio/sons/Vento ocasional.mp3"
+dest_files=["res://.godot/imported/Vento ocasional.mp3-19445b149d760efc187a17cd4064f28a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

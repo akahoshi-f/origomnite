@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cdrcq3y7dcm3q"
+path="res://.godot/imported/Zumbi (1).mp3-bf67a61e2f99fe64f1c2104b335528ff.mp3str"
+
+[deps]
+
+source_file="res://audio/voz/Zumbi (1).mp3"
+dest_files=["res://.godot/imported/Zumbi (1).mp3-bf67a61e2f99fe64f1c2104b335528ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

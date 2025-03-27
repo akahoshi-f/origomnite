@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://guca5cnwc3n8"
+path="res://.godot/imported/bar (MP3).mp3-4f6030aaf0b07c375d35a9ccee2e5a18.mp3str"
+
+[deps]
+
+source_file="res://audio/musicas/bar (MP3).mp3"
+dest_files=["res://.godot/imported/bar (MP3).mp3-4f6030aaf0b07c375d35a9ccee2e5a18.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
