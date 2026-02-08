@@ -5,7 +5,7 @@
   
   ### A 3D Action RPG Inspired by Brazilian Culture
 
-  [Download Demo](https://drive.google.com/file/d/1BNerI7TX913HHIkPyoHeAGtMw9c04zi0/view?usp=sharing) • [Technical Document](#technical-document)
+  [Download](https://drive.google.com/file/d/1BNerI7TX913HHIkPyoHeAGtMw9c04zi0/view?usp=sharing) • [Technical Document](https://github.com/akahoshi-f/origomnite/blob/main/RELATORIO%20TECNICO%20ORIGOMNITE.pdf)
   
 </div>
 
@@ -195,7 +195,7 @@ Demo final boss. An elf guardian responsible for protecting the magical stone, w
 
 ### Download
 
-**[Download Origomnite Demo](https://drive.google.com/file/d/1BNerI7TX913HHIkPyoHeAGtMw9c04zi0/view?usp=sharing)**
+**[Download Origomnite](https://drive.google.com/file/d/1BNerI7TX913HHIkPyoHeAGtMw9c04zi0/view?usp=sharing)**
 
 ### Controls
 
