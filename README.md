@@ -243,27 +243,14 @@ The development team drew inspiration from established indie titles:
 - Leonardo Gusmão Moura
 - Renato Livramento Alves da Silva
 
-**Project Advisors**
-- Prof. Giovanna Paula de Moraes Alves
-- Prof. Thiago de Lirio Lima
-
 **Original Soundtrack**
 - Ayano (Igor Mateus da Silva)
-
-**Institution**
-- ETEC Parque da Juventude, São Paulo, Brazil
 
 ---
 
 ## License
 
 This project was developed for educational purposes as a Final Year Project. All rights reserved to the development team.
-
----
-
-## Acknowledgments
-
-The development team extends gratitude to ETEC Parque da Juventude for providing educational resources and facilities, the project advisors for their guidance throughout development, Ayano for composing the original soundtrack, and the indie game development community for inspiration and technical resources.
 
 ---
 
