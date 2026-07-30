@@ -162,6 +162,16 @@ Demo final boss. An elf guardian responsible for protecting the magical stone, w
 
   <img src="https://drive.google.com/uc?export=view&id=1pZgiWlmp98Hac_Mu7o5rl_kV-Lmuv6lu" alt="Abandoned Ruins" width="700">
   
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/blender5.png" width="700">
+  
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/godotandgdcript4.png" width="700">
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/godotandgdscript1.png" width="700">
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/godotandgdscript2.png" width="700">
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/godotandgdscript6.png" width="700">
+
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/ingame3.png" width="700">
+  <img src="https://github.com/LeonardoGusmaoM/ORIGOMNITE/blob/main/assets/Images%20for%20readme/ingame2.png" width="700">
+
 </div>
 
 ---
